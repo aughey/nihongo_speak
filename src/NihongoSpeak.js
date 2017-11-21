@@ -20,8 +20,12 @@ function myrandomnum() {
   //return x - Math.floor(x);
 }
 
+function randomindex(max) {
+  return Math.floor(myrandomnum() * max);
+}
+
 function random(list) {
-  var index = Math.floor(myrandomnum() * list.length);
+  var index = randomindex(list.length);
   return list[index];
 }
 
@@ -53,15 +57,15 @@ class NihongoSpeak extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      word: {
       english: "",
       japanese:""
+      }
     }
     this.wordlist = [];
-    this.previous = [];
   }
-  setwords = (s) => {
-    this.previous.push(this.state);
-    this.setState(s);
+  setword = (word) => {
+    this.setState({word: word});
   }
 
   componentWillReceiveProps(nextProps) {
@@ -80,7 +84,7 @@ class NihongoSpeak extends Component {
       this.shuffle();
     }
     var word = this.wordlist.pop();
-    this.setState({english: word.english, japanese: word.japanese})
+    this.setword(word);
     return;
 
     var pos = this.props.data.partsofspeech;
@@ -151,8 +155,9 @@ class NihongoSpeak extends Component {
   next() {
     this.generate();
   }
-  prev() {
-
+  reinsert = () => {
+    this.wordlist.splice(randomindex(this.wordlist.length),0,this.state.word);
+    this.generate();
   }
   buttonPressed = (button) => {
     this.setState({button: button})
@@ -164,7 +169,7 @@ class NihongoSpeak extends Component {
     } else if(button === 1) {
       this.next();
     } else if(button === 2) {
-      this.prev();
+      this.reinsert();
     }
   }
   hash(data) {
@@ -181,9 +186,9 @@ return h.hex();
 
     //var japanese_src = 'http://localhost:3333/speech?src=' + encodeURIComponent(this.state.japanese)
     //var english_src = 'http://localhost:3333/speech?english=1&src=' + encodeURIComponent(this.state.english)
-    console.log(this.state);
-    var english_src = this.audiofile(this.state.english);
-    var japanese_src = this.audiofile(this.state.japanese);
+    var word = this.state.word;
+    var english_src = this.audiofile(word.english);
+    var japanese_src = this.audiofile(word.japanese);
     return (
       <div ref={(e) => {
         this.div = e;
@@ -195,14 +200,15 @@ return h.hex();
         </div>
         <button onClick={this.generate}>Generate New</button>
         <button onClick={this.shuffle}>Shuffle</button>
+        <button onClick={this.reinsert}>Reinsert</button>
         <div className="english">
-          English: {this.state.english}
+          English: {word.english}
           <ReactAudioPlayer ref={(element) => {
             this.eaudio = element
           }} src={english_src} controls/>
         </div>
         <div className="japanese">
-          Japanese: {this.state.japanese}
+          Japanese: {word.japanese}
           <ReactAudioPlayer ref={(element) => {
             this.audio = element
           }} autoPlay src={japanese_src} controls/>
