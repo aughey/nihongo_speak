@@ -150,7 +150,7 @@ return h.hex();
 
   }
   audiofile(word) {
-    return 'cache/' + this.hash(this.state.english) + ".wav"
+    return 'cache/' + this.hash(word) + ".wav"
   }
   render() {
     //var japanese_src = 'http://api.voicerss.org/?key=' + SPEECH_KEY + '&r=-4&f=16khz_16bit_mono&c:mp3&hl=ja-jp&src=' + encodeURIComponent(this.state.japanese)
