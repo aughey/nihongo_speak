@@ -132,6 +132,7 @@ class NihongoSpeak extends Component {
 
   }
   buttonPressed = (button) => {
+    this.setState({button: button})
     console.log("Pressed " + button);
     if(button === 7 || button === 0) {
       this.playJapanese();
@@ -165,7 +166,7 @@ return h.hex();
         this.div = e;
       }} onKeyDown={this.keyPress} tabIndex="0">
         <h1>Speak</h1>
-
+        {this.state.button}
         <div className="stats">
           Words: {this.props.data.words.length}
         </div>
