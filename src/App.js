@@ -25,7 +25,7 @@ class App extends Component {
     var sheets = gapi.client.sheets;
 
     this.setState({data: null})
-    sheets.spreadsheets.values.get({spreadsheetId: YOUR_SPREADSHEET_ID, range: 'A1:E300'}).then((res) => {
+    sheets.spreadsheets.values.get({spreadsheetId: YOUR_SPREADSHEET_ID, range: 'A1:E197'}).then((res) => {
       // parse this out
       res.result.values.shift();
       var partsofspeech = {}
@@ -121,6 +121,15 @@ class App extends Component {
   showJson = () => {
     this.setState({show_json: true})
   }
+  flipCard = () => {
+    // Change the word order.
+    this.state.data.words.forEach((word) => {
+      var temp = word.english;
+      word.english = word.japanese;
+      word.japanese = temp;
+    });
+    this.setState({data: this.state.data})
+  }
 
   render() {
     if (this.state.data) {
@@ -136,6 +145,7 @@ class App extends Component {
         <div>
           <button onClick={this.loadSpreadsheet}>Reload</button>
           <button onClick={this.showJson}>Show JSON</button>
+          <button onClick={this.flipCard}>Flip Card</button>
           <NihongoSpeak data={data}/>
         </div>
       );

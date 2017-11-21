@@ -4,6 +4,14 @@ import jquery from 'jquery'
 import Gamepad from 'react-gamepad'
 import sha256 from 'js-sha256'
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+
 var seed = 1;
 function myrandomnum() {
   return Math.random();
@@ -12,8 +20,12 @@ function myrandomnum() {
   //return x - Math.floor(x);
 }
 
+function randomindex(max) {
+  return Math.floor(myrandomnum() * max);
+}
+
 function random(list) {
-  var index = Math.floor(myrandomnum() * list.length);
+  var index = randomindex(list.length);
   return list[index];
 }
 
@@ -45,19 +57,34 @@ class NihongoSpeak extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      word: {
       english: "",
       japanese:""
+      }
     }
-    this.previous = [];
+    this.wordlist = [];
   }
-  setwords = (s) => {
-    this.previous.push(this.state);
-    this.setState(s);
+  setword = (word) => {
+    this.setState({word: word});
   }
+
+  componentWillReceiveProps(nextProps) {
+    this.shuffle();
+  }
+  
+  shuffle = () => {
+      this.wordlist = this.props.data.words.slice();
+      shuffleArray(this.wordlist);
+      this.generate();
+  }
+  
   generate = () => {
     // Try just a random words
-    var word = random(this.props.data.words);
-    this.setState({english: word.english, japanese: word.japanese})
+    if(!this.wordlist || this.wordlist.length === 0) {
+      this.shuffle();
+    }
+    var word = this.wordlist.pop();
+    this.setword(word);
     return;
 
     var pos = this.props.data.partsofspeech;
@@ -128,8 +155,9 @@ class NihongoSpeak extends Component {
   next() {
     this.generate();
   }
-  prev() {
-
+  reinsert = () => {
+    this.wordlist.splice(randomindex(this.wordlist.length),0,this.state.word);
+    this.generate();
   }
   buttonPressed = (button) => {
     this.setState({button: button})
@@ -141,7 +169,7 @@ class NihongoSpeak extends Component {
     } else if(button === 1) {
       this.next();
     } else if(button === 2) {
-      this.prev();
+      this.reinsert();
     }
   }
   hash(data) {
@@ -151,16 +179,16 @@ return h.hex();
 
   }
   audiofile(word) {
-    return 'cache/' + this.hash(word) + ".wav"
+    return 'cache/' + this.hash(word) + ".mp3"
   }
   render() {
     //var japanese_src = 'http://api.voicerss.org/?key=' + SPEECH_KEY + '&r=-4&f=16khz_16bit_mono&c:mp3&hl=ja-jp&src=' + encodeURIComponent(this.state.japanese)
 
     //var japanese_src = 'http://localhost:3333/speech?src=' + encodeURIComponent(this.state.japanese)
     //var english_src = 'http://localhost:3333/speech?english=1&src=' + encodeURIComponent(this.state.english)
-    console.log(this.state);
-    var english_src = this.audiofile(this.state.english);
-    var japanese_src = this.audiofile(this.state.japanese);
+    var word = this.state.word;
+    var english_src = this.audiofile(word.english);
+    var japanese_src = this.audiofile(word.japanese);
     return (
       <div ref={(e) => {
         this.div = e;
@@ -168,17 +196,19 @@ return h.hex();
         <h1>Speak</h1>
         {this.state.button}
         <div className="stats">
-          Words: {this.props.data.words.length}
+          Words: {this.wordlist.length}
         </div>
         <button onClick={this.generate}>Generate New</button>
+        <button onClick={this.shuffle}>Shuffle</button>
+        <button onClick={this.reinsert}>Reinsert</button>
         <div className="english">
-          English: {this.state.english}
+          English: {word.english}
           <ReactAudioPlayer ref={(element) => {
             this.eaudio = element
           }} src={english_src} controls/>
         </div>
         <div className="japanese">
-          Japanese: {this.state.japanese}
+          Japanese: {word.japanese}
           <ReactAudioPlayer ref={(element) => {
             this.audio = element
           }} autoPlay src={japanese_src} controls/>
