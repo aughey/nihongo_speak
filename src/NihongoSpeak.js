@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import jquery from 'jquery'
 import Gamepad from 'react-gamepad'
+import sha256 from 'js-sha256'
 
 var seed = 1;
 function myrandomnum() {
@@ -43,7 +44,10 @@ function econcat(values) {
 class NihongoSpeak extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {
+      english: "",
+      japanese:""
+    }
     this.previous = [];
   }
   setwords = (s) => {
@@ -139,10 +143,23 @@ class NihongoSpeak extends Component {
       this.prev();
     }
   }
+  hash(data) {
+    var h = sha256.create();
+h.update(data.toString());
+return h.hex();
+
+  }
+  audiofile(word) {
+    return 'cache/' + this.hash(this.state.english) + ".wav"
+  }
   render() {
     //var japanese_src = 'http://api.voicerss.org/?key=' + SPEECH_KEY + '&r=-4&f=16khz_16bit_mono&c:mp3&hl=ja-jp&src=' + encodeURIComponent(this.state.japanese)
-    var japanese_src = 'http://localhost:3333/speech?src=' + encodeURIComponent(this.state.japanese)
-    var english_src = 'http://localhost:3333/speech?english=1&src=' + encodeURIComponent(this.state.english)
+
+    //var japanese_src = 'http://localhost:3333/speech?src=' + encodeURIComponent(this.state.japanese)
+    //var english_src = 'http://localhost:3333/speech?english=1&src=' + encodeURIComponent(this.state.english)
+    console.log(this.state);
+    var english_src = this.audiofile(this.state.english);
+    var japanese_src = this.audiofile(this.state.japanese);
     return (
       <div ref={(e) => {
         this.div = e;
