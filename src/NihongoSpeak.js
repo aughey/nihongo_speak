@@ -133,11 +133,11 @@ class NihongoSpeak extends Component {
   }
   buttonPressed = (button) => {
     console.log("Pressed " + button);
-    if(button === 7) {
+    if(button === 7 || button === 0) {
       this.playJapanese();
-    } else if(button === 6) {
+    } else if(button === 6 || button === 2) {
       this.playEnglish();
-    } else if(button === 0 || button === 1) {
+    } else if(button === 1) {
       this.next();
     } else if(button === 3) {
       this.prev();
