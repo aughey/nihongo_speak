@@ -4,6 +4,14 @@ import jquery from 'jquery'
 import Gamepad from 'react-gamepad'
 import sha256 from 'js-sha256'
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+
 var seed = 1;
 function myrandomnum() {
   return Math.random();
@@ -48,15 +56,30 @@ class NihongoSpeak extends Component {
       english: "",
       japanese:""
     }
+    this.wordlist = [];
     this.previous = [];
   }
   setwords = (s) => {
     this.previous.push(this.state);
     this.setState(s);
   }
+
+  componentWillReceiveProps(nextProps) {
+    this.shuffle();
+  }
+  
+  shuffle = () => {
+      this.wordlist = this.props.data.words.slice();
+      shuffleArray(this.wordlist);
+      this.generate();
+  }
+  
   generate = () => {
     // Try just a random words
-    var word = random(this.props.data.words);
+    if(!this.wordlist || this.wordlist.length === 0) {
+      this.shuffle();
+    }
+    var word = this.wordlist.pop();
     this.setState({english: word.english, japanese: word.japanese})
     return;
 
@@ -151,7 +174,7 @@ return h.hex();
 
   }
   audiofile(word) {
-    return 'cache/' + this.hash(word) + ".wav"
+    return 'cache/' + this.hash(word) + ".mp3"
   }
   render() {
     //var japanese_src = 'http://api.voicerss.org/?key=' + SPEECH_KEY + '&r=-4&f=16khz_16bit_mono&c:mp3&hl=ja-jp&src=' + encodeURIComponent(this.state.japanese)
@@ -168,9 +191,10 @@ return h.hex();
         <h1>Speak</h1>
         {this.state.button}
         <div className="stats">
-          Words: {this.props.data.words.length}
+          Words: {this.wordlist.length}
         </div>
         <button onClick={this.generate}>Generate New</button>
+        <button onClick={this.shuffle}>Shuffle</button>
         <div className="english">
           English: {this.state.english}
           <ReactAudioPlayer ref={(element) => {
