@@ -28,7 +28,6 @@ class App extends Component {
     sheets.spreadsheets.values.get({spreadsheetId: YOUR_SPREADSHEET_ID, range: 'A1:E300'}).then((res) => {
       // parse this out
       res.result.values.shift();
-      res.result.values.shift();
       var partsofspeech = {}
       var words = res.result.values.map((value) => {
         var pos = value[1]; // parse this futher when needed
