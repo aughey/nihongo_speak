@@ -3,9 +3,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import NihongoSpeak from './NihongoSpeak'
-import jquery from 'jquery'
 
-var YOUR_CLIENT_ID = '448608762671-f0bb9ksb7mhag7mp88a2t42p6990if9v.apps.googleusercontent.com'
 var YOUR_API_KEY = 'AIzaSyBR9Z9KxSyXJ-VIQOWPBeXvJ6Yk9ZpS2_o'
 var YOUR_SPREADSHEET_ID = '123ukBoGf_TmjcQ17BcSOfoMn6iIs-An9zQAmDmyUegU'
 var STORAGE_KEY = "nihono_data";
@@ -90,16 +88,6 @@ class App extends Component {
     document.body.appendChild(script);
   }
 
-  simpleJSON() {
-    jquery.getJSON("https://sheets.googleapis.com/v4/spreadsheets/" + YOUR_SPREADSHEET_ID + "values/A1%3AA100", {
-      key: YOUR_API_KEY,
-      //  clientId: YOUR_CLIENT_ID,
-      //  range: 'A1:A100'
-    }).then((data) => {
-      console.log(data);
-    })
-  }
-
   componentDidMount() {
     try {
       if (localStorage) {
@@ -115,7 +103,6 @@ class App extends Component {
       console.log(e);
       this.loadGoogleAPI();
     }
-    //this.simpleJSON();
   }
 
   showJson = () => {

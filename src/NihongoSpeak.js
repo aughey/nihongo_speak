@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import ReactAudioPlayer from 'react-audio-player';
-import jquery from 'jquery'
-import Gamepad from 'react-gamepad'
 import sha256 from 'js-sha256'
 
 function shuffleArray(array) {
@@ -12,7 +10,7 @@ function shuffleArray(array) {
 }
 
 
-var seed = 1;
+//var seed = 1;
 function myrandomnum() {
   return Math.random();
 
@@ -33,7 +31,6 @@ function clean(word) {
   return word.split(',')[0];
 }
 
-var SPEECH_KEY = 'ec54122bad224b3f975e235cf8539a1b'
 
 function gconcat(key, values) {
   return values.map((v) => v[key]
@@ -42,13 +39,13 @@ function gconcat(key, values) {
 }
 
 function jconcat(values) {
-  var values = Array.from(arguments);
+  values = Array.from(arguments);
   values.unshift();
   return gconcat("japanese", values);
 }
 
 function econcat(values) {
-  var values = Array.from(arguments);
+  values = Array.from(arguments);
   values.unshift();
   return gconcat("english", values);
 }
@@ -57,50 +54,46 @@ class NihongoSpeak extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      word: {
-      english: "",
-      japanese:""
-      }
+      wordlist: []
     }
-    this.wordlist = [];
-  }
-  setword = (word) => {
-    this.setState({word: word});
   }
 
   componentWillReceiveProps(nextProps) {
     this.shuffle();
   }
-  
+
   shuffle = () => {
-      this.wordlist = this.props.data.words.slice();
-      shuffleArray(this.wordlist);
-      this.generate();
+      var wordlist = this.props.data.words.slice();
+      shuffleArray(wordlist);
+      this.setState({wordlist});
   }
-  
+
   generate = () => {
     // Try just a random words
-    if(!this.wordlist || this.wordlist.length === 0) {
+    if(this.state.wordlist.length === 0) {
       this.shuffle();
     }
-    var word = this.wordlist.pop();
-    this.setword(word);
+    var wordlist = this.state.wordlist.slice();
+    wordlist.shift();
+    this.setState({
+        wordlist
+    })
     return;
 
-    var pos = this.props.data.partsofspeech;
-
-    // Simple pattern: NOUN wa VERB
-    var adjective = random(pos.a);
-    var noun = random(pos.n);
-    var verb = random(pos.v);
-
-    var english = econcat(noun, adjective, verb);
-    var japanese = jconcat(noun, " わ ", adjective, verb);
-
-    this.setState({english, japanese})
+    // var pos = this.props.data.partsofspeech;
+    //
+    // // Simple pattern: NOUN wa VERB
+    // var adjective = random(pos.a);
+    // var noun = random(pos.n);
+    // var verb = random(pos.v);
+    //
+    // var english = econcat(noun, adjective, verb);
+    // var japanese = jconcat(noun, " わ ", adjective, verb);
+    //
+    // this.setState({english, japanese})
   }
   componentDidMount() {
-    this.generate();
+    this.shuffle();
     this.div.focus();
 
     this.readGamepad();
@@ -156,8 +149,13 @@ class NihongoSpeak extends Component {
     this.generate();
   }
   reinsert = () => {
-    this.wordlist.splice(randomindex(this.wordlist.length),0,this.state.word);
-    this.generate();
+    var newlist = this.state.wordlist.slice();
+    var word = newlist.shift();
+
+    newlist.splice(randomindex(newlist.length),0,word);
+    this.setState({
+      wordlist: newlist
+    })
   }
   buttonPressed = (button) => {
     this.setState({button: button})
@@ -186,9 +184,24 @@ return h.hex();
 
     //var japanese_src = 'http://localhost:3333/speech?src=' + encodeURIComponent(this.state.japanese)
     //var english_src = 'http://localhost:3333/speech?english=1&src=' + encodeURIComponent(this.state.english)
-    var word = this.state.word;
+    var wordlist = this.state.wordlist;
+    if(wordlist.length === 0) {
+      return (<div  ref={(e) => {
+        this.div = e;
+      }}>No words</div>);
+    }
+    var word = this.state.wordlist[0];
     var english_src = this.audiofile(word.english);
     var japanese_src = this.audiofile(word.japanese);
+
+    // Generate the wordlist
+    var wordlist_lis =
+        wordlist.map((word,index) => {
+          return (
+            <li key={index}>{word.japanese} => {word.english}</li>
+          )
+        })
+
     return (
       <div ref={(e) => {
         this.div = e;
@@ -196,9 +209,9 @@ return h.hex();
         <h1>Speak</h1>
         {this.state.button}
         <div className="stats">
-          Words: {this.wordlist.length}
+          Words: {wordlist.length}
         </div>
-        <button onClick={this.generate}>Generate New</button>
+        <button onClick={this.generate}>Next</button>
         <button onClick={this.shuffle}>Shuffle</button>
         <button onClick={this.reinsert}>Reinsert</button>
         <div className="english">
@@ -213,6 +226,8 @@ return h.hex();
             this.audio = element
           }} autoPlay src={japanese_src} controls/>
         </div>
+
+        <ul>{wordlist_lis}</ul>
       </div>
     );
     //        <pre>{JSON.stringify(this.props.data,null,' ')}</pre>
