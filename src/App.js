@@ -3,6 +3,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import NihongoSpeak from './NihongoSpeak'
+import q from 'q'
 
 var YOUR_API_KEY = 'AIzaSyBR9Z9KxSyXJ-VIQOWPBeXvJ6Yk9ZpS2_o'
 var YOUR_SPREADSHEET_ID = '123ukBoGf_TmjcQ17BcSOfoMn6iIs-An9zQAmDmyUegU'
@@ -14,19 +15,65 @@ class App extends Component {
     this.state = {}
   }
 
+  loadRange(start, end) {
+    console.log("Loading: " + start + " " + end);
+    var sheets = gapi.client.sheets;
+
+    var deferred = q.defer();
+
+    this.setState({data: null})
+    sheets.spreadsheets.values.get({
+      spreadsheetId: YOUR_SPREADSHEET_ID,
+      range: 'A' + start + ":E" + end
+    }).then((res) => {
+      deferred.resolve(res.result.values);
+    }, (err) => {
+      deferred.reject(new Error(err));
+    })
+
+    return deferred.promise;
+  }
+
+  loadUntil(lastword) {
+    var accum = [];
+    var stop = false;
+    var loadNext = (from, to) => {
+      return this.loadRange(from, to).then((values) => {
+        values.forEach((value) => {
+          console.log(value);
+          if (stop || value[2] === lastword) {
+            stop = true;
+          } else {
+            accum.push(value);
+          }
+        })
+      }).then(() => {
+        if (stop) {
+          return accum;
+        } else {
+          return loadNext(to + 1, to + 50);
+        }
+      })
+    }
+    return loadNext(1, 50);
+  }
+
   loadSpreadsheet = () => {
     if (!window.gapi) {
       return this.loadGoogleAPI();
     }
 
     console.log("Loading Spreadsheet")
-    var sheets = gapi.client.sheets;
-
     this.setState({data: null})
-    sheets.spreadsheets.values.get({spreadsheetId: YOUR_SPREADSHEET_ID, range: 'A2:E283'}).then((res) => {
+
+    var last_word = '〜ずつ';
+
+    this.loadUntil(last_word).then((values) => {
+
+      //    this.loadRange(2,283).then((values) => {
       // parse this out
       var partsofspeech = {}
-      var words = res.result.values.map((value) => {
+      var words = values.map((value) => {
         var pos = value[1]; // parse this futher when needed
         if (!pos || pos === "") {
           return null;
@@ -52,7 +99,7 @@ class App extends Component {
       this.setState({data: data})
     }, (err) => {
       this.setState({err: err})
-    })
+    });
   }
 
   onload = () => {
