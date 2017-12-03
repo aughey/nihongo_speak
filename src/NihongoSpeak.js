@@ -63,6 +63,9 @@ class NihongoSpeak extends React.PureComponent {
   }
 
   shuffle = () => {
+    if(!this.props.data || !this.props.data.words) {
+      return;
+    }
       var wordlist = this.props.data.words.slice();
       shuffleArray(wordlist);
       this.setState({wordlist});
@@ -93,6 +96,9 @@ class NihongoSpeak extends React.PureComponent {
     // this.setState({english, japanese})
   }
   componentDidMount() {
+    if(!this.props.data || !this.props.data.words) {
+      return;
+    }
     this.shuffle();
     this.div.focus();
 
