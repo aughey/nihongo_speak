@@ -128,18 +128,22 @@ class NihongoSpeak extends Component {
     requestAnimationFrame(this.readGamepad);
   }
   keyPress = (e) => {
-    if (e.key === 'r' || e.key === 'j') {
+    if (e.key === 'j') {
       this.playJapanese();
     } else if (e.key === 'n') {
       this.generate();
+    } else if (e.key === 'r') {
+      this.reinsert();
+    } else if (e.key === 's') {
+      this.shuffle();
     } else if (e.key === 'e') {
       this.playEnglish();
     }
   }
-  playJapanese() {
+  playJapanese = () => {
     this.audio.audioEl.play();
   }
-  playEnglish() {
+  playEnglish = () => {
     this.eaudio.audioEl.play();
   }
   joyConnect = () => {
@@ -191,8 +195,21 @@ return h.hex();
       }}>No words</div>);
     }
     var word = this.state.wordlist[0];
+    var nextword = this.state.wordlist[1];
     var english_src = this.audiofile(word.english);
     var japanese_src = this.audiofile(word.japanese);
+    
+    var next_preload = null;
+    if(nextword) {
+      var english_src_next = this.audiofile(nextword.english);
+      var japanese_src_next = this.audiofile(nextword.japanese);
+      next_preload = (
+        <div>
+          <ReactAudioPlayer preload="auto" src={english_src_next} />
+          <ReactAudioPlayer preload="auto" src={japanese_src_next} />
+         </div>
+	 )
+    }
 
     // Generate the wordlist
     var wordlist_lis =
@@ -202,31 +219,52 @@ return h.hex();
           )
         })
 
+
     return (
       <div ref={(e) => {
         this.div = e;
       }} onKeyDown={this.keyPress} tabIndex="0">
-        <h1>Speak</h1>
-        {this.state.button}
-        <div className="stats">
-          Words: {wordlist.length}
-        </div>
+	<div>
         <button onClick={this.generate}>Next</button>
         <button onClick={this.shuffle}>Shuffle</button>
         <button onClick={this.reinsert}>Reinsert</button>
+	</div>
+	<div>
+        <button onClick={this.playJapanese}>Japanese</button>
+        <button onClick={this.playEnglish}>English</button>
+	</div>
         <div className="english">
           English: {word.english}
-          <ReactAudioPlayer ref={(element) => {
+          <ReactAudioPlayer preload="auto" ref={(element) => {
             this.eaudio = element
           }} src={english_src} controls/>
         </div>
         <div className="japanese">
           Japanese: {word.japanese}
-          <ReactAudioPlayer ref={(element) => {
+          <ReactAudioPlayer preload="auto" ref={(element) => {
             this.audio = element
           }} autoPlay src={japanese_src} controls/>
         </div>
+	<hr/>
 
+        <p>
+	  This is meant to be used without looking at the screen.  To use keyboard shortcuts, click on this text first with your mouse cursor, and use the following keyboard keys.
+	</p>
+	<p>
+	  Due to restrictions on a mobile devices, you may have to click the play button on each audio control once to get the audio to work.
+	</p>
+	<ul>
+	  <li>n - Next word.  Bury this card and go to the next word</li>
+	  <li>e - Play the English translation</li>
+	  <li>j - Play the Japanese translation</li>
+	  <li>s - Reshuffle the deck.  Inserts all cards</li>
+	  <li>r - Reinsert this card randomly in the deck</li>
+	</ul>
+
+	<h2>Word List</h2>
+        <div className="stats">
+          Words Remaining: {wordlist.length}
+        </div>
         <ul>{wordlist_lis}</ul>
       </div>
     );

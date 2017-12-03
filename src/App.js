@@ -23,9 +23,8 @@ class App extends Component {
     var sheets = gapi.client.sheets;
 
     this.setState({data: null})
-    sheets.spreadsheets.values.get({spreadsheetId: YOUR_SPREADSHEET_ID, range: 'A1:E197'}).then((res) => {
+    sheets.spreadsheets.values.get({spreadsheetId: YOUR_SPREADSHEET_ID, range: 'A2:E283'}).then((res) => {
       // parse this out
-      res.result.values.shift();
       var partsofspeech = {}
       var words = res.result.values.map((value) => {
         var pos = value[1]; // parse this futher when needed
@@ -132,7 +131,7 @@ class App extends Component {
         <div>
           <button onClick={this.loadSpreadsheet}>Reload</button>
           <button onClick={this.showJson}>Show JSON</button>
-          <button onClick={this.flipCard}>Flip Card</button>
+          <button onClick={this.flipCard}>Flip Cards</button>
           <NihongoSpeak data={data}/>
         </div>
       );
