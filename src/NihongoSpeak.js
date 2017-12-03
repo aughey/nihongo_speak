@@ -50,7 +50,7 @@ function econcat(values) {
   return gconcat("english", values);
 }
 
-class NihongoSpeak extends Component {
+class NihongoSpeak extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
@@ -198,7 +198,7 @@ return h.hex();
     var nextword = this.state.wordlist[1];
     var english_src = this.audiofile(word.english);
     var japanese_src = this.audiofile(word.japanese);
-    
+
     var next_preload = null;
     if(nextword) {
       var english_src_next = this.audiofile(nextword.english);

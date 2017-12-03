@@ -12,7 +12,10 @@ var STORAGE_KEY = "nihono_data";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {
+       start_word: 'さあ',
+       end_word: '〜ずつ'
+    }
   }
 
   loadRange(start, end) {
@@ -34,16 +37,20 @@ class App extends Component {
     return deferred.promise;
   }
 
-  loadUntil(lastword) {
+  loadUntil(firstword, lastword) {
     var accum = [];
     var stop = false;
+    var start = false;
     var loadNext = (from, to) => {
       return this.loadRange(from, to).then((values) => {
         values.forEach((value) => {
           console.log(value);
+          if(start === false && value[2] === firstword) {
+            start = true;
+          }
           if (stop || value[2] === lastword) {
             stop = true;
-          } else {
+          } else if(start) {
             accum.push(value);
           }
         })
@@ -55,7 +62,7 @@ class App extends Component {
         }
       })
     }
-    return loadNext(1, 50);
+    return loadNext(2, 50);
   }
 
   loadSpreadsheet = () => {
@@ -66,9 +73,7 @@ class App extends Component {
     console.log("Loading Spreadsheet")
     this.setState({data: null})
 
-    var last_word = '〜ずつ';
-
-    this.loadUntil(last_word).then((values) => {
+    this.loadUntil(this.state.start_word,this.state.end_word).then((values) => {
 
       //    this.loadRange(2,283).then((values) => {
       // parse this out
@@ -94,7 +99,7 @@ class App extends Component {
         partsofspeech: partsofspeech
       }
       if (localStorage) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({data}));
       }
       this.setState({data: data})
     }, (err) => {
@@ -165,6 +170,14 @@ class App extends Component {
   }
 
   render() {
+    var changeState = (key) => {
+      return (e) => {
+          var s = {}
+          s[key] = e.target.value;
+          this.setState(s);
+      }
+    }
+
     if (this.state.data) {
       if (this.state.show_json) {
         return (
@@ -176,6 +189,7 @@ class App extends Component {
       var data = this.state.data;
       return (
         <div>
+          Start: <input value={this.state.start_word} onChange={changeState('start_word')}/> End <input value={this.state.end_word} onChange={changeState('end_word')}/>
           <button onClick={this.loadSpreadsheet}>Reload</button>
           <button onClick={this.showJson}>Show JSON</button>
           <button onClick={this.flipCard}>Flip Cards</button>
