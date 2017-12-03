@@ -99,7 +99,7 @@ class App extends Component {
         partsofspeech: partsofspeech
       }
       if (localStorage) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify({data}));
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
       }
       this.setState({data: data})
     }, (err) => {
@@ -145,7 +145,7 @@ class App extends Component {
         var data = localStorage.getItem(STORAGE_KEY);
         if (data) {
           data = JSON.parse(data);
-          this.setState({data})
+          this.setState({data: data})
         } else {
           this.loadGoogleAPI();
         }
