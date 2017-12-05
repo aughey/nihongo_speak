@@ -176,7 +176,7 @@ class NihongoSpeak extends React.PureComponent {
       this.playEnglish();
     } else if(button === 1) {
       this.next();
-    } else if(button === 2) {
+    } else if(button === 2 || button === 4 || button === 5) {
       this.reinsert();
     }
   }

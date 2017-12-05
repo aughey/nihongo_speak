@@ -41,18 +41,33 @@ class App extends Component {
     var accum = [];
     var stop = false;
     var start = false;
+    var spacecount = 0;
     var loadNext = (from, to) => {
       return this.loadRange(from, to).then((values) => {
+        if(!values) {
+	  values = [];
+	  stop = true;
+	}
         values.forEach((value) => {
           console.log(value);
           if(start === false && value[2] === firstword) {
             start = true;
           }
-          if (stop || value[2] === lastword) {
-            stop = true;
-          } else if(start) {
+          if(!stop && start) {
             accum.push(value);
           }
+	  if(!value[2] || value[2] === '') {
+	    spacecount++;
+	  } else {
+	    spacecount = 0;
+	  }
+	  if(spacecount > 5) {
+	    console.log("Hit space count limit");
+	    stop = true;
+	  }
+          if (value[2] === lastword) {
+            stop = true;
+	  }
         })
       }).then(() => {
         if (stop) {
@@ -79,9 +94,14 @@ class App extends Component {
       // parse this out
       var partsofspeech = {}
       var words = values.map((value) => {
+        if(!value[2] || value[2] === '') {
+	  // If there is no japanaese character
+	  return null;
+	}
         var pos = value[1]; // parse this futher when needed
         if (!pos || pos === "") {
-          return null;
+	  // Use u for unknown part of speech
+	  pos = "u";
         }
         if (!partsofspeech[pos]) {
           partsofspeech[pos] = [];
@@ -103,8 +123,9 @@ class App extends Component {
       }
       this.setState({data: data})
     }, (err) => {
+      console.log("Err: " + err);
       this.setState({err: err})
-    });
+    }).done();
   }
 
   onload = () => {
