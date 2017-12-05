@@ -13,8 +13,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-       start_word: 'さあ',
-       end_word: '〜ずつ'
+      start_word: 'さあ',
+      end_word: '〜ずつ'
     }
   }
 
@@ -44,30 +44,30 @@ class App extends Component {
     var spacecount = 0;
     var loadNext = (from, to) => {
       return this.loadRange(from, to).then((values) => {
-        if(!values) {
-	  values = [];
-	  stop = true;
-	}
+        if (!values) {
+          values = [];
+          stop = true;
+        }
         values.forEach((value) => {
           console.log(value);
-          if(start === false && value[2] === firstword) {
+          if (start === false && value[2] === firstword) {
             start = true;
           }
-          if(!stop && start) {
+          if (!stop && start) {
             accum.push(value);
           }
-	  if(!value[2] || value[2] === '') {
-	    spacecount++;
-	  } else {
-	    spacecount = 0;
-	  }
-	  if(spacecount > 5) {
-	    console.log("Hit space count limit");
-	    stop = true;
-	  }
+          if (!value[2] || value[2] === '') {
+            spacecount++;
+          } else {
+            spacecount = 0;
+          }
+          if (spacecount > 5) {
+            console.log("Hit space count limit");
+            stop = true;
+          }
           if (value[2] === lastword) {
             stop = true;
-	  }
+          }
         })
       }).then(() => {
         if (stop) {
@@ -88,20 +88,21 @@ class App extends Component {
     console.log("Loading Spreadsheet")
     this.setState({data: null})
 
-    this.loadUntil(this.state.start_word,this.state.end_word).then((values) => {
+    this.loadUntil(this.state.start_word, this.state.end_word).then((values) => {
 
       //    this.loadRange(2,283).then((values) => {
       // parse this out
       var partsofspeech = {}
+      var id=314;
       var words = values.map((value) => {
-        if(!value[2] || value[2] === '') {
-	  // If there is no japanaese character
-	  return null;
-	}
+        if (!value[2] || value[2] === '') {
+          // If there is no japanaese character
+          return null;
+        }
         var pos = value[1]; // parse this futher when needed
         if (!pos || pos === "") {
-	  // Use u for unknown part of speech
-	  pos = "u";
+          // Use u for unknown part of speech
+          pos = "u";
         }
         if (!partsofspeech[pos]) {
           partsofspeech[pos] = [];
@@ -109,8 +110,10 @@ class App extends Component {
         var out = {
           japanese: value[2],
           english: value[4],
-          pos: pos
+          pos: pos,
+          id: id
         }
+        id = id + 1;
         partsofspeech[pos].push(out);
         return out;
       }).filter((d) => d !== null)
@@ -193,9 +196,9 @@ class App extends Component {
   render() {
     var changeState = (key) => {
       return (e) => {
-          var s = {}
-          s[key] = e.target.value;
-          this.setState(s);
+        var s = {}
+        s[key] = e.target.value;
+        this.setState(s);
       }
     }
 
@@ -210,7 +213,10 @@ class App extends Component {
       var data = this.state.data;
       return (
         <div>
-          Start: <input value={this.state.start_word} onChange={changeState('start_word')}/> End <input value={this.state.end_word} onChange={changeState('end_word')}/>
+          Start:
+          <input value={this.state.start_word} onChange={changeState('start_word')}/>
+          End
+          <input value={this.state.end_word} onChange={changeState('end_word')}/>
           <button onClick={this.loadSpreadsheet}>Reload</button>
           <button onClick={this.showJson}>Show JSON</button>
           <button onClick={this.flipCard}>Flip Cards</button>

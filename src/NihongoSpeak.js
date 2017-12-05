@@ -2,13 +2,66 @@ import React, {Component} from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import sha256 from 'js-sha256'
 
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+class WordPair extends React.PureComponent {
+  audiofile(word) {
+    return 'cache/' + this.hash(word) + ".mp3"
+  }
+  playJapanese = () => {
+    this.audio.audioEl.play();
+  }
+  playEnglish = () => {
+    this.eaudio.audioEl.play();
+  }
+  hash(data) {
+    var h = sha256.create();
+    h.update(data.toString());
+    return h.hex();
+  }
+  componentWillReceiveProps(nextProps) {
+    if(nextProps.autoPlay && this.audio) {
+      this.audio.audioEl.play();
     }
+  }
+  render() {
+    var audioplayers = null;
+    var word = this.props.word;
+    console.log(JSON.stringify(this.props));
+    if (this.props.preload) {
+      audioplayers = (
+        <div className="players">
+          <div className="english">
+            English: {word.english}
+            <ReactAudioPlayer preload="auto" ref={(element) => {
+              this.eaudio = element
+            }} src={this.audiofile(word.english)} controls/>
+          </div>
+          <div className="japanese">
+            Japanese: {word.japanese}
+            <ReactAudioPlayer preload="auto" ref={(element) => {
+              this.audio = element
+            }} autoPlay={this.props.autoPlay} src={this.audiofile(word.japanese)} controls/>
+          </div>
+        </div>
+      )
+    }
+    return (
+      <div className="wordpair">
+        <div>
+          <button onClick={this.playJapanese}>Japanese</button>
+          <button onClick={this.playEnglish}>English</button>
+        </div>
+        {audioplayers}
+      </div>
+    )
+  }
 }
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
 
 //var seed = 1;
 function myrandomnum() {
@@ -30,7 +83,6 @@ function random(list) {
 function clean(word) {
   return word.split(',')[0];
 }
-
 
 function gconcat(key, values) {
   return values.map((v) => v[key]
@@ -63,24 +115,22 @@ class NihongoSpeak extends React.PureComponent {
   }
 
   shuffle = () => {
-    if(!this.props.data || !this.props.data.words) {
+    if (!this.props.data || !this.props.data.words) {
       return;
     }
-      var wordlist = this.props.data.words.slice();
-      shuffleArray(wordlist);
-      this.setState({wordlist});
+    var wordlist = this.props.data.words.slice();
+    shuffleArray(wordlist);
+    this.setState({wordlist});
   }
 
   generate = () => {
     // Try just a random words
-    if(this.state.wordlist.length === 0) {
+    if (this.state.wordlist.length === 0) {
       this.shuffle();
     }
     var wordlist = this.state.wordlist.slice();
     wordlist.shift();
-    this.setState({
-        wordlist
-    })
+    this.setState({wordlist})
     return;
 
     // var pos = this.props.data.partsofspeech;
@@ -96,7 +146,7 @@ class NihongoSpeak extends React.PureComponent {
     // this.setState({english, japanese})
   }
   componentDidMount() {
-    if(!this.props.data || !this.props.data.words) {
+    if (!this.props.data || !this.props.data.words) {
       return;
     }
     this.shuffle();
@@ -146,12 +196,7 @@ class NihongoSpeak extends React.PureComponent {
       this.playEnglish();
     }
   }
-  playJapanese = () => {
-    this.audio.audioEl.play();
-  }
-  playEnglish = () => {
-    this.eaudio.audioEl.play();
-  }
+
   joyConnect = () => {
     console.log("Joystick connected")
   }
@@ -162,29 +207,27 @@ class NihongoSpeak extends React.PureComponent {
     var newlist = this.state.wordlist.slice();
     var word = newlist.shift();
 
-    newlist.splice(randomindex(newlist.length),0,word);
-    this.setState({
-      wordlist: newlist
-    })
+    newlist.splice(randomindex(newlist.length), 0, word);
+    this.setState({wordlist: newlist})
   }
   buttonPressed = (button) => {
     this.setState({button: button})
     console.log("Pressed " + button);
-    if(button === 7 || button === 0) {
+    if (button === 7 || button === 0) {
       this.playJapanese();
-    } else if(button === 6 || button === 3) {
+    } else if (button === 6 || button === 3) {
       this.playEnglish();
-    } else if(button === 1) {
+    } else if (button === 1) {
       this.next();
-    } else if(button === 2 || button === 4 || button === 5) {
+    } else if (button === 2 || button === 4 || button === 5) {
       this.reinsert();
     }
   }
-  hash(data) {
-    var h = sha256.create();
-h.update(data.toString());
-return h.hex();
-
+  playEnglish = () => {
+    this.firstword.playEnglish();
+  }
+  playJapanese = () => {
+    this.firstword.playJapanese();
   }
   audiofile(word) {
     return 'cache/' + this.hash(word) + ".mp3"
@@ -195,11 +238,16 @@ return h.hex();
     //var japanese_src = 'http://localhost:3333/speech?src=' + encodeURIComponent(this.state.japanese)
     //var english_src = 'http://localhost:3333/speech?english=1&src=' + encodeURIComponent(this.state.english)
     var wordlist = this.state.wordlist;
-    if(wordlist.length === 0) {
-      return (<div  ref={(e) => {
-        this.div = e;
-      }}>No words</div>);
+    if (wordlist.length === 0) {
+      return (
+        <div ref={(e) => {
+          this.div = e;
+        }}>No words</div>
+      );
     }
+
+    /*
+
     var word = this.state.wordlist[0];
     var nextword = this.state.wordlist[1];
     var english_src = this.audiofile(word.english);
@@ -216,62 +264,75 @@ return h.hex();
          </div>
 	 )
     }
+    */
 
     // Generate the wordlist
-    var wordlist_lis =
-        wordlist.map((word,index) => {
-          return (
-            <li key={index}>{word.japanese} => {word.english}</li>
-          )
-        })
+    var wordpairs = wordlist.map((word, index) => {
+      if (index === 0) {
+        return (<WordPair ref={(element) => {
+          this.firstword = element
+        }} key={word.id} word={word} autoPlay={true} preload={true}/>)
+      } else {
+        return (<WordPair key={word.id} word={word} preload={index < 4}/>)
+      }
+    })
 
+    /*
+    <div>
+      <button onClick={this.playJapanese}>Japanese</button>
+      <button onClick={this.playEnglish}>English</button>
+    </div>
+    <div className="english">
+      English: {word.english}
+      <ReactAudioPlayer preload="auto" ref={(element) => {
+        this.eaudio = element
+      }} src={english_src} controls/>
+    </div>
+    <div className="japanese">
+      Japanese: {word.japanese}
+      <ReactAudioPlayer preload="auto" ref={(element) => {
+        this.audio = element
+      }} autoPlay src={japanese_src} controls/>
+    </div>
+    */
 
     return (
       <div ref={(e) => {
         this.div = e;
       }} onKeyDown={this.keyPress} tabIndex="0">
-	<div>
-        <button onClick={this.generate}>Next</button>
-        <button onClick={this.shuffle}>Shuffle</button>
-        <button onClick={this.reinsert}>Reinsert</button>
-	</div>
-	<div>
-        <button onClick={this.playJapanese}>Japanese</button>
-        <button onClick={this.playEnglish}>English</button>
-	</div>
-        <div className="english">
-          English: {word.english}
-          <ReactAudioPlayer preload="auto" ref={(element) => {
-            this.eaudio = element
-          }} src={english_src} controls/>
+        <div>
+          <button onClick={this.generate}>Next</button>
+          <button onClick={this.shuffle}>Shuffle</button>
+          <button onClick={this.reinsert}>Reinsert</button>
         </div>
-        <div className="japanese">
-          Japanese: {word.japanese}
-          <ReactAudioPlayer preload="auto" ref={(element) => {
-            this.audio = element
-          }} autoPlay src={japanese_src} controls/>
+        <div>
+          <button onClick={this.playJapanese}>Japanese</button>
+          <button onClick={this.playEnglish}>English</button>
         </div>
-	<hr/>
+
+        <hr/>
 
         <p>
-	  This is meant to be used without looking at the screen.  To use keyboard shortcuts, click on this text first with your mouse cursor, and use the following keyboard keys.
-	</p>
-	<p>
-	  Due to restrictions on a mobile devices, you may have to click the play button on each audio control once to get the audio to work.
-	</p>
-	<ul>
-	  <li>n - Next word.  Bury this card and go to the next word</li>
-	  <li>e - Play the English translation</li>
-	  <li>j - Play the Japanese translation</li>
-	  <li>s - Reshuffle the deck.  Inserts all cards</li>
-	  <li>r - Reinsert this card randomly in the deck</li>
-	</ul>
+          This is meant to be used without looking at the screen. To use keyboard shortcuts, click on this text first with your mouse cursor, and use the following keyboard keys.
+        </p>
+        <p>
+          Due to restrictions on a mobile devices, you may have to click the play button on each audio control once to get the audio to work.
+        </p>
+        <ul>
+          <li>n - Next word. Bury this card and go to the next word</li>
+          <li>e - Play the English translation</li>
+          <li>j - Play the Japanese translation</li>
+          <li>s - Reshuffle the deck. Inserts all cards</li>
+          <li>r - Reinsert this card randomly in the deck</li>
+        </ul>
 
-	<h2>Word List</h2>
+        <h2>Word List</h2>
         <div className="stats">
           Words Remaining: {wordlist.length}
         </div>
-        <ul>{wordlist_lis}</ul>
+        <div className="wordlist">
+          {wordpairs}
+        </div>
       </div>
     );
     //        <pre>{JSON.stringify(this.props.data,null,' ')}</pre>
