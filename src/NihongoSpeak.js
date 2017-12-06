@@ -18,7 +18,7 @@ class WordPair extends React.PureComponent {
     return h.hex();
   }
   componentWillReceiveProps(nextProps) {
-    if(nextProps.autoPlay && this.audio) {
+    if(nextProps.autoPlay && this.props.autoPlay != nextProps.autoPlay && this.audio) {
       this.audio.audioEl.play();
     }
   }
