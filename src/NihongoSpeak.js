@@ -30,13 +30,11 @@ class WordPair extends React.PureComponent {
       audioplayers = (
         <div className="players">
           <div className="english">
-            English: {word.english}
             <ReactAudioPlayer preload="auto" ref={(element) => {
               this.eaudio = element
             }} src={this.audiofile(word.english)} controls/>
           </div>
           <div className="japanese">
-            Japanese: {word.japanese}
             <ReactAudioPlayer preload="auto" ref={(element) => {
               this.audio = element
             }} autoPlay={this.props.autoPlay} src={this.audiofile(word.japanese)} controls/>
@@ -47,6 +45,12 @@ class WordPair extends React.PureComponent {
     return (
       <div className="wordpair">
         <div>
+	<div>
+            English: {word.english}
+	    </div>
+	<div>
+            Japanese: {word.japanese}
+	    </div>
           <button onClick={this.playJapanese}>Japanese</button>
           <button onClick={this.playEnglish}>English</button>
         </div>
