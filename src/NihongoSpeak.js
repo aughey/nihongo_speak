@@ -18,14 +18,14 @@ class WordPair extends React.PureComponent {
     return h.hex();
   }
   componentWillReceiveProps(nextProps) {
-    if(nextProps.autoPlay && this.props.autoPlay != nextProps.autoPlay && this.audio) {
+    if(nextProps.autoPlay && this.props.autoPlay !== nextProps.autoPlay && this.audio) {
       this.audio.audioEl.play();
     }
   }
   render() {
     var audioplayers = null;
     var word = this.props.word;
-    console.log(JSON.stringify(this.props));
+    //console.log(JSON.stringify(this.props));
     if (this.props.preload) {
       audioplayers = (
         <div className="players">

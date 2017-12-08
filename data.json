@@ -3,1637 +3,4052 @@
   {
    "japanese": "ああ",
    "english": "Ah!",
-   "pos": "z"
+   "pos": "z",
+   "id": 314
   },
   {
    "japanese": "あう",
    "english": "to meet",
-   "pos": "v"
+   "pos": "v",
+   "id": 315
   },
   {
    "japanese": "あおい",
    "english": "blue",
-   "pos": "a"
+   "pos": "a",
+   "id": 316
   },
   {
    "japanese": "あかい",
    "english": "red",
-   "pos": "a"
+   "pos": "a",
+   "id": 317
   },
   {
    "japanese": "あかるい",
    "english": "light, bright",
-   "pos": "a"
+   "pos": "a",
+   "id": 318
   },
   {
    "japanese": "あき",
    "english": "autumn, fall",
-   "pos": "n"
+   "pos": "n",
+   "id": 319
   },
   {
    "japanese": "あく",
    "english": "open",
-   "pos": "v"
+   "pos": "v",
+   "id": 320
   },
   {
    "japanese": "あける",
    "english": "to open",
-   "pos": "v"
+   "pos": "v",
+   "id": 321
   },
   {
    "japanese": "あげる",
    "english": "to give",
-   "pos": "v"
+   "pos": "v",
+   "id": 322
   },
   {
    "japanese": "あさ",
    "english": "morning",
-   "pos": "t"
+   "pos": "t",
+   "id": 323
   },
   {
    "japanese": "あさごはん",
    "english": "breakfast",
-   "pos": "n"
+   "pos": "n",
+   "id": 324
   },
   {
    "japanese": "あさって",
    "english": "the day after tomorrow",
-   "pos": "t"
+   "pos": "t",
+   "id": 325
   },
   {
    "japanese": "あし",
    "english": "leg, foot",
-   "pos": "n"
+   "pos": "n",
+   "id": 326
   },
   {
    "japanese": "あした",
    "english": "tomorrow",
-   "pos": "t"
+   "pos": "t",
+   "id": 327
   },
   {
    "japanese": "あそこ",
    "english": "over there",
-   "pos": "d"
+   "pos": "d",
+   "id": 328
   },
   {
    "japanese": "あそぶ",
    "english": "to play",
-   "pos": "v"
+   "pos": "v",
+   "id": 329
   },
   {
    "japanese": "あたたかい",
    "english": "warm",
-   "pos": "a"
+   "pos": "a",
+   "id": 330
   },
   {
    "japanese": "あたま",
    "english": "head",
-   "pos": "n"
+   "pos": "n",
+   "id": 331
   },
   {
    "japanese": "あたらしい",
    "english": "new",
-   "pos": "a"
+   "pos": "a",
+   "id": 332
   },
   {
    "japanese": "あちら",
    "english": "over there (polite)",
-   "pos": "d"
+   "pos": "d",
+   "id": 333
   },
   {
    "japanese": "あつい",
    "english": "hot (air)",
-   "pos": "a"
+   "pos": "a",
+   "id": 334
   },
   {
    "japanese": "あつい",
    "english": "thick",
-   "pos": "a"
+   "pos": "a",
+   "id": 335
   },
   {
    "japanese": "あと",
    "english": "later, after",
-   "pos": "t"
+   "pos": "t",
+   "id": 336
   },
   {
    "japanese": "あなた",
    "english": "you",
-   "pos": "n"
+   "pos": "n",
+   "id": 337
   },
   {
    "japanese": "あに",
    "english": "older brother",
-   "pos": "n"
+   "pos": "n",
+   "id": 338
   },
   {
    "japanese": "あね",
    "english": "older sister",
-   "pos": "n"
+   "pos": "n",
+   "id": 339
   },
   {
    "japanese": "あの",
    "english": "that (over there)",
-   "pos": "d"
+   "pos": "d",
+   "id": 340
   },
   {
    "japanese": "あの",
    "english": "well, then",
-   "pos": "z"
+   "pos": "z",
+   "id": 341
   },
   {
    "japanese": "アパート",
    "english": "apartment",
-   "pos": "n"
+   "pos": "n",
+   "id": 342
   },
   {
    "japanese": "あびる",
    "english": "to take a shower",
-   "pos": "v"
+   "pos": "v",
+   "id": 343
   },
   {
    "japanese": "あぶない",
    "english": "dangerous",
-   "pos": "a"
+   "pos": "a",
+   "id": 344
   },
   {
    "japanese": "あまい",
    "english": "sweet",
-   "pos": "a"
+   "pos": "a",
+   "id": 345
   },
   {
    "japanese": "あまり",
    "english": "not so",
-   "pos": "a"
+   "pos": "a",
+   "id": 346
   },
   {
    "japanese": "あめ",
    "english": "rain",
-   "pos": "n"
+   "pos": "n",
+   "id": 347
   },
   {
    "japanese": "あらう",
    "english": "to wash",
-   "pos": "v"
+   "pos": "v",
+   "id": 348
   },
   {
    "japanese": "ある",
    "english": "to be, to exist",
-   "pos": "v"
+   "pos": "v",
+   "id": 349
   },
   {
    "japanese": "ある",
    "english": "to possess",
-   "pos": "v"
+   "pos": "v",
+   "id": 350
   },
   {
    "japanese": "あるく",
    "english": "to walk",
-   "pos": "v"
+   "pos": "v",
+   "id": 351
   },
   {
    "japanese": "あれ",
    "english": "that one",
-   "pos": "d"
+   "pos": "d",
+   "id": 352
   },
   {
    "japanese": "いい / よい",
    "english": "good",
-   "pos": "a"
+   "pos": "a",
+   "id": 353
   },
   {
    "japanese": "いいえ",
    "english": "no",
-   "pos": "z"
+   "pos": "z",
+   "id": 354
   },
   {
    "japanese": "いう",
    "english": "to say, to tell",
-   "pos": "v"
+   "pos": "v",
+   "id": 355
   },
   {
    "japanese": "いえ",
    "english": "house, home",
-   "pos": "n"
+   "pos": "n",
+   "id": 356
   },
   {
    "japanese": "いく",
    "english": "to go",
-   "pos": "v"
+   "pos": "v",
+   "id": 357
   },
   {
    "japanese": "いくつ",
    "english": "how many, how old",
-   "pos": "w"
+   "pos": "w",
+   "id": 358
   },
   {
    "japanese": "いくら",
    "english": "how much",
-   "pos": "w"
+   "pos": "w",
+   "id": 359
   },
   {
    "japanese": "いけ",
    "english": "pond",
-   "pos": "n"
+   "pos": "n",
+   "id": 360
   },
   {
    "japanese": "いしゃ",
    "english": "doctor",
-   "pos": "n"
+   "pos": "n",
+   "id": 361
   },
   {
    "japanese": "いす",
    "english": "chair",
-   "pos": "n"
+   "pos": "n",
+   "id": 362
   },
   {
    "japanese": "いそがしい",
    "english": "to be busy",
-   "pos": "v"
+   "pos": "v",
+   "id": 363
   },
   {
    "japanese": "いたい",
    "english": "to be painful",
-   "pos": "v"
+   "pos": "v",
+   "id": 364
   },
   {
    "japanese": "いち",
    "english": "one",
-   "pos": "c"
+   "pos": "c",
+   "id": 365
   },
   {
    "japanese": "いちにち",
    "english": "one day",
-   "pos": "c"
+   "pos": "c",
+   "id": 366
   },
   {
    "japanese": "いちばん",
    "english": "No. 1, the best, the first",
-   "pos": "c"
+   "pos": "c",
+   "id": 367
   },
   {
    "japanese": "いつ",
    "english": "when",
-   "pos": "w"
+   "pos": "w",
+   "id": 368
   },
   {
    "japanese": "いつか",
    "english": "the 5th day of the month, 5 days",
-   "pos": "t"
+   "pos": "t",
+   "id": 369
   },
   {
    "japanese": "いっしょ",
    "english": "together",
-   "pos": "z"
+   "pos": "z",
+   "id": 370
   },
   {
    "japanese": "いつつ",
    "english": "five",
-   "pos": "c"
+   "pos": "c",
+   "id": 371
   },
   {
    "japanese": "いつも",
    "english": "always",
-   "pos": "z"
+   "pos": "z",
+   "id": 372
   },
   {
    "japanese": "いま",
    "english": "now",
-   "pos": "t"
+   "pos": "t",
+   "id": 373
   },
   {
    "japanese": "いみ",
    "english": "meaning",
-   "pos": "n"
+   "pos": "n",
+   "id": 374
   },
   {
    "japanese": "いもうと",
    "english": "someone’s younger sister",
-   "pos": "n"
+   "pos": "n",
+   "id": 375
   },
   {
    "japanese": "いや",
    "english": "not likable, unpleasant",
-   "pos": "a"
+   "pos": "a",
+   "id": 376
   },
   {
    "japanese": "いりぐち",
    "english": "entrance",
-   "pos": "n"
+   "pos": "n",
+   "id": 377
   },
   {
    "japanese": "いる",
    "english": "need, must have, be required",
-   "pos": "n"
+   "pos": "n",
+   "id": 378
   },
   {
    "japanese": "いる",
    "english": "to exist",
-   "pos": "n"
+   "pos": "n",
+   "id": 379
   },
   {
    "japanese": "いれる",
    "english": "to insert, to put in",
-   "pos": "n"
+   "pos": "n",
+   "id": 380
   },
   {
    "japanese": "いろ",
    "english": "color",
-   "pos": "n"
+   "pos": "n",
+   "id": 381
   },
   {
    "japanese": "いろいろ",
    "english": "various",
-   "pos": "a"
+   "pos": "a",
+   "id": 382
   },
   {
    "japanese": "うえ",
    "english": "top, on, above",
-   "pos": "z"
+   "pos": "z",
+   "id": 383
   },
   {
    "japanese": "うしろ",
    "english": "back, rear, behind",
-   "pos": "d"
+   "pos": "d",
+   "id": 384
   },
   {
    "japanese": "うすい",
    "english": "thin",
-   "pos": "a"
+   "pos": "a",
+   "id": 385
   },
   {
    "japanese": "うた",
    "english": "song",
-   "pos": "n"
+   "pos": "n",
+   "id": 386
   },
   {
    "japanese": "うたう",
    "english": "to sing",
-   "pos": "v"
+   "pos": "v",
+   "id": 387
   },
   {
    "japanese": "うち",
    "english": "home",
-   "pos": "n"
+   "pos": "n",
+   "id": 388
   },
   {
    "japanese": "うまれる",
    "english": "to be born",
-   "pos": "v"
+   "pos": "v",
+   "id": 389
   },
   {
    "japanese": "うみ",
    "english": "sea",
-   "pos": "n"
+   "pos": "n",
+   "id": 390
   },
   {
    "japanese": "うる",
    "english": "to sell",
-   "pos": "v"
+   "pos": "v",
+   "id": 391
   },
   {
    "japanese": "うわぎ",
    "english": "coat, jacket",
-   "pos": "n"
+   "pos": "n",
+   "id": 392
   },
   {
    "japanese": "え",
    "english": "picture",
-   "pos": "n"
+   "pos": "n",
+   "id": 393
   },
   {
    "japanese": "えいが",
    "english": "movie",
-   "pos": "n"
+   "pos": "n",
+   "id": 394
   },
   {
    "japanese": "えいがかん",
    "english": "cinema",
-   "pos": "n"
+   "pos": "n",
+   "id": 395
   },
   {
    "japanese": "えいご",
    "english": "English language",
-   "pos": "n"
+   "pos": "n",
+   "id": 396
   },
   {
    "japanese": "ええ",
    "english": "Yes, I see",
-   "pos": "z"
+   "pos": "z",
+   "id": 397
   },
   {
    "japanese": "えき",
    "english": "station",
-   "pos": "n"
+   "pos": "n",
+   "id": 398
   },
   {
    "japanese": "エレベータ",
    "english": "elevator",
-   "pos": "n"
+   "pos": "n",
+   "id": 399
   },
   {
    "japanese": "えん",
    "english": "Yen",
-   "pos": "n"
+   "pos": "n",
+   "id": 400
   },
   {
    "japanese": "えんぴつ",
    "english": "pencil",
-   "pos": "n"
+   "pos": "n",
+   "id": 401
+  },
+  {
+   "japanese": "お",
+   "english": "honorific prefix",
+   "pos": "u",
+   "id": 402
   },
   {
    "japanese": "おいしい",
    "english": "tasty, delicious",
-   "pos": "a"
+   "pos": "a",
+   "id": 403
   },
   {
    "japanese": "おおきい",
    "english": "big",
-   "pos": "a"
+   "pos": "a",
+   "id": 404
   },
   {
    "japanese": "おおぜい",
    "english": "many people",
-   "pos": "a"
+   "pos": "a",
+   "id": 405
   },
   {
    "japanese": "おそい",
    "english": "late, slow",
-   "pos": "a"
+   "pos": "a",
+   "id": 406
   },
   {
    "japanese": "おととい",
    "english": "the day before yesterday",
-   "pos": "a"
+   "pos": "a",
+   "id": 407
   },
   {
    "japanese": "おととし",
    "english": "the year before last",
-   "pos": "a"
+   "pos": "a",
+   "id": 408
   },
   {
    "japanese": "おなじ",
    "english": "same",
-   "pos": "a"
+   "pos": "a",
+   "id": 409
   },
   {
    "japanese": "おもい",
    "english": "heavy",
-   "pos": "a"
+   "pos": "a",
+   "id": 410
   },
   {
    "japanese": "おもしろい",
    "english": "interesting, funny",
-   "pos": "a"
+   "pos": "a",
+   "id": 411
   },
   {
    "japanese": "おかあさん",
    "english": "my own mother",
-   "pos": "n"
+   "pos": "n",
+   "id": 412
   },
   {
    "japanese": "おかし",
    "english": "confectionary, cake",
-   "pos": "n"
+   "pos": "n",
+   "id": 413
   },
   {
    "japanese": "おかね",
    "english": "money",
-   "pos": "n"
+   "pos": "n",
+   "id": 414
   },
   {
    "japanese": "おくさん",
    "english": "someone’s wife",
-   "pos": "n"
+   "pos": "n",
+   "id": 415
   },
   {
    "japanese": "おさけ",
    "english": "alcohol, sake",
-   "pos": "n"
+   "pos": "n",
+   "id": 416
   },
   {
    "japanese": "おさら",
    "english": "plate",
-   "pos": "n"
+   "pos": "n",
+   "id": 417
   },
   {
    "japanese": "おじいさん",
    "english": "grand father",
-   "pos": "n"
+   "pos": "n",
+   "id": 418
   },
   {
    "japanese": "おじさん",
    "english": "uncle",
-   "pos": "n"
+   "pos": "n",
+   "id": 419
   },
   {
    "japanese": "おちゃ",
    "english": "tea",
-   "pos": "n"
+   "pos": "n",
+   "id": 420
   },
   {
    "japanese": "おてあらい",
    "english": "toilet, lavatory",
-   "pos": "n"
+   "pos": "n",
+   "id": 421
   },
   {
    "japanese": "おとうさん",
    "english": "father",
-   "pos": "n"
+   "pos": "n",
+   "id": 422
   },
   {
    "japanese": "おとうと",
    "english": "someone’s younger brother",
-   "pos": "n"
+   "pos": "n",
+   "id": 423
   },
   {
    "japanese": "おとこ",
    "english": "man",
-   "pos": "n"
+   "pos": "n",
+   "id": 424
   },
   {
    "japanese": "おとこのこ",
    "english": "boy",
-   "pos": "n"
+   "pos": "n",
+   "id": 425
   },
   {
    "japanese": "おとな",
    "english": "adult",
-   "pos": "n"
+   "pos": "n",
+   "id": 426
   },
   {
    "japanese": "おなか",
    "english": "stomach",
-   "pos": "n"
+   "pos": "n",
+   "id": 427
   },
   {
    "japanese": "おにいさん",
    "english": "someone’s elder brother",
-   "pos": "n"
+   "pos": "n",
+   "id": 428
   },
   {
    "japanese": "おねえさん",
    "english": "someone’s elder sister",
-   "pos": "n"
+   "pos": "n",
+   "id": 429
   },
   {
    "japanese": "おばあさん",
    "english": "grandmother",
-   "pos": "n"
+   "pos": "n",
+   "id": 430
   },
   {
    "japanese": "おばさん",
    "english": "aunt",
-   "pos": "n"
+   "pos": "n",
+   "id": 431
   },
   {
    "japanese": "おべんとう",
    "english": "lunchbox",
-   "pos": "n"
+   "pos": "n",
+   "id": 432
   },
   {
    "japanese": "おんがく",
    "english": "music",
-   "pos": "n"
+   "pos": "n",
+   "id": 433
   },
   {
    "japanese": "おんな",
    "english": "woman",
-   "pos": "n"
+   "pos": "n",
+   "id": 434
   },
   {
    "japanese": "おんなのこ",
    "english": "girl",
-   "pos": "n"
+   "pos": "n",
+   "id": 435
   },
   {
    "japanese": "おきる",
    "english": "to get up, to stand up",
-   "pos": "v"
+   "pos": "v",
+   "id": 436
   },
   {
    "japanese": "おく",
    "english": "to put, to place",
-   "pos": "v"
+   "pos": "v",
+   "id": 437
   },
   {
    "japanese": "おくる",
    "english": "to send",
-   "pos": "v"
+   "pos": "v",
+   "id": 438
   },
   {
    "japanese": "おす",
    "english": "to push",
-   "pos": "v"
+   "pos": "v",
+   "id": 439
   },
   {
    "japanese": "おぼえる",
    "english": "to memorize, to remember",
-   "pos": "v"
+   "pos": "v",
+   "id": 440
   },
   {
    "japanese": "およぐ",
    "english": "to swim",
-   "pos": "v"
+   "pos": "v",
+   "id": 441
   },
   {
    "japanese": "おりる",
    "english": "to get off",
-   "pos": "v"
+   "pos": "v",
+   "id": 442
   },
   {
    "japanese": "おわる",
    "english": "to end",
-   "pos": "v"
+   "pos": "v",
+   "id": 443
   },
   {
    "japanese": "からい",
    "english": "hot, spicy",
-   "pos": "a"
+   "pos": "a",
+   "id": 444
   },
   {
    "japanese": "かるい",
    "english": "light (not heavy)",
-   "pos": "a"
+   "pos": "a",
+   "id": 445
   },
   {
    "japanese": "かわいい",
    "english": "cute, pretty",
-   "pos": "a"
+   "pos": "a",
+   "id": 446
   },
   {
    "japanese": "~がわ",
    "english": "~side",
-   "pos": "n"
+   "pos": "n",
+   "id": 447
   },
   {
    "japanese": "がいこく",
    "english": "foreign country",
-   "pos": "n"
+   "pos": "n",
+   "id": 448
   },
   {
    "japanese": "がいこくじん",
    "english": "foreigner",
-   "pos": "n"
+   "pos": "n",
+   "id": 449
   },
   {
    "japanese": "かいしゃ",
    "english": "company, enterprise",
-   "pos": "n"
+   "pos": "n",
+   "id": 450
   },
   {
    "japanese": "かいだん",
    "english": "stairs",
-   "pos": "n"
+   "pos": "n",
+   "id": 451
   },
   {
    "japanese": "かいもの",
    "english": "shopping",
-   "pos": "n"
+   "pos": "n",
+   "id": 452
   },
   {
    "japanese": "かお",
    "english": "face",
-   "pos": "n"
+   "pos": "n",
+   "id": 453
   },
   {
    "japanese": "かぎ",
    "english": "key",
-   "pos": "n"
+   "pos": "n",
+   "id": 454
   },
   {
    "japanese": "がくせい",
    "english": "student",
-   "pos": "n"
+   "pos": "n",
+   "id": 455
   },
   {
    "japanese": "かさ",
    "english": "umbrella",
-   "pos": "n"
+   "pos": "n",
+   "id": 456
   },
   {
    "japanese": "かぜ",
    "english": "wind",
-   "pos": "n"
+   "pos": "n",
+   "id": 457
   },
   {
    "japanese": "かぜ",
    "english": "a cold",
-   "pos": "n"
+   "pos": "n",
+   "id": 458
   },
   {
    "japanese": "かぞく",
    "english": "family",
-   "pos": "n"
+   "pos": "n",
+   "id": 459
   },
   {
    "japanese": "かた",
    "english": "person (polite)",
-   "pos": "n"
+   "pos": "n",
+   "id": 460
   },
   {
    "japanese": "かたかな",
    "english": "Katakana",
-   "pos": "n"
+   "pos": "n",
+   "id": 461
   },
   {
    "japanese": "がっこう",
    "english": "school",
-   "pos": "n"
+   "pos": "n",
+   "id": 462
   },
   {
    "japanese": "かど",
    "english": "corner",
-   "pos": "n"
+   "pos": "n",
+   "id": 463
   },
   {
    "japanese": "かない",
    "english": "my wife",
-   "pos": "n"
+   "pos": "n",
+   "id": 464
   },
   {
    "japanese": "かばん",
    "english": "bag",
-   "pos": "n"
+   "pos": "n",
+   "id": 465
   },
   {
    "japanese": "かびん",
    "english": "vase",
-   "pos": "n"
+   "pos": "n",
+   "id": 466
   },
   {
    "japanese": "かみ",
    "english": "paper",
-   "pos": "n"
+   "pos": "n",
+   "id": 467
   },
   {
    "japanese": "かめら",
    "english": "camera",
-   "pos": "n"
+   "pos": "n",
+   "id": 468
   },
   {
    "japanese": "からだ",
    "english": "body",
-   "pos": "n"
+   "pos": "n",
+   "id": 469
   },
   {
    "japanese": "カレンダー",
    "english": "calendar",
-   "pos": "n"
+   "pos": "n",
+   "id": 470
   },
   {
    "japanese": "かわ",
    "english": "river",
-   "pos": "n"
+   "pos": "n",
+   "id": 471
   },
   {
    "japanese": "かんじ",
    "english": "Kanji character",
-   "pos": "n"
+   "pos": "n",
+   "id": 472
   },
   {
    "japanese": "かう",
    "english": "to buy",
-   "pos": "v"
+   "pos": "v",
+   "id": 473
   },
   {
    "japanese": "かえす",
    "english": "to return an object",
-   "pos": "v"
+   "pos": "v",
+   "id": 474
   },
   {
    "japanese": "かえる",
    "english": "to return home",
-   "pos": "v"
+   "pos": "v",
+   "id": 475
   },
   {
    "japanese": "かかる",
    "english": "to take time, money",
-   "pos": "v"
+   "pos": "v",
+   "id": 476
   },
   {
    "japanese": "かく",
    "english": "to write",
-   "pos": "v"
+   "pos": "v",
+   "id": 477
   },
   {
    "japanese": "かける",
    "english": "to wear",
-   "pos": "v"
+   "pos": "v",
+   "id": 478
   },
   {
    "japanese": "かける",
    "english": "to make a phone call",
-   "pos": "v"
+   "pos": "v",
+   "id": 479
   },
   {
    "japanese": "かす",
    "english": "to lend",
-   "pos": "v"
+   "pos": "v",
+   "id": 480
   },
   {
    "japanese": "かぶる",
    "english": "to put on a hat",
-   "pos": "v"
+   "pos": "v",
+   "id": 481
   },
   {
    "japanese": "かりる",
    "english": "to borrow",
-   "pos": "v"
+   "pos": "v",
+   "id": 482
   },
   {
    "japanese": "〜かい",
    "english": "~times",
-   "pos": "z"
+   "pos": "z",
+   "id": 483
   },
   {
    "japanese": "〜かい",
    "english": "~floor",
-   "pos": "z"
+   "pos": "z",
+   "id": 484
   },
   {
    "japanese": "〜かげつ",
    "english": "~ number of months",
-   "pos": "z"
+   "pos": "z",
+   "id": 485
   },
   {
    "japanese": "〜がります",
    "english": "3rd person wants to",
-   "pos": "z"
+   "pos": "z",
+   "id": 486
   },
   {
    "japanese": "いちがつ",
    "english": "January",
-   "pos": "z"
+   "pos": "z",
+   "id": 487
   },
   {
    "japanese": "かようび",
    "english": "Tuesday",
-   "pos": "z"
+   "pos": "z",
+   "id": 488
   },
   {
    "japanese": "くがつ",
    "english": "September",
-   "pos": "z"
+   "pos": "z",
+   "id": 489
   },
   {
    "japanese": "ごがつ",
    "english": "May",
-   "pos": "z"
+   "pos": "z",
+   "id": 490
   },
   {
    "japanese": "さんがつ",
    "english": "March",
-   "pos": "z"
+   "pos": "z",
+   "id": 491
   },
   {
    "japanese": "しがつ",
    "english": "April",
-   "pos": "z"
+   "pos": "z",
+   "id": 492
   },
   {
    "japanese": "しちがつ",
    "english": "July",
-   "pos": "z"
+   "pos": "z",
+   "id": 493
   },
   {
    "japanese": "じゅういちがつ",
    "english": "November",
-   "pos": "z"
+   "pos": "z",
+   "id": 494
   },
   {
    "japanese": "じゅうがつ",
    "english": "October",
-   "pos": "z"
+   "pos": "z",
+   "id": 495
   },
   {
    "japanese": "じゅうにがつ",
    "english": "December",
-   "pos": "z"
+   "pos": "z",
+   "id": 496
   },
   {
    "japanese": "にがつ",
    "english": "February",
-   "pos": "z"
+   "pos": "z",
+   "id": 497
   },
   {
    "japanese": "はちがつ",
    "english": "August",
-   "pos": "z"
+   "pos": "z",
+   "id": 498
   },
   {
    "japanese": "ろくがつ",
    "english": "June",
-   "pos": "z"
+   "pos": "z",
+   "id": 499
   },
   {
    "japanese": "きいろい",
    "english": "yellow",
-   "pos": "a"
+   "pos": "a",
+   "id": 500
   },
   {
    "japanese": "きた",
    "english": "north",
-   "pos": "a"
+   "pos": "a",
+   "id": 501
   },
   {
    "japanese": "きたない",
    "english": "dirty",
-   "pos": "a"
+   "pos": "a",
+   "id": 502
   },
   {
    "japanese": "きのう",
    "english": "yesterday",
-   "pos": "a"
+   "pos": "a",
+   "id": 503
   },
   {
    "japanese": "きょねん",
    "english": "last year",
-   "pos": "a"
+   "pos": "a",
+   "id": 504
   },
   {
    "japanese": "きらい",
    "english": "unpleasant, not likable",
-   "pos": "a"
+   "pos": "a",
+   "id": 505
   },
   {
    "japanese": "きれい",
    "english": "beautiful, clean",
-   "pos": "a"
+   "pos": "a",
+   "id": 506
   },
   {
    "japanese": "キロ",
    "english": "kg",
-   "pos": "a"
+   "pos": "a",
+   "id": 507
   },
   {
    "japanese": "キロ",
    "english": "km",
-   "pos": "a"
+   "pos": "a",
+   "id": 508
   },
   {
    "japanese": "きんようび",
    "english": "Friday",
-   "pos": "a"
+   "pos": "a",
+   "id": 509
   },
   {
    "japanese": "き",
    "english": "tree",
-   "pos": "n"
+   "pos": "n",
+   "id": 510
   },
   {
    "japanese": "ギター",
    "english": "guitar",
-   "pos": "n"
+   "pos": "n",
+   "id": 511
   },
   {
    "japanese": "きっさてん",
    "english": "coffee shop",
-   "pos": "n"
+   "pos": "n",
+   "id": 512
   },
   {
    "japanese": "きって",
    "english": "stamp",
-   "pos": "n"
+   "pos": "n",
+   "id": 513
   },
   {
    "japanese": "きっぷ",
    "english": "ticket",
-   "pos": "n"
+   "pos": "n",
+   "id": 514
   },
   {
    "japanese": "きゅう",
    "english": "nine",
-   "pos": "n"
+   "pos": "n",
+   "id": 515
   },
   {
    "japanese": "ぎゅうにく",
    "english": "beef",
-   "pos": "n"
+   "pos": "n",
+   "id": 516
   },
   {
    "japanese": "ぎゅうにゅう",
    "english": "milk",
-   "pos": "n"
+   "pos": "n",
+   "id": 517
   },
   {
    "japanese": "きょう",
    "english": "today",
-   "pos": "n"
+   "pos": "n",
+   "id": 518
   },
   {
    "japanese": "きょうしつ",
    "english": "class room",
-   "pos": "n"
+   "pos": "n",
+   "id": 519
   },
   {
    "japanese": "きょうだい",
    "english": "siblings",
-   "pos": "n"
+   "pos": "n",
+   "id": 520
   },
   {
    "japanese": "ぎんこう",
    "english": "bank",
-   "pos": "n"
+   "pos": "n",
+   "id": 521
   },
   {
    "japanese": "きえる",
    "english": "to go out, to vanish",
-   "pos": "v"
+   "pos": "v",
+   "id": 522
   },
   {
    "japanese": "きく",
    "english": "to hear, to listen, to ask",
-   "pos": "v"
+   "pos": "v",
+   "id": 523
   },
   {
    "japanese": "きる",
    "english": "to cut",
-   "pos": "v"
+   "pos": "v",
+   "id": 524
   },
   {
    "japanese": "きる",
    "english": "to wear, to put on",
-   "pos": "v"
+   "pos": "v",
+   "id": 525
   },
   {
    "japanese": "くる",
    "english": "to come",
-   "pos": "v"
+   "pos": "v",
+   "id": 526
   },
   {
    "japanese": "ください",
    "english": "give me…",
-   "pos": "a"
+   "pos": "a",
+   "id": 527
   },
   {
    "japanese": "くらい",
    "english": "dark",
-   "pos": "a"
+   "pos": "a",
+   "id": 528
   },
   {
    "japanese": "ぐらい",
    "english": "about",
-   "pos": "a"
+   "pos": "a",
+   "id": 529
   },
   {
    "japanese": "グラム",
    "english": "gram",
-   "pos": "a"
+   "pos": "a",
+   "id": 530
   },
   {
    "japanese": "くろい",
    "english": "black",
-   "pos": "a"
+   "pos": "a",
+   "id": 531
   },
   {
    "japanese": "く",
    "english": "nine",
-   "pos": "n"
+   "pos": "n",
+   "id": 532
   },
   {
    "japanese": "くすり",
    "english": "medicine",
-   "pos": "n"
+   "pos": "n",
+   "id": 533
   },
   {
    "japanese": "くだもの",
    "english": "fruit",
-   "pos": "n"
+   "pos": "n",
+   "id": 534
   },
   {
    "japanese": "くち",
    "english": "mouth",
-   "pos": "n"
+   "pos": "n",
+   "id": 535
   },
   {
    "japanese": "くつ",
    "english": "shoe",
-   "pos": "n"
+   "pos": "n",
+   "id": 536
   },
   {
    "japanese": "くつした",
    "english": "socks",
-   "pos": "n"
+   "pos": "n",
+   "id": 537
   },
   {
    "japanese": "くに",
    "english": "country",
-   "pos": "n"
+   "pos": "n",
+   "id": 538
   },
   {
    "japanese": "くもり",
    "english": "cloudy weather",
-   "pos": "n"
+   "pos": "n",
+   "id": 539
   },
   {
    "japanese": "クラス",
    "english": "class",
-   "pos": "n"
+   "pos": "n",
+   "id": 540
   },
   {
    "japanese": "くるま",
    "english": "car",
-   "pos": "n"
+   "pos": "n",
+   "id": 541
   },
   {
    "japanese": "けっこう",
    "english": "fine, all right",
-   "pos": "a"
+   "pos": "a",
+   "id": 542
   },
   {
    "japanese": "げんき",
    "english": "vigor, health, vitality",
-   "pos": "a"
+   "pos": "a",
+   "id": 543
   },
   {
    "japanese": "けさ",
    "english": "this morning",
-   "pos": "n"
+   "pos": "n",
+   "id": 544
   },
   {
    "japanese": "けっこん",
    "english": "marriage",
-   "pos": "n"
+   "pos": "n",
+   "id": 545
   },
   {
    "japanese": "げんかん",
    "english": "entrance of a house",
-   "pos": "n"
+   "pos": "n",
+   "id": 546
   },
   {
    "japanese": "けす",
    "english": "to turn off, switch off",
-   "pos": "v"
+   "pos": "v",
+   "id": 547
   },
   {
    "japanese": "げつようび",
    "english": "Monday",
-   "pos": "z"
+   "pos": "z",
+   "id": 548
   },
   {
    "japanese": "ご",
    "english": "five",
-   "pos": "n"
+   "pos": "n",
+   "id": 549
   },
   {
    "japanese": "コート",
    "english": "coat",
-   "pos": "n"
+   "pos": "n",
+   "id": 550
   },
   {
    "japanese": "こうえん",
    "english": "park, large garden",
-   "pos": "n"
+   "pos": "n",
+   "id": 551
   },
   {
    "japanese": "こうばん",
    "english": "police box",
-   "pos": "n"
+   "pos": "n",
+   "id": 552
   },
   {
    "japanese": "こえ",
    "english": "voice",
-   "pos": "n"
+   "pos": "n",
+   "id": 553
   },
   {
    "japanese": "ここ",
    "english": "here",
-   "pos": "n"
+   "pos": "n",
+   "id": 554
   },
   {
    "japanese": "ごご",
    "english": "afternoon",
-   "pos": "n"
+   "pos": "n",
+   "id": 555
   },
   {
    "japanese": "ここのか",
    "english": "9th day of a month, 9 days",
-   "pos": "n"
+   "pos": "n",
+   "id": 556
   },
   {
    "japanese": "ここのつ",
    "english": "nine",
-   "pos": "n"
+   "pos": "n",
+   "id": 557
   },
   {
    "japanese": "ごしゅじん",
    "english": "someone else’s husband",
-   "pos": "n"
+   "pos": "n",
+   "id": 558
   },
   {
    "japanese": "ごぜん",
    "english": "morning, a.m.",
-   "pos": "n"
+   "pos": "n",
+   "id": 559
   },
   {
    "japanese": "こちら",
    "english": "this side, this place",
-   "pos": "n"
+   "pos": "n",
+   "id": 560
   },
   {
    "japanese": "コップ",
    "english": "cup, glass",
-   "pos": "n"
+   "pos": "n",
+   "id": 561
   },
   {
    "japanese": "ことし",
    "english": "this year",
-   "pos": "n"
+   "pos": "n",
+   "id": 562
   },
   {
    "japanese": "ことば",
    "english": "phrase, language",
-   "pos": "n"
+   "pos": "n",
+   "id": 563
   },
   {
    "japanese": "こども",
    "english": "child",
-   "pos": "n"
+   "pos": "n",
+   "id": 564
   },
   {
    "japanese": "この",
    "english": "this…",
-   "pos": "n"
+   "pos": "n",
+   "id": 565
   },
   {
    "japanese": "ごはん",
    "english": "meal, cooked rice",
-   "pos": "n"
+   "pos": "n",
+   "id": 566
   },
   {
    "japanese": "これ",
    "english": "this",
-   "pos": "n"
+   "pos": "n",
+   "id": 567
   },
   {
    "japanese": "ごろ",
    "english": "around…",
-   "pos": "n"
+   "pos": "n",
+   "id": 568
   },
   {
    "japanese": "こんげつ",
    "english": "this month",
-   "pos": "n"
+   "pos": "n",
+   "id": 569
   },
   {
    "japanese": "こんしゅう",
    "english": "this week",
-   "pos": "n"
+   "pos": "n",
+   "id": 570
   },
   {
    "japanese": "こんな",
    "english": "this sort of, this kind of",
-   "pos": "n"
+   "pos": "n",
+   "id": 571
   },
   {
    "japanese": "こんばん",
    "english": "this evening",
-   "pos": "n"
+   "pos": "n",
+   "id": 572
   },
   {
    "japanese": "こたえる",
    "english": "to answer",
-   "pos": "v"
+   "pos": "v",
+   "id": 573
   },
   {
    "japanese": "こまる",
    "english": "to be in trouble",
-   "pos": "v"
+   "pos": "v",
+   "id": 574
   },
   {
    "japanese": "〜こ",
    "english": "counter for small objects",
-   "pos": "z"
+   "pos": "z",
+   "id": 575
   },
   {
    "japanese": "〜ご",
    "english": "~ language",
-   "pos": "z"
+   "pos": "z",
+   "id": 576
   },
   {
    "japanese": "さあ",
    "english": "well…",
-   "pos": "a"
+   "pos": "a",
+   "id": 577
   },
   {
    "japanese": "さき",
    "english": "earlier, former",
-   "pos": "a"
+   "pos": "a",
+   "id": 578
   },
   {
    "japanese": "さらいねん",
    "english": "the year after next year",
-   "pos": "a"
+   "pos": "a",
+   "id": 579
   },
   {
    "japanese": "さん",
    "english": "three",
-   "pos": "a"
+   "pos": "a",
+   "id": 580
   },
   {
    "japanese": "さかな",
    "english": "fish",
-   "pos": "n"
+   "pos": "n",
+   "id": 581
   },
   {
    "japanese": "さくぶん",
    "english": "composition",
-   "pos": "n"
+   "pos": "n",
+   "id": 582
   },
   {
    "japanese": "ざっし",
    "english": "magazine",
-   "pos": "n"
+   "pos": "n",
+   "id": 583
   },
   {
    "japanese": "さとう",
    "english": "sugar",
-   "pos": "n"
+   "pos": "n",
+   "id": 584
   },
   {
    "japanese": "さむい",
    "english": "cold",
-   "pos": "n"
+   "pos": "n",
+   "id": 585
   },
   {
    "japanese": "さく",
    "english": "to blossom",
-   "pos": "v"
+   "pos": "v",
+   "id": 586
   },
   {
    "japanese": "さす",
    "english": "to open an umbrella",
-   "pos": "v"
+   "pos": "v",
+   "id": 587
   },
   {
    "japanese": "さんぽ",
    "english": "to take a walk",
-   "pos": "v"
+   "pos": "v",
+   "id": 588
   },
   {
    "japanese": "〜さい",
    "english": "years old",
-   "pos": "z"
+   "pos": "z",
+   "id": 589
   },
   {
    "japanese": "〜さつ",
    "english": "counter for books",
-   "pos": "z"
+   "pos": "z",
+   "id": 590
   },
   {
    "japanese": "〜さん",
    "english": "Mr., Mrs.",
-   "pos": "z"
+   "pos": "z",
+   "id": 591
   },
   {
    "japanese": "し",
    "english": "four",
-   "pos": "a"
+   "pos": "a",
+   "id": 592
   },
   {
    "japanese": "しお",
    "english": "salt",
-   "pos": "n"
+   "pos": "n",
+   "id": 593
   },
   {
    "japanese": "しかし",
    "english": "however, but",
-   "pos": "a"
+   "pos": "a",
+   "id": 594
   },
   {
    "japanese": "しごと",
    "english": "work",
-   "pos": "n"
+   "pos": "n",
+   "id": 595
   },
   {
    "japanese": "しずか",
    "english": "quiet",
-   "pos": "a"
+   "pos": "a",
+   "id": 596
   },
   {
    "japanese": "した",
    "english": "under, below",
-   "pos": "a"
+   "pos": "a",
+   "id": 597
   },
   {
    "japanese": "しつもん",
    "english": "question",
-   "pos": "n"
+   "pos": "n",
+   "id": 598
   },
   {
    "japanese": "しぬ",
    "english": "to die, to pas away",
-   "pos": "v"
+   "pos": "v",
+   "id": 599
   },
   {
    "japanese": "しまる",
    "english": "to close",
-   "pos": "v"
+   "pos": "v",
+   "id": 600
   },
   {
    "japanese": "しめる",
    "english": "to close",
-   "pos": "v"
+   "pos": "v",
+   "id": 601
   },
   {
    "japanese": "しめる",
    "english": "to fasten a seatbelt",
-   "pos": "v"
+   "pos": "v",
+   "id": 602
   },
   {
    "japanese": "しる",
    "english": "to know",
-   "pos": "v"
+   "pos": "v",
+   "id": 603
   },
   {
    "japanese": "しろい",
    "english": "white",
-   "pos": "a"
+   "pos": "a",
+   "id": 604
   },
   {
    "japanese": "しんぶん",
    "english": "newspaper",
-   "pos": "n"
+   "pos": "n",
+   "id": 605
   },
   {
    "japanese": "じゃ",
    "english": "well, then",
-   "pos": "a"
+   "pos": "a",
+   "id": 606
   },
   {
    "japanese": "じかん",
    "english": "time",
-   "pos": "a"
+   "pos": "a",
+   "id": 607
   },
   {
    "japanese": "じしょ",
    "english": "dictionary",
-   "pos": "n"
+   "pos": "n",
+   "id": 608
   },
   {
    "japanese": "じてんしゃ",
    "english": "bicycle",
-   "pos": "n"
+   "pos": "n",
+   "id": 609
   },
   {
    "japanese": "じどうしゃ",
    "english": "car, vehicle",
-   "pos": "n"
+   "pos": "n",
+   "id": 610
   },
   {
    "japanese": "じびき",
    "english": "dictionary",
-   "pos": "n"
+   "pos": "n",
+   "id": 611
   },
   {
    "japanese": "じぶん",
    "english": "oneself",
-   "pos": "n"
+   "pos": "n",
+   "id": 612
   },
   {
    "japanese": "じゅう",
    "english": "ten",
-   "pos": "a"
+   "pos": "a",
+   "id": 613
   },
   {
    "japanese": "じゅぎょう",
    "english": "lesson, class",
-   "pos": "n"
+   "pos": "n",
+   "id": 614
   },
   {
    "japanese": "じょうず",
    "english": "to be good at something",
-   "pos": "v"
+   "pos": "v",
+   "id": 615
   },
   {
    "japanese": "じょうぶ",
    "english": "to be strong, durable",
-   "pos": "v"
+   "pos": "v",
+   "id": 616
   },
   {
    "japanese": "しゃしん",
    "english": "photo",
-   "pos": "n"
+   "pos": "n",
+   "id": 617
   },
   {
    "japanese": "シャツ",
    "english": "shirt",
-   "pos": "n"
+   "pos": "n",
+   "id": 618
   },
   {
    "japanese": "しょくどう",
    "english": "dining room, canteen",
-   "pos": "n"
+   "pos": "n",
+   "id": 619
   },
   {
    "japanese": "しょうゆ",
    "english": "soy sauce",
-   "pos": "n"
+   "pos": "n",
+   "id": 620
   },
   {
    "japanese": "しゅくだい",
    "english": "homework",
-   "pos": "n"
+   "pos": "n",
+   "id": 621
   },
   {
    "japanese": "〜じ",
    "english": "o’clock",
-   "pos": "z"
+   "pos": "z",
+   "id": 622
   },
   {
    "japanese": "〜じかん",
    "english": "~hours (classificator)",
-   "pos": "z"
+   "pos": "z",
+   "id": 623
   },
   {
    "japanese": "〜じん",
    "english": "~an, ~ese (nationality)",
-   "pos": "z"
+   "pos": "z",
+   "id": 624
   },
   {
    "japanese": "〜しゅうかん",
    "english": "… weeks",
-   "pos": "z"
+   "pos": "z",
+   "id": 625
   },
   {
    "japanese": "すいようび",
    "english": "Wednesday",
-   "pos": "a"
+   "pos": "a",
+   "id": 626
   },
   {
    "japanese": "すぐに",
    "english": "at once",
-   "pos": "a"
+   "pos": "a",
+   "id": 627
   },
   {
    "japanese": "すこし",
    "english": "a little",
-   "pos": "a"
+   "pos": "a",
+   "id": 628
   },
   {
    "japanese": "すずしい",
    "english": "cool",
-   "pos": "a"
+   "pos": "a",
+   "id": 629
   },
   {
    "japanese": "スカート",
    "english": "skirt",
-   "pos": "n"
+   "pos": "n",
+   "id": 630
   },
   {
    "japanese": "ストーブ",
    "english": "stove, heater",
-   "pos": "n"
+   "pos": "n",
+   "id": 631
   },
   {
    "japanese": "スプーン",
    "english": "spoon",
-   "pos": "n"
+   "pos": "n",
+   "id": 632
   },
   {
    "japanese": "スポーツ",
    "english": "sports",
-   "pos": "n"
+   "pos": "n",
+   "id": 633
   },
   {
    "japanese": "ズボン",
    "english": "trousers",
-   "pos": "n"
+   "pos": "n",
+   "id": 634
   },
   {
    "japanese": "スリッパ",
    "english": "slipper",
-   "pos": "n"
+   "pos": "n",
+   "id": 635
   },
   {
    "japanese": "すう",
    "english": "to breathe, to smoke",
-   "pos": "v"
+   "pos": "v",
+   "id": 636
   },
   {
    "japanese": "すき",
    "english": "to like",
-   "pos": "v"
+   "pos": "v",
+   "id": 637
   },
   {
    "japanese": "すむ",
    "english": "to live, to reside somewhere",
-   "pos": "v"
+   "pos": "v",
+   "id": 638
   },
   {
    "japanese": "する",
    "english": "to do",
-   "pos": "v"
+   "pos": "v",
+   "id": 639
   },
   {
    "japanese": "すわる",
    "english": "to sit",
-   "pos": "v"
+   "pos": "v",
+   "id": 640
   },
   {
    "japanese": "〜すぎ",
    "english": "past, over",
-   "pos": "z"
+   "pos": "z",
+   "id": 641
+  },
+  {
+   "japanese": "〜ずつ",
+   "english": "each",
+   "pos": "z",
+   "id": 642
+  },
+  {
+   "japanese": "セーター",
+   "english": "sweater",
+   "pos": "a",
+   "id": 643
+  },
+  {
+   "japanese": "せい",
+   "english": "height",
+   "pos": "a",
+   "id": 644
+  },
+  {
+   "japanese": "せいと",
+   "english": "student",
+   "pos": "a",
+   "id": 645
+  },
+  {
+   "japanese": "せっけん",
+   "english": "soap",
+   "pos": "a",
+   "id": 646
+  },
+  {
+   "japanese": "せびろ",
+   "english": "jacket, suit",
+   "pos": "a",
+   "id": 647
+  },
+  {
+   "japanese": "せまい",
+   "english": "narrow",
+   "pos": "a",
+   "id": 648
+  },
+  {
+   "japanese": "ゼロ",
+   "english": "zero",
+   "pos": "a",
+   "id": 649
+  },
+  {
+   "japanese": "せん",
+   "english": "1,000, thousand",
+   "pos": "a",
+   "id": 650
+  },
+  {
+   "japanese": "せんげつ",
+   "english": "last month",
+   "pos": "a",
+   "id": 651
+  },
+  {
+   "japanese": "せんしゅう",
+   "english": "last week",
+   "pos": "a",
+   "id": 652
+  },
+  {
+   "japanese": "せんせい",
+   "english": "teacher",
+   "pos": "a",
+   "id": 653
+  },
+  {
+   "japanese": "ぜんぶ",
+   "english": "all",
+   "pos": "a",
+   "id": 654
+  },
+  {
+   "japanese": "せんたく",
+   "english": "washing, to wash",
+   "pos": "v",
+   "id": 655
+  },
+  {
+   "japanese": "そう",
+   "english": "so",
+   "pos": "a",
+   "id": 656
+  },
+  {
+   "japanese": "そうして",
+   "english": "and then",
+   "pos": "a",
+   "id": 657
+  },
+  {
+   "japanese": "そこ",
+   "english": "there",
+   "pos": "a",
+   "id": 658
+  },
+  {
+   "japanese": "そちら",
+   "english": "there (polite)",
+   "pos": "a",
+   "id": 659
+  },
+  {
+   "japanese": "そと",
+   "english": "outside",
+   "pos": "a",
+   "id": 660
+  },
+  {
+   "japanese": "その",
+   "english": "that…",
+   "pos": "a",
+   "id": 661
+  },
+  {
+   "japanese": "そば",
+   "english": "next to",
+   "pos": "a",
+   "id": 662
+  },
+  {
+   "japanese": "そら",
+   "english": "sky",
+   "pos": "a",
+   "id": 663
+  },
+  {
+   "japanese": "それ",
+   "english": "that",
+   "pos": "a",
+   "id": 664
+  },
+  {
+   "japanese": "それから",
+   "english": "after that",
+   "pos": "a",
+   "id": 665
+  },
+  {
+   "japanese": "それでは",
+   "english": "then, well",
+   "pos": "a",
+   "id": 666
+  },
+  {
+   "japanese": "そうじ",
+   "english": "to clean",
+   "pos": "v",
+   "id": 667
+  },
+  {
+   "japanese": "〜たち",
+   "english": "more than one, and others",
+   "pos": "a",
+   "id": 668
+  },
+  {
+   "japanese": "だいがく",
+   "english": "university",
+   "pos": "a",
+   "id": 669
+  },
+  {
+   "japanese": "たいしかん",
+   "english": "embassy",
+   "pos": "a",
+   "id": 670
+  },
+  {
+   "japanese": "だいじょうぶ",
+   "english": "OK",
+   "pos": "a",
+   "id": 671
+  },
+  {
+   "japanese": "たいせつ",
+   "english": "very important",
+   "pos": "a",
+   "id": 672
+  },
+  {
+   "japanese": "たいてい",
+   "english": "mostly, usually",
+   "pos": "a",
+   "id": 673
+  },
+  {
+   "japanese": "だいどころ",
+   "english": "kitchen",
+   "pos": "a",
+   "id": 674
+  },
+  {
+   "japanese": "たいへん",
+   "english": "very, serious",
+   "pos": "a",
+   "id": 675
+  },
+  {
+   "japanese": "たかい",
+   "english": "high, expensive",
+   "pos": "a",
+   "id": 676
+  },
+  {
+   "japanese": "たくさん",
+   "english": "many, much",
+   "pos": "a",
+   "id": 677
+  },
+  {
+   "japanese": "タクシー",
+   "english": "taxi",
+   "pos": "a",
+   "id": 678
+  },
+  {
+   "japanese": "たてもの",
+   "english": "building",
+   "pos": "a",
+   "id": 679
+  },
+  {
+   "japanese": "たのしい",
+   "english": "pleasant, enjoyable",
+   "pos": "a",
+   "id": 680
+  },
+  {
+   "japanese": "たばこ",
+   "english": "cigarette",
+   "pos": "a",
+   "id": 681
+  },
+  {
+   "japanese": "たぶん",
+   "english": "perhaps, probably",
+   "pos": "a",
+   "id": 682
+  },
+  {
+   "japanese": "たべもの",
+   "english": "food",
+   "pos": "a",
+   "id": 683
+  },
+  {
+   "japanese": "たまご",
+   "english": "egg",
+   "pos": "a",
+   "id": 684
+  },
+  {
+   "japanese": "だれ",
+   "english": "who?",
+   "pos": "a",
+   "id": 685
+  },
+  {
+   "japanese": "たんじょうび",
+   "english": "birthday",
+   "pos": "a",
+   "id": 686
+  },
+  {
+   "japanese": "だんだん",
+   "english": "gradually",
+   "pos": "a",
+   "id": 687
+  },
+  {
+   "japanese": "だいすき",
+   "english": "to be very fond of",
+   "pos": "v",
+   "id": 688
+  },
+  {
+   "japanese": "だす",
+   "english": "to take out, hand in",
+   "pos": "v",
+   "id": 689
+  },
+  {
+   "japanese": "たつ",
+   "english": "to stand",
+   "pos": "v",
+   "id": 690
+  },
+  {
+   "japanese": "たのむ",
+   "english": "to ask, to request",
+   "pos": "v",
+   "id": 691
+  },
+  {
+   "japanese": "たべる",
+   "english": "to eat",
+   "pos": "v",
+   "id": 692
+  },
+  {
+   "japanese": "〜だい",
+   "english": "counter for machines",
+   "pos": "z",
+   "id": 693
+  },
+  {
+   "japanese": "ちいさい",
+   "english": "small",
+   "pos": "u",
+   "id": 694
+  },
+  {
+   "japanese": "ちかい",
+   "english": "near, close",
+   "pos": "u",
+   "id": 695
+  },
+  {
+   "japanese": "ちがう",
+   "english": "different",
+   "pos": "u",
+   "id": 696
+  },
+  {
+   "japanese": "ちかてつ",
+   "english": "subway",
+   "pos": "u",
+   "id": 697
+  },
+  {
+   "japanese": "ちず",
+   "english": "map",
+   "pos": "u",
+   "id": 698
+  },
+  {
+   "japanese": "ちち",
+   "english": "my father",
+   "pos": "u",
+   "id": 699
+  },
+  {
+   "japanese": "ちゃいろ",
+   "english": "brown",
+   "pos": "u",
+   "id": 700
+  },
+  {
+   "japanese": "ちゃわん",
+   "english": "rice bowl",
+   "pos": "u",
+   "id": 701
+  },
+  {
+   "japanese": "〜ちゅう",
+   "english": "in the middle of",
+   "pos": "u",
+   "id": 702
+  },
+  {
+   "japanese": "ちょうど",
+   "english": "just",
+   "pos": "u",
+   "id": 703
+  },
+  {
+   "japanese": "ちょっと",
+   "english": "a little",
+   "pos": "u",
+   "id": 704
+  },
+  {
+   "japanese": "ついたち",
+   "english": "the 1st day of a month",
+   "pos": "a",
+   "id": 705
+  },
+  {
+   "japanese": "つぎ",
+   "english": "next",
+   "pos": "a",
+   "id": 706
+  },
+  {
+   "japanese": "つくえ",
+   "english": "table",
+   "pos": "a",
+   "id": 707
+  },
+  {
+   "japanese": "つまらない",
+   "english": "uninteresting",
+   "pos": "a",
+   "id": 708
+  },
+  {
+   "japanese": "つめたい",
+   "english": "cold",
+   "pos": "a",
+   "id": 709
+  },
+  {
+   "japanese": "つよい",
+   "english": "strong",
+   "pos": "a",
+   "id": 710
+  },
+  {
+   "japanese": "つかう",
+   "english": "to use",
+   "pos": "v",
+   "id": 711
+  },
+  {
+   "japanese": "つかれる",
+   "english": "to get tired",
+   "pos": "v",
+   "id": 712
+  },
+  {
+   "japanese": "つく",
+   "english": "to arrive",
+   "pos": "v",
+   "id": 713
+  },
+  {
+   "japanese": "つくる",
+   "english": "to make, to produce",
+   "pos": "v",
+   "id": 714
+  },
+  {
+   "japanese": "つける",
+   "english": "to turn on",
+   "pos": "v",
+   "id": 715
+  },
+  {
+   "japanese": "つとめる",
+   "english": "to work for someone",
+   "pos": "v",
+   "id": 716
+  },
+  {
+   "japanese": "て",
+   "english": "hand",
+   "pos": "a",
+   "id": 717
+  },
+  {
+   "japanese": "テープ",
+   "english": "tape",
+   "pos": "a",
+   "id": 718
+  },
+  {
+   "japanese": "テーブル",
+   "english": "table",
+   "pos": "a",
+   "id": 719
+  },
+  {
+   "japanese": "テープレコーダー",
+   "english": "tape recorder",
+   "pos": "a",
+   "id": 720
+  },
+  {
+   "japanese": "てがみ",
+   "english": "letter",
+   "pos": "a",
+   "id": 721
+  },
+  {
+   "japanese": "できる",
+   "english": "can",
+   "pos": "a",
+   "id": 722
+  },
+  {
+   "japanese": "でぐち",
+   "english": "exit",
+   "pos": "a",
+   "id": 723
+  },
+  {
+   "japanese": "テスト",
+   "english": "test",
+   "pos": "a",
+   "id": 724
+  },
+  {
+   "japanese": "では",
+   "english": "then, well",
+   "pos": "a",
+   "id": 725
+  },
+  {
+   "japanese": "デパート",
+   "english": "department store",
+   "pos": "a",
+   "id": 726
+  },
+  {
+   "japanese": "でも",
+   "english": "but",
+   "pos": "a",
+   "id": 727
+  },
+  {
+   "japanese": "テレビ",
+   "english": "TV",
+   "pos": "a",
+   "id": 728
+  },
+  {
+   "japanese": "てんき",
+   "english": "weather",
+   "pos": "a",
+   "id": 729
+  },
+  {
+   "japanese": "でんき",
+   "english": "electricity",
+   "pos": "a",
+   "id": 730
+  },
+  {
+   "japanese": "でんしゃ",
+   "english": "train",
+   "pos": "a",
+   "id": 731
+  },
+  {
+   "japanese": "でんわ",
+   "english": "phone",
+   "pos": "a",
+   "id": 732
+  },
+  {
+   "japanese": "でかける",
+   "english": "to go out",
+   "pos": "v",
+   "id": 733
+  },
+  {
+   "japanese": "でます",
+   "english": "to leave",
+   "pos": "v",
+   "id": 734
+  },
+  {
+   "japanese": "と",
+   "english": "door",
+   "pos": "u",
+   "id": 735
+  },
+  {
+   "japanese": "〜ど",
+   "english": "~times, ~degree",
+   "pos": "u",
+   "id": 736
+  },
+  {
+   "japanese": "ドア",
+   "english": "door",
+   "pos": "u",
+   "id": 737
+  },
+  {
+   "japanese": "トイレ",
+   "english": "toilet, lavatory",
+   "pos": "u",
+   "id": 738
+  },
+  {
+   "japanese": "どう",
+   "english": "how?",
+   "pos": "u",
+   "id": 739
+  },
+  {
+   "japanese": "どうして",
+   "english": "why?",
+   "pos": "u",
+   "id": 740
+  },
+  {
+   "japanese": "どうぞ",
+   "english": "please, here you are",
+   "pos": "u",
+   "id": 741
+  },
+  {
+   "japanese": "どうぶつ",
+   "english": "animal",
+   "pos": "u",
+   "id": 742
+  },
+  {
+   "japanese": "どうも",
+   "english": "thanks",
+   "pos": "u",
+   "id": 743
+  },
+  {
+   "japanese": "とお",
+   "english": "ten",
+   "pos": "u",
+   "id": 744
+  },
+  {
+   "japanese": "とおい",
+   "english": "far",
+   "pos": "u",
+   "id": 745
+  },
+  {
+   "japanese": "とおか",
+   "english": "the 10th day of a month, 10 days",
+   "pos": "u",
+   "id": 746
+  },
+  {
+   "japanese": "ときどき",
+   "english": "sometimes",
+   "pos": "u",
+   "id": 747
+  },
+  {
+   "japanese": "とけい",
+   "english": "watch, clock",
+   "pos": "u",
+   "id": 748
+  },
+  {
+   "japanese": "どこ",
+   "english": "where?",
+   "pos": "u",
+   "id": 749
+  },
+  {
+   "japanese": "ところ",
+   "english": "place",
+   "pos": "u",
+   "id": 750
+  },
+  {
+   "japanese": "としょかん",
+   "english": "library",
+   "pos": "u",
+   "id": 751
+  },
+  {
+   "japanese": "どちら",
+   "english": "which, where (polite)",
+   "pos": "u",
+   "id": 752
+  },
+  {
+   "japanese": "とても",
+   "english": "very much, quiet",
+   "pos": "u",
+   "id": 753
+  },
+  {
+   "japanese": "どなた",
+   "english": "who (polite)",
+   "pos": "u",
+   "id": 754
+  },
+  {
+   "japanese": "となり",
+   "english": "next to",
+   "pos": "u",
+   "id": 755
+  },
+  {
+   "japanese": "どの",
+   "english": "which?",
+   "pos": "u",
+   "id": 756
+  },
+  {
+   "japanese": "とぶ",
+   "english": "to fly",
+   "pos": "u",
+   "id": 757
+  },
+  {
+   "japanese": "とまる",
+   "english": "to stop",
+   "pos": "u",
+   "id": 758
+  },
+  {
+   "japanese": "ともだち",
+   "english": "friend",
+   "pos": "u",
+   "id": 759
+  },
+  {
+   "japanese": "どようび",
+   "english": "Saturday",
+   "pos": "u",
+   "id": 760
+  },
+  {
+   "japanese": "とり",
+   "english": "bird",
+   "pos": "u",
+   "id": 761
+  },
+  {
+   "japanese": "とりにく",
+   "english": "chicken meat",
+   "pos": "u",
+   "id": 762
+  },
+  {
+   "japanese": "とる",
+   "english": "to take",
+   "pos": "u",
+   "id": 763
+  },
+  {
+   "japanese": "とる",
+   "english": "to take a photo",
+   "pos": "u",
+   "id": 764
+  },
+  {
+   "japanese": "どれ",
+   "english": "which?",
+   "pos": "u",
+   "id": 765
+  },
+  {
+   "japanese": "どんな",
+   "english": "what kind of?",
+   "pos": "u",
+   "id": 766
+  },
+  {
+   "japanese": "ナイフ",
+   "english": "knife",
+   "pos": "u",
+   "id": 767
+  },
+  {
+   "japanese": "なか",
+   "english": "inside",
+   "pos": "u",
+   "id": 768
+  },
+  {
+   "japanese": "ながい",
+   "english": "long",
+   "pos": "u",
+   "id": 769
+  },
+  {
+   "japanese": "なく",
+   "english": "to sing, mew, moo",
+   "pos": "u",
+   "id": 770
+  },
+  {
+   "japanese": "なつ",
+   "english": "summer",
+   "pos": "u",
+   "id": 771
+  },
+  {
+   "japanese": "なつやすみ",
+   "english": "summer vacation",
+   "pos": "u",
+   "id": 772
+  },
+  {
+   "japanese": "〜など",
+   "english": "and so on",
+   "pos": "u",
+   "id": 773
+  },
+  {
+   "japanese": "ななつ",
+   "english": "seven",
+   "pos": "u",
+   "id": 774
+  },
+  {
+   "japanese": "なに",
+   "english": "what?",
+   "pos": "u",
+   "id": 775
+  },
+  {
+   "japanese": "なのか",
+   "english": "the 7th of a month, 7 days",
+   "pos": "u",
+   "id": 776
+  },
+  {
+   "japanese": "なまえ",
+   "english": "name",
+   "pos": "u",
+   "id": 777
+  },
+  {
+   "japanese": "ならう",
+   "english": "to learn",
+   "pos": "u",
+   "id": 778
+  },
+  {
+   "japanese": "ならぶ",
+   "english": "to form a line",
+   "pos": "u",
+   "id": 779
+  },
+  {
+   "japanese": "ならべる",
+   "english": "to line up",
+   "pos": "u",
+   "id": 780
+  },
+  {
+   "japanese": "なる",
+   "english": "to become",
+   "pos": "u",
+   "id": 781
+  },
+  {
+   "japanese": "に",
+   "english": "two",
+   "pos": "u",
+   "id": 782
+  },
+  {
+   "japanese": "にぎやか",
+   "english": "lively",
+   "pos": "u",
+   "id": 783
+  },
+  {
+   "japanese": "おにく",
+   "english": "meat",
+   "pos": "u",
+   "id": 784
+  },
+  {
+   "japanese": "にし",
+   "english": "west",
+   "pos": "u",
+   "id": 785
+  },
+  {
+   "japanese": "〜にち",
+   "english": "…st, ..nd, ..th",
+   "pos": "u",
+   "id": 786
+  },
+  {
+   "japanese": "にちようび",
+   "english": "Sunday",
+   "pos": "u",
+   "id": 787
+  },
+  {
+   "japanese": "にもつ",
+   "english": "luggage",
+   "pos": "u",
+   "id": 788
+  },
+  {
+   "japanese": "ニュース",
+   "english": "news",
+   "pos": "u",
+   "id": 789
+  },
+  {
+   "japanese": "にわ",
+   "english": "garden",
+   "pos": "u",
+   "id": 790
+  },
+  {
+   "japanese": "~にん",
+   "english": "… people",
+   "pos": "u",
+   "id": 791
+  },
+  {
+   "japanese": "ぬぐ",
+   "english": "to take off clothes",
+   "pos": "u",
+   "id": 792
+  },
+  {
+   "japanese": "ネクタイ",
+   "english": "necktie",
+   "pos": "u",
+   "id": 793
+  },
+  {
+   "japanese": "ねる",
+   "english": "to go to bed",
+   "pos": "u",
+   "id": 794
+  },
+  {
+   "japanese": "〜ねん",
+   "english": "~years",
+   "pos": "u",
+   "id": 795
+  },
+  {
+   "japanese": "ノート",
+   "english": "notebook",
+   "pos": "u",
+   "id": 796
+  },
+  {
+   "japanese": "のぼる",
+   "english": "to climb up",
+   "pos": "u",
+   "id": 797
+  },
+  {
+   "japanese": "のみもの",
+   "english": "drinks",
+   "pos": "u",
+   "id": 798
+  },
+  {
+   "japanese": "のむ",
+   "english": "to drink",
+   "pos": "u",
+   "id": 799
+  },
+  {
+   "japanese": "のる",
+   "english": "to take, to ride",
+   "pos": "u",
+   "id": 800
+  },
+  {
+   "japanese": "は",
+   "english": "teeth",
+   "pos": "u",
+   "id": 801
+  },
+  {
+   "japanese": "パーテイー",
+   "english": "party",
+   "pos": "u",
+   "id": 802
+  },
+  {
+   "japanese": "はい",
+   "english": "yes",
+   "pos": "u",
+   "id": 803
+  },
+  {
+   "japanese": "〜はい",
+   "english": "cups of ~",
+   "pos": "u",
+   "id": 804
+  },
+  {
+   "japanese": "はいざら",
+   "english": "ashtray",
+   "pos": "u",
+   "id": 805
+  },
+  {
+   "japanese": "はいる",
+   "english": "to enter",
+   "pos": "u",
+   "id": 806
+  },
+  {
+   "japanese": "はがき",
+   "english": "postcard",
+   "pos": "u",
+   "id": 807
+  },
+  {
+   "japanese": "はく",
+   "english": "to put on shoes",
+   "pos": "u",
+   "id": 808
+  },
+  {
+   "japanese": "はこ",
+   "english": "box",
+   "pos": "u",
+   "id": 809
+  },
+  {
+   "japanese": "はし",
+   "english": "bridge",
+   "pos": "u",
+   "id": 810
+  },
+  {
+   "japanese": "はし",
+   "english": "chopsticks",
+   "pos": "u",
+   "id": 811
+  },
+  {
+   "japanese": "はじまる",
+   "english": "to begin, to start",
+   "pos": "u",
+   "id": 812
+  },
+  {
+   "japanese": "はじめ",
+   "english": "start, the beginning",
+   "pos": "u",
+   "id": 813
+  },
+  {
+   "japanese": "はじめて",
+   "english": "for the first time",
+   "pos": "u",
+   "id": 814
+  },
+  {
+   "japanese": "はしる",
+   "english": "to run",
+   "pos": "u",
+   "id": 815
+  },
+  {
+   "japanese": "バス",
+   "english": "bus",
+   "pos": "u",
+   "id": 816
+  },
+  {
+   "japanese": "バター",
+   "english": "butter",
+   "pos": "u",
+   "id": 817
+  },
+  {
+   "japanese": "はたち",
+   "english": "20 years old",
+   "pos": "u",
+   "id": 818
+  },
+  {
+   "japanese": "はたらく",
+   "english": "to work",
+   "pos": "u",
+   "id": 819
+  },
+  {
+   "japanese": "はち",
+   "english": "eight",
+   "pos": "u",
+   "id": 820
+  },
+  {
+   "japanese": "はつか",
+   "english": "the 20th of the month, 20 days",
+   "pos": "u",
+   "id": 821
+  },
+  {
+   "japanese": "はな",
+   "english": "flower",
+   "pos": "u",
+   "id": 822
+  },
+  {
+   "japanese": "はな",
+   "english": "nose",
+   "pos": "u",
+   "id": 823
+  },
+  {
+   "japanese": "はなし",
+   "english": "conversation, tale",
+   "pos": "u",
+   "id": 824
+  },
+  {
+   "japanese": "はなす",
+   "english": "to talk, to speak, to tell",
+   "pos": "u",
+   "id": 825
+  },
+  {
+   "japanese": "はは",
+   "english": "my mother",
+   "pos": "u",
+   "id": 826
+  },
+  {
+   "japanese": "はやい",
+   "english": "early",
+   "pos": "u",
+   "id": 827
+  },
+  {
+   "japanese": "はやい",
+   "english": "fast, quick",
+   "pos": "u",
+   "id": 828
+  },
+  {
+   "japanese": "はる",
+   "english": "spring",
+   "pos": "u",
+   "id": 829
+  },
+  {
+   "japanese": "はる",
+   "english": "to put something on, to stick",
+   "pos": "u",
+   "id": 830
+  },
+  {
+   "japanese": "はれる",
+   "english": "to clear up",
+   "pos": "u",
+   "id": 831
+  },
+  {
+   "japanese": "〜はん",
+   "english": "Half~",
+   "pos": "u",
+   "id": 832
+  },
+  {
+   "japanese": "ばん",
+   "english": "evening",
+   "pos": "u",
+   "id": 833
+  },
+  {
+   "japanese": "〜ばん",
+   "english": "No.~, ranking",
+   "pos": "u",
+   "id": 834
+  },
+  {
+   "japanese": "パン",
+   "english": "bread",
+   "pos": "u",
+   "id": 835
+  },
+  {
+   "japanese": "ハンカチ",
+   "english": "handkerchief",
+   "pos": "u",
+   "id": 836
+  },
+  {
+   "japanese": "ばんごう",
+   "english": "number",
+   "pos": "u",
+   "id": 837
+  },
+  {
+   "japanese": "ばんごはん",
+   "english": "dinner",
+   "pos": "u",
+   "id": 838
+  },
+  {
+   "japanese": "はんぶん",
+   "english": "half",
+   "pos": "u",
+   "id": 839
+  },
+  {
+   "japanese": "ひがし",
+   "english": "east",
+   "pos": "u",
+   "id": 840
+  },
+  {
+   "japanese": "〜ひき",
+   "english": "counter for animals",
+   "pos": "u",
+   "id": 841
+  },
+  {
+   "japanese": "ひく",
+   "english": "to pull",
+   "pos": "u",
+   "id": 842
+  },
+  {
+   "japanese": "ひく",
+   "english": "to play (an instrument)",
+   "pos": "u",
+   "id": 843
+  },
+  {
+   "japanese": "ひくい",
+   "english": "low",
+   "pos": "u",
+   "id": 844
+  },
+  {
+   "japanese": "ひこうき",
+   "english": "plane",
+   "pos": "u",
+   "id": 845
+  },
+  {
+   "japanese": "ひだり",
+   "english": "left",
+   "pos": "u",
+   "id": 846
+  },
+  {
+   "japanese": "ひと",
+   "english": "person",
+   "pos": "u",
+   "id": 847
+  },
+  {
+   "japanese": "ひとつ",
+   "english": "one",
+   "pos": "u",
+   "id": 848
+  },
+  {
+   "japanese": "ひとつき",
+   "english": "one month",
+   "pos": "u",
+   "id": 849
+  },
+  {
+   "japanese": "ひとり",
+   "english": "one person",
+   "pos": "u",
+   "id": 850
+  },
+  {
+   "japanese": "ひま",
+   "english": "free time, leisure",
+   "pos": "u",
+   "id": 851
+  },
+  {
+   "japanese": "ひゃく",
+   "english": "hundred",
+   "pos": "u",
+   "id": 852
+  },
+  {
+   "japanese": "びょういん",
+   "english": "hospital",
+   "pos": "u",
+   "id": 853
+  },
+  {
+   "japanese": "びょうき",
+   "english": "ill, sick",
+   "pos": "u",
+   "id": 854
+  },
+  {
+   "japanese": "ひらがな",
+   "english": "hiragana characters",
+   "pos": "u",
+   "id": 855
+  },
+  {
+   "japanese": "ひる",
+   "english": "noon",
+   "pos": "u",
+   "id": 856
+  },
+  {
+   "japanese": "ひるごはん",
+   "english": "lunch",
+   "pos": "u",
+   "id": 857
+  },
+  {
+   "japanese": "ひろい",
+   "english": "wide, spacious",
+   "pos": "u",
+   "id": 858
+  },
+  {
+   "japanese": "フィルム",
+   "english": "film",
+   "pos": "u",
+   "id": 859
+  },
+  {
+   "japanese": "ふうとう",
+   "english": "envelope",
+   "pos": "u",
+   "id": 860
+  },
+  {
+   "japanese": "プール",
+   "english": "pool",
+   "pos": "u",
+   "id": 861
+  },
+  {
+   "japanese": "フォーク",
+   "english": "fork",
+   "pos": "u",
+   "id": 862
+  },
+  {
+   "japanese": "ふく",
+   "english": "to blow (wind)",
+   "pos": "u",
+   "id": 863
+  },
+  {
+   "japanese": "ふく",
+   "english": "clothes",
+   "pos": "u",
+   "id": 864
+  },
+  {
+   "japanese": "ふたつ",
+   "english": "two",
+   "pos": "u",
+   "id": 865
+  },
+  {
+   "japanese": "ぶたにく",
+   "english": "pork",
+   "pos": "u",
+   "id": 866
+  },
+  {
+   "japanese": "ふたり",
+   "english": "two people",
+   "pos": "u",
+   "id": 867
+  },
+  {
+   "japanese": "ふつか",
+   "english": "2nd day of the month, 2 days",
+   "pos": "u",
+   "id": 868
+  },
+  {
+   "japanese": "ふとい",
+   "english": "thick, fat",
+   "pos": "u",
+   "id": 869
+  },
+  {
+   "japanese": "ふる",
+   "english": "to fall (rain, snow)",
+   "pos": "u",
+   "id": 870
+  },
+  {
+   "japanese": "ふるい",
+   "english": "old",
+   "pos": "u",
+   "id": 871
+  },
+  {
+   "japanese": "おふろ",
+   "english": "bath",
+   "pos": "u",
+   "id": 872
+  },
+  {
+   "japanese": "〜ふん",
+   "english": "~minutes",
+   "pos": "u",
+   "id": 873
+  },
+  {
+   "japanese": "ページ",
+   "english": "page",
+   "pos": "u",
+   "id": 874
+  },
+  {
+   "japanese": "へた",
+   "english": "not good at something",
+   "pos": "u",
+   "id": 875
+  },
+  {
+   "japanese": "ベッド",
+   "english": "bed",
+   "pos": "u",
+   "id": 876
+  },
+  {
+   "japanese": "へや",
+   "english": "room",
+   "pos": "u",
+   "id": 877
+  },
+  {
+   "japanese": "へん",
+   "english": "side, part, area",
+   "pos": "u",
+   "id": 878
+  },
+  {
+   "japanese": "ぺん",
+   "english": "pen",
+   "pos": "u",
+   "id": 879
+  },
+  {
+   "japanese": "べんきょう",
+   "english": "to study",
+   "pos": "u",
+   "id": 880
+  },
+  {
+   "japanese": "べんり",
+   "english": "convenient",
+   "pos": "u",
+   "id": 881
+  },
+  {
+   "japanese": "ほう",
+   "english": "~より〜のほうが〜",
+   "pos": "u",
+   "id": 882
+  },
+  {
+   "japanese": "ぼうし",
+   "english": "hat",
+   "pos": "u",
+   "id": 883
+  },
+  {
+   "japanese": "ボールペン",
+   "english": "ballpen",
+   "pos": "u",
+   "id": 884
+  },
+  {
+   "japanese": "ほか",
+   "english": "another, other",
+   "pos": "u",
+   "id": 885
+  },
+  {
+   "japanese": "ポケット",
+   "english": "pocket",
+   "pos": "u",
+   "id": 886
+  },
+  {
+   "japanese": "ほしい",
+   "english": "to want something",
+   "pos": "u",
+   "id": 887
+  },
+  {
+   "japanese": "ほそい",
+   "english": "thin, fine",
+   "pos": "u",
+   "id": 888
+  },
+  {
+   "japanese": "ボタン",
+   "english": "button",
+   "pos": "u",
+   "id": 889
+  },
+  {
+   "japanese": "ホテル",
+   "english": "hotel",
+   "pos": "u",
+   "id": 890
+  },
+  {
+   "japanese": "ほん",
+   "english": "book",
+   "pos": "u",
+   "id": 891
+  },
+  {
+   "japanese": "~ほん",
+   "english": "counter for long objects",
+   "pos": "u",
+   "id": 892
+  },
+  {
+   "japanese": "ほんだな",
+   "english": "bookshelf",
+   "pos": "u",
+   "id": 893
+  },
+  {
+   "japanese": "ほんとうに",
+   "english": "really",
+   "pos": "u",
+   "id": 894
+  },
+  {
+   "japanese": "〜まい",
+   "english": "counter for thin objects",
+   "pos": "u",
+   "id": 895
+  },
+  {
+   "japanese": "まいあさ",
+   "english": "every morning",
+   "pos": "u",
+   "id": 896
+  },
+  {
+   "japanese": "まいつき/まいげつ",
+   "english": "every month",
+   "pos": "u",
+   "id": 897
+  },
+  {
+   "japanese": "まいしゅう",
+   "english": "every week",
+   "pos": "u",
+   "id": 898
+  },
+  {
+   "japanese": "まいにち",
+   "english": "every day",
+   "pos": "u",
+   "id": 899
+  },
+  {
+   "japanese": "まいとし/まいねん",
+   "english": "every year",
+   "pos": "u",
+   "id": 900
+  },
+  {
+   "japanese": "まいばん",
+   "english": "every evening",
+   "pos": "u",
+   "id": 901
+  },
+  {
+   "japanese": "まえ",
+   "english": "front",
+   "pos": "u",
+   "id": 902
+  },
+  {
+   "japanese": "〜まえ",
+   "english": "before, in front of",
+   "pos": "u",
+   "id": 903
+  },
+  {
+   "japanese": "まがる",
+   "english": "to turn",
+   "pos": "u",
+   "id": 904
+  },
+  {
+   "japanese": "まずい",
+   "english": "bad tasting",
+   "pos": "u",
+   "id": 905
+  },
+  {
+   "japanese": "また",
+   "english": "also, again",
+   "pos": "u",
+   "id": 906
+  },
+  {
+   "japanese": "まだ",
+   "english": "not yet",
+   "pos": "u",
+   "id": 907
+  },
+  {
+   "japanese": "まち",
+   "english": "city, town",
+   "pos": "u",
+   "id": 908
+  },
+  {
+   "japanese": "まつ",
+   "english": "to wait",
+   "pos": "u",
+   "id": 909
+  },
+  {
+   "japanese": "まっすぐに",
+   "english": "straight ahead",
+   "pos": "u",
+   "id": 910
+  },
+  {
+   "japanese": "マッチ",
+   "english": "matches",
+   "pos": "u",
+   "id": 911
+  },
+  {
+   "japanese": "まど",
+   "english": "window",
+   "pos": "u",
+   "id": 912
+  },
+  {
+   "japanese": "まるい",
+   "english": "round",
+   "pos": "u",
+   "id": 913
+  },
+  {
+   "japanese": "まん",
+   "english": "ten thousand",
+   "pos": "u",
+   "id": 914
+  },
+  {
+   "japanese": "まんねんひつ",
+   "english": "fountain pen",
+   "pos": "u",
+   "id": 915
+  },
+  {
+   "japanese": "みがく",
+   "english": "to polish, to brush",
+   "pos": "u",
+   "id": 916
+  },
+  {
+   "japanese": "みぎ",
+   "english": "right",
+   "pos": "u",
+   "id": 917
+  },
+  {
+   "japanese": "みじかい",
+   "english": "short",
+   "pos": "u",
+   "id": 918
+  },
+  {
+   "japanese": "おみず",
+   "english": "water",
+   "pos": "u",
+   "id": 919
+  },
+  {
+   "japanese": "みせ",
+   "english": "shop",
+   "pos": "u",
+   "id": 920
+  },
+  {
+   "japanese": "みせる",
+   "english": "to look, to watch",
+   "pos": "u",
+   "id": 921
+  },
+  {
+   "japanese": "みち",
+   "english": "road",
+   "pos": "u",
+   "id": 922
+  },
+  {
+   "japanese": "みっか",
+   "english": "3rd day of a month, 3 days",
+   "pos": "u",
+   "id": 923
+  },
+  {
+   "japanese": "みっつ",
+   "english": "three",
+   "pos": "u",
+   "id": 924
+  },
+  {
+   "japanese": "みなさん",
+   "english": "everyone",
+   "pos": "u",
+   "id": 925
+  },
+  {
+   "japanese": "みなみ",
+   "english": "south",
+   "pos": "u",
+   "id": 926
+  },
+  {
+   "japanese": "みみ",
+   "english": "ear",
+   "pos": "u",
+   "id": 927
+  },
+  {
+   "japanese": "みる",
+   "english": "to see, to watch",
+   "pos": "u",
+   "id": 928
+  },
+  {
+   "japanese": "みんな",
+   "english": "all, everyone",
+   "pos": "u",
+   "id": 929
+  },
+  {
+   "japanese": "むいか",
+   "english": "the 6th day of a month, 6 days",
+   "pos": "u",
+   "id": 930
+  },
+  {
+   "japanese": "むこう",
+   "english": "over there",
+   "pos": "u",
+   "id": 931
+  },
+  {
+   "japanese": "むずかしい",
+   "english": "difficult",
+   "pos": "u",
+   "id": 932
+  },
+  {
+   "japanese": "むっつ",
+   "english": "six",
+   "pos": "u",
+   "id": 933
+  },
+  {
+   "japanese": "め",
+   "english": "eye",
+   "pos": "u",
+   "id": 934
+  },
+  {
+   "japanese": "メートル",
+   "english": "meter",
+   "pos": "u",
+   "id": 935
+  },
+  {
+   "japanese": "めがね",
+   "english": "a pair of glasses",
+   "pos": "u",
+   "id": 936
+  },
+  {
+   "japanese": "もう",
+   "english": "already, yet",
+   "pos": "u",
+   "id": 937
+  },
+  {
+   "japanese": "もう",
+   "english": "(one) more",
+   "pos": "u",
+   "id": 938
+  },
+  {
+   "japanese": "もくようび",
+   "english": "Thursday",
+   "pos": "u",
+   "id": 939
+  },
+  {
+   "japanese": "もしもし",
+   "english": "hello on the phone",
+   "pos": "u",
+   "id": 940
+  },
+  {
+   "japanese": "もちろん",
+   "english": "of course",
+   "pos": "u",
+   "id": 941
+  },
+  {
+   "japanese": "もつ",
+   "english": "to have, to own",
+   "pos": "u",
+   "id": 942
+  },
+  {
+   "japanese": "もっと",
+   "english": "more",
+   "pos": "u",
+   "id": 943
+  },
+  {
+   "japanese": "もの",
+   "english": "thing",
+   "pos": "u",
+   "id": 944
+  },
+  {
+   "japanese": "もん",
+   "english": "gate",
+   "pos": "u",
+   "id": 945
+  },
+  {
+   "japanese": "もんだい",
+   "english": "problem, question",
+   "pos": "u",
+   "id": 946
+  },
+  {
+   "japanese": "〜や",
+   "english": "shop. store",
+   "pos": "u",
+   "id": 947
+  },
+  {
+   "japanese": "やおや",
+   "english": "vegetable shop",
+   "pos": "u",
+   "id": 948
+  },
+  {
+   "japanese": "やさい",
+   "english": "vegetable",
+   "pos": "u",
+   "id": 949
+  },
+  {
+   "japanese": "やさしい",
+   "english": "gentle",
+   "pos": "u",
+   "id": 950
+  },
+  {
+   "japanese": "やすい",
+   "english": "cheap, inexpensive",
+   "pos": "u",
+   "id": 951
+  },
+  {
+   "japanese": "やすみ",
+   "english": "holiday, vacation",
+   "pos": "u",
+   "id": 952
+  },
+  {
+   "japanese": "やすむ",
+   "english": "to rest",
+   "pos": "u",
+   "id": 953
+  },
+  {
+   "japanese": "やっつ",
+   "english": "eight",
+   "pos": "u",
+   "id": 954
+  },
+  {
+   "japanese": "やま",
+   "english": "mountain",
+   "pos": "u",
+   "id": 955
+  },
+  {
+   "japanese": "やる",
+   "english": "to do",
+   "pos": "u",
+   "id": 956
+  },
+  {
+   "japanese": "ようか",
+   "english": "8th day of the month, 8 days",
+   "pos": "u",
+   "id": 957
+  },
+  {
+   "japanese": "ようふく",
+   "english": "western style clothing",
+   "pos": "u",
+   "id": 958
+  },
+  {
+   "japanese": "よく",
+   "english": "often",
+   "pos": "u",
+   "id": 959
+  },
+  {
+   "japanese": "よこ",
+   "english": "horizontal",
+   "pos": "u",
+   "id": 960
+  },
+  {
+   "japanese": "よっか",
+   "english": "4th day of the month, 4 days",
+   "pos": "u",
+   "id": 961
+  },
+  {
+   "japanese": "よっつ",
+   "english": "four",
+   "pos": "u",
+   "id": 962
+  },
+  {
+   "japanese": "よぶ",
+   "english": "to call",
+   "pos": "u",
+   "id": 963
+  },
+  {
+   "japanese": "よむ",
+   "english": "to read",
+   "pos": "u",
+   "id": 964
+  },
+  {
+   "japanese": "よる",
+   "english": "night",
+   "pos": "u",
+   "id": 965
+  },
+  {
+   "japanese": "らいげつ",
+   "english": "next month",
+   "pos": "u",
+   "id": 966
+  },
+  {
+   "japanese": "らいしゅう",
+   "english": "next week",
+   "pos": "u",
+   "id": 967
+  },
+  {
+   "japanese": "らいねん",
+   "english": "next year",
+   "pos": "u",
+   "id": 968
+  },
+  {
+   "japanese": "ラジオ",
+   "english": "radio",
+   "pos": "u",
+   "id": 969
+  },
+  {
+   "japanese": "りっぱ",
+   "english": "splendid",
+   "pos": "u",
+   "id": 970
+  },
+  {
+   "japanese": "りゅうがくせい",
+   "english": "foreign student",
+   "pos": "u",
+   "id": 971
+  },
+  {
+   "japanese": "りょうしん",
+   "english": "parents",
+   "pos": "u",
+   "id": 972
+  },
+  {
+   "japanese": "りょうり",
+   "english": "cooking",
+   "pos": "u",
+   "id": 973
+  },
+  {
+   "japanese": "りょこう",
+   "english": "travel",
+   "pos": "u",
+   "id": 974
+  },
+  {
+   "japanese": "れい",
+   "english": "zero",
+   "pos": "u",
+   "id": 975
+  },
+  {
+   "japanese": "れいぞうこ",
+   "english": "refrigerator",
+   "pos": "u",
+   "id": 976
+  },
+  {
+   "japanese": "レコード",
+   "english": "record",
+   "pos": "u",
+   "id": 977
+  },
+  {
+   "japanese": "レストラン",
+   "english": "restaurant",
+   "pos": "u",
+   "id": 978
+  },
+  {
+   "japanese": "れんしゅう",
+   "english": "practice",
+   "pos": "u",
+   "id": 979
+  },
+  {
+   "japanese": "ろく",
+   "english": "six",
+   "pos": "u",
+   "id": 980
+  },
+  {
+   "japanese": "ワイシャツ",
+   "english": "white shirt",
+   "pos": "u",
+   "id": 981
+  },
+  {
+   "japanese": "わかい",
+   "english": "young",
+   "pos": "u",
+   "id": 982
+  },
+  {
+   "japanese": "わかる",
+   "english": "to know, to understand",
+   "pos": "u",
+   "id": 983
+  },
+  {
+   "japanese": "わすれる",
+   "english": "to forget",
+   "pos": "u",
+   "id": 984
+  },
+  {
+   "japanese": "わたし",
+   "english": "me, I",
+   "pos": "u",
+   "id": 985
+  },
+  {
+   "japanese": "わたす",
+   "english": "to hand over",
+   "pos": "u",
+   "id": 986
+  },
+  {
+   "japanese": "わたる",
+   "english": "to cross",
+   "pos": "u",
+   "id": 987
+  },
+  {
+   "japanese": "わるい",
+   "english": "bad",
+   "pos": "u",
+   "id": 988
   }
  ],
  "partsofspeech": {
@@ -1641,1651 +4056,4068 @@
    {
     "japanese": "ああ",
     "english": "Ah!",
-    "pos": "z"
+    "pos": "z",
+    "id": 314
    },
    {
     "japanese": "あの",
     "english": "well, then",
-    "pos": "z"
+    "pos": "z",
+    "id": 341
    },
    {
     "japanese": "いいえ",
     "english": "no",
-    "pos": "z"
+    "pos": "z",
+    "id": 354
    },
    {
     "japanese": "いっしょ",
     "english": "together",
-    "pos": "z"
+    "pos": "z",
+    "id": 370
    },
    {
     "japanese": "いつも",
     "english": "always",
-    "pos": "z"
+    "pos": "z",
+    "id": 372
    },
    {
     "japanese": "うえ",
     "english": "top, on, above",
-    "pos": "z"
+    "pos": "z",
+    "id": 383
    },
    {
     "japanese": "ええ",
     "english": "Yes, I see",
-    "pos": "z"
+    "pos": "z",
+    "id": 397
    },
    {
     "japanese": "〜かい",
     "english": "~times",
-    "pos": "z"
+    "pos": "z",
+    "id": 483
    },
    {
     "japanese": "〜かい",
     "english": "~floor",
-    "pos": "z"
+    "pos": "z",
+    "id": 484
    },
    {
     "japanese": "〜かげつ",
     "english": "~ number of months",
-    "pos": "z"
+    "pos": "z",
+    "id": 485
    },
    {
     "japanese": "〜がります",
     "english": "3rd person wants to",
-    "pos": "z"
+    "pos": "z",
+    "id": 486
    },
    {
     "japanese": "いちがつ",
     "english": "January",
-    "pos": "z"
+    "pos": "z",
+    "id": 487
    },
    {
     "japanese": "かようび",
     "english": "Tuesday",
-    "pos": "z"
+    "pos": "z",
+    "id": 488
    },
    {
     "japanese": "くがつ",
     "english": "September",
-    "pos": "z"
+    "pos": "z",
+    "id": 489
    },
    {
     "japanese": "ごがつ",
     "english": "May",
-    "pos": "z"
+    "pos": "z",
+    "id": 490
    },
    {
     "japanese": "さんがつ",
     "english": "March",
-    "pos": "z"
+    "pos": "z",
+    "id": 491
    },
    {
     "japanese": "しがつ",
     "english": "April",
-    "pos": "z"
+    "pos": "z",
+    "id": 492
    },
    {
     "japanese": "しちがつ",
     "english": "July",
-    "pos": "z"
+    "pos": "z",
+    "id": 493
    },
    {
     "japanese": "じゅういちがつ",
     "english": "November",
-    "pos": "z"
+    "pos": "z",
+    "id": 494
    },
    {
     "japanese": "じゅうがつ",
     "english": "October",
-    "pos": "z"
+    "pos": "z",
+    "id": 495
    },
    {
     "japanese": "じゅうにがつ",
     "english": "December",
-    "pos": "z"
+    "pos": "z",
+    "id": 496
    },
    {
     "japanese": "にがつ",
     "english": "February",
-    "pos": "z"
+    "pos": "z",
+    "id": 497
    },
    {
     "japanese": "はちがつ",
     "english": "August",
-    "pos": "z"
+    "pos": "z",
+    "id": 498
    },
    {
     "japanese": "ろくがつ",
     "english": "June",
-    "pos": "z"
+    "pos": "z",
+    "id": 499
    },
    {
     "japanese": "げつようび",
     "english": "Monday",
-    "pos": "z"
+    "pos": "z",
+    "id": 548
    },
    {
     "japanese": "〜こ",
     "english": "counter for small objects",
-    "pos": "z"
+    "pos": "z",
+    "id": 575
    },
    {
     "japanese": "〜ご",
     "english": "~ language",
-    "pos": "z"
+    "pos": "z",
+    "id": 576
    },
    {
     "japanese": "〜さい",
     "english": "years old",
-    "pos": "z"
+    "pos": "z",
+    "id": 589
    },
    {
     "japanese": "〜さつ",
     "english": "counter for books",
-    "pos": "z"
+    "pos": "z",
+    "id": 590
    },
    {
     "japanese": "〜さん",
     "english": "Mr., Mrs.",
-    "pos": "z"
+    "pos": "z",
+    "id": 591
    },
    {
     "japanese": "〜じ",
     "english": "o’clock",
-    "pos": "z"
+    "pos": "z",
+    "id": 622
    },
    {
     "japanese": "〜じかん",
     "english": "~hours (classificator)",
-    "pos": "z"
+    "pos": "z",
+    "id": 623
    },
    {
     "japanese": "〜じん",
     "english": "~an, ~ese (nationality)",
-    "pos": "z"
+    "pos": "z",
+    "id": 624
    },
    {
     "japanese": "〜しゅうかん",
     "english": "… weeks",
-    "pos": "z"
+    "pos": "z",
+    "id": 625
    },
    {
     "japanese": "〜すぎ",
     "english": "past, over",
-    "pos": "z"
+    "pos": "z",
+    "id": 641
+   },
+   {
+    "japanese": "〜ずつ",
+    "english": "each",
+    "pos": "z",
+    "id": 642
+   },
+   {
+    "japanese": "〜だい",
+    "english": "counter for machines",
+    "pos": "z",
+    "id": 693
    }
   ],
   "v": [
    {
     "japanese": "あう",
     "english": "to meet",
-    "pos": "v"
+    "pos": "v",
+    "id": 315
    },
    {
     "japanese": "あく",
     "english": "open",
-    "pos": "v"
+    "pos": "v",
+    "id": 320
    },
    {
     "japanese": "あける",
     "english": "to open",
-    "pos": "v"
+    "pos": "v",
+    "id": 321
    },
    {
     "japanese": "あげる",
     "english": "to give",
-    "pos": "v"
+    "pos": "v",
+    "id": 322
    },
    {
     "japanese": "あそぶ",
     "english": "to play",
-    "pos": "v"
+    "pos": "v",
+    "id": 329
    },
    {
     "japanese": "あびる",
     "english": "to take a shower",
-    "pos": "v"
+    "pos": "v",
+    "id": 343
    },
    {
     "japanese": "あらう",
     "english": "to wash",
-    "pos": "v"
+    "pos": "v",
+    "id": 348
    },
    {
     "japanese": "ある",
     "english": "to be, to exist",
-    "pos": "v"
+    "pos": "v",
+    "id": 349
    },
    {
     "japanese": "ある",
     "english": "to possess",
-    "pos": "v"
+    "pos": "v",
+    "id": 350
    },
    {
     "japanese": "あるく",
     "english": "to walk",
-    "pos": "v"
+    "pos": "v",
+    "id": 351
    },
    {
     "japanese": "いう",
     "english": "to say, to tell",
-    "pos": "v"
+    "pos": "v",
+    "id": 355
    },
    {
     "japanese": "いく",
     "english": "to go",
-    "pos": "v"
+    "pos": "v",
+    "id": 357
    },
    {
     "japanese": "いそがしい",
     "english": "to be busy",
-    "pos": "v"
+    "pos": "v",
+    "id": 363
    },
    {
     "japanese": "いたい",
     "english": "to be painful",
-    "pos": "v"
+    "pos": "v",
+    "id": 364
    },
    {
     "japanese": "うたう",
     "english": "to sing",
-    "pos": "v"
+    "pos": "v",
+    "id": 387
    },
    {
     "japanese": "うまれる",
     "english": "to be born",
-    "pos": "v"
+    "pos": "v",
+    "id": 389
    },
    {
     "japanese": "うる",
     "english": "to sell",
-    "pos": "v"
+    "pos": "v",
+    "id": 391
    },
    {
     "japanese": "おきる",
     "english": "to get up, to stand up",
-    "pos": "v"
+    "pos": "v",
+    "id": 436
    },
    {
     "japanese": "おく",
     "english": "to put, to place",
-    "pos": "v"
+    "pos": "v",
+    "id": 437
    },
    {
     "japanese": "おくる",
     "english": "to send",
-    "pos": "v"
+    "pos": "v",
+    "id": 438
    },
    {
     "japanese": "おす",
     "english": "to push",
-    "pos": "v"
+    "pos": "v",
+    "id": 439
    },
    {
     "japanese": "おぼえる",
     "english": "to memorize, to remember",
-    "pos": "v"
+    "pos": "v",
+    "id": 440
    },
    {
     "japanese": "およぐ",
     "english": "to swim",
-    "pos": "v"
+    "pos": "v",
+    "id": 441
    },
    {
     "japanese": "おりる",
     "english": "to get off",
-    "pos": "v"
+    "pos": "v",
+    "id": 442
    },
    {
     "japanese": "おわる",
     "english": "to end",
-    "pos": "v"
+    "pos": "v",
+    "id": 443
    },
    {
     "japanese": "かう",
     "english": "to buy",
-    "pos": "v"
+    "pos": "v",
+    "id": 473
    },
    {
     "japanese": "かえす",
     "english": "to return an object",
-    "pos": "v"
+    "pos": "v",
+    "id": 474
    },
    {
     "japanese": "かえる",
     "english": "to return home",
-    "pos": "v"
+    "pos": "v",
+    "id": 475
    },
    {
     "japanese": "かかる",
     "english": "to take time, money",
-    "pos": "v"
+    "pos": "v",
+    "id": 476
    },
    {
     "japanese": "かく",
     "english": "to write",
-    "pos": "v"
+    "pos": "v",
+    "id": 477
    },
    {
     "japanese": "かける",
     "english": "to wear",
-    "pos": "v"
+    "pos": "v",
+    "id": 478
    },
    {
     "japanese": "かける",
     "english": "to make a phone call",
-    "pos": "v"
+    "pos": "v",
+    "id": 479
    },
    {
     "japanese": "かす",
     "english": "to lend",
-    "pos": "v"
+    "pos": "v",
+    "id": 480
    },
    {
     "japanese": "かぶる",
     "english": "to put on a hat",
-    "pos": "v"
+    "pos": "v",
+    "id": 481
    },
    {
     "japanese": "かりる",
     "english": "to borrow",
-    "pos": "v"
+    "pos": "v",
+    "id": 482
    },
    {
     "japanese": "きえる",
     "english": "to go out, to vanish",
-    "pos": "v"
+    "pos": "v",
+    "id": 522
    },
    {
     "japanese": "きく",
     "english": "to hear, to listen, to ask",
-    "pos": "v"
+    "pos": "v",
+    "id": 523
    },
    {
     "japanese": "きる",
     "english": "to cut",
-    "pos": "v"
+    "pos": "v",
+    "id": 524
    },
    {
     "japanese": "きる",
     "english": "to wear, to put on",
-    "pos": "v"
+    "pos": "v",
+    "id": 525
    },
    {
     "japanese": "くる",
     "english": "to come",
-    "pos": "v"
+    "pos": "v",
+    "id": 526
    },
    {
     "japanese": "けす",
     "english": "to turn off, switch off",
-    "pos": "v"
+    "pos": "v",
+    "id": 547
    },
    {
     "japanese": "こたえる",
     "english": "to answer",
-    "pos": "v"
+    "pos": "v",
+    "id": 573
    },
    {
     "japanese": "こまる",
     "english": "to be in trouble",
-    "pos": "v"
+    "pos": "v",
+    "id": 574
    },
    {
     "japanese": "さく",
     "english": "to blossom",
-    "pos": "v"
+    "pos": "v",
+    "id": 586
    },
    {
     "japanese": "さす",
     "english": "to open an umbrella",
-    "pos": "v"
+    "pos": "v",
+    "id": 587
    },
    {
     "japanese": "さんぽ",
     "english": "to take a walk",
-    "pos": "v"
+    "pos": "v",
+    "id": 588
    },
    {
     "japanese": "しぬ",
     "english": "to die, to pas away",
-    "pos": "v"
+    "pos": "v",
+    "id": 599
    },
    {
     "japanese": "しまる",
     "english": "to close",
-    "pos": "v"
+    "pos": "v",
+    "id": 600
    },
    {
     "japanese": "しめる",
     "english": "to close",
-    "pos": "v"
+    "pos": "v",
+    "id": 601
    },
    {
     "japanese": "しめる",
     "english": "to fasten a seatbelt",
-    "pos": "v"
+    "pos": "v",
+    "id": 602
    },
    {
     "japanese": "しる",
     "english": "to know",
-    "pos": "v"
+    "pos": "v",
+    "id": 603
    },
    {
     "japanese": "じょうず",
     "english": "to be good at something",
-    "pos": "v"
+    "pos": "v",
+    "id": 615
    },
    {
     "japanese": "じょうぶ",
     "english": "to be strong, durable",
-    "pos": "v"
+    "pos": "v",
+    "id": 616
    },
    {
     "japanese": "すう",
     "english": "to breathe, to smoke",
-    "pos": "v"
+    "pos": "v",
+    "id": 636
    },
    {
     "japanese": "すき",
     "english": "to like",
-    "pos": "v"
+    "pos": "v",
+    "id": 637
    },
    {
     "japanese": "すむ",
     "english": "to live, to reside somewhere",
-    "pos": "v"
+    "pos": "v",
+    "id": 638
    },
    {
     "japanese": "する",
     "english": "to do",
-    "pos": "v"
+    "pos": "v",
+    "id": 639
    },
    {
     "japanese": "すわる",
     "english": "to sit",
-    "pos": "v"
+    "pos": "v",
+    "id": 640
+   },
+   {
+    "japanese": "せんたく",
+    "english": "washing, to wash",
+    "pos": "v",
+    "id": 655
+   },
+   {
+    "japanese": "そうじ",
+    "english": "to clean",
+    "pos": "v",
+    "id": 667
+   },
+   {
+    "japanese": "だいすき",
+    "english": "to be very fond of",
+    "pos": "v",
+    "id": 688
+   },
+   {
+    "japanese": "だす",
+    "english": "to take out, hand in",
+    "pos": "v",
+    "id": 689
+   },
+   {
+    "japanese": "たつ",
+    "english": "to stand",
+    "pos": "v",
+    "id": 690
+   },
+   {
+    "japanese": "たのむ",
+    "english": "to ask, to request",
+    "pos": "v",
+    "id": 691
+   },
+   {
+    "japanese": "たべる",
+    "english": "to eat",
+    "pos": "v",
+    "id": 692
+   },
+   {
+    "japanese": "つかう",
+    "english": "to use",
+    "pos": "v",
+    "id": 711
+   },
+   {
+    "japanese": "つかれる",
+    "english": "to get tired",
+    "pos": "v",
+    "id": 712
+   },
+   {
+    "japanese": "つく",
+    "english": "to arrive",
+    "pos": "v",
+    "id": 713
+   },
+   {
+    "japanese": "つくる",
+    "english": "to make, to produce",
+    "pos": "v",
+    "id": 714
+   },
+   {
+    "japanese": "つける",
+    "english": "to turn on",
+    "pos": "v",
+    "id": 715
+   },
+   {
+    "japanese": "つとめる",
+    "english": "to work for someone",
+    "pos": "v",
+    "id": 716
+   },
+   {
+    "japanese": "でかける",
+    "english": "to go out",
+    "pos": "v",
+    "id": 733
+   },
+   {
+    "japanese": "でます",
+    "english": "to leave",
+    "pos": "v",
+    "id": 734
    }
   ],
   "a": [
    {
     "japanese": "あおい",
     "english": "blue",
-    "pos": "a"
+    "pos": "a",
+    "id": 316
    },
    {
     "japanese": "あかい",
     "english": "red",
-    "pos": "a"
+    "pos": "a",
+    "id": 317
    },
    {
     "japanese": "あかるい",
     "english": "light, bright",
-    "pos": "a"
+    "pos": "a",
+    "id": 318
    },
    {
     "japanese": "あたたかい",
     "english": "warm",
-    "pos": "a"
+    "pos": "a",
+    "id": 330
    },
    {
     "japanese": "あたらしい",
     "english": "new",
-    "pos": "a"
+    "pos": "a",
+    "id": 332
    },
    {
     "japanese": "あつい",
     "english": "hot (air)",
-    "pos": "a"
+    "pos": "a",
+    "id": 334
    },
    {
     "japanese": "あつい",
     "english": "thick",
-    "pos": "a"
+    "pos": "a",
+    "id": 335
    },
    {
     "japanese": "あぶない",
     "english": "dangerous",
-    "pos": "a"
+    "pos": "a",
+    "id": 344
    },
    {
     "japanese": "あまい",
     "english": "sweet",
-    "pos": "a"
+    "pos": "a",
+    "id": 345
    },
    {
     "japanese": "あまり",
     "english": "not so",
-    "pos": "a"
+    "pos": "a",
+    "id": 346
    },
    {
     "japanese": "いい / よい",
     "english": "good",
-    "pos": "a"
+    "pos": "a",
+    "id": 353
    },
    {
     "japanese": "いや",
     "english": "not likable, unpleasant",
-    "pos": "a"
+    "pos": "a",
+    "id": 376
    },
    {
     "japanese": "いろいろ",
     "english": "various",
-    "pos": "a"
+    "pos": "a",
+    "id": 382
    },
    {
     "japanese": "うすい",
     "english": "thin",
-    "pos": "a"
+    "pos": "a",
+    "id": 385
    },
    {
     "japanese": "おいしい",
     "english": "tasty, delicious",
-    "pos": "a"
+    "pos": "a",
+    "id": 403
    },
    {
     "japanese": "おおきい",
     "english": "big",
-    "pos": "a"
+    "pos": "a",
+    "id": 404
    },
    {
     "japanese": "おおぜい",
     "english": "many people",
-    "pos": "a"
+    "pos": "a",
+    "id": 405
    },
    {
     "japanese": "おそい",
     "english": "late, slow",
-    "pos": "a"
+    "pos": "a",
+    "id": 406
    },
    {
     "japanese": "おととい",
     "english": "the day before yesterday",
-    "pos": "a"
+    "pos": "a",
+    "id": 407
    },
    {
     "japanese": "おととし",
     "english": "the year before last",
-    "pos": "a"
+    "pos": "a",
+    "id": 408
    },
    {
     "japanese": "おなじ",
     "english": "same",
-    "pos": "a"
+    "pos": "a",
+    "id": 409
    },
    {
     "japanese": "おもい",
     "english": "heavy",
-    "pos": "a"
+    "pos": "a",
+    "id": 410
    },
    {
     "japanese": "おもしろい",
     "english": "interesting, funny",
-    "pos": "a"
+    "pos": "a",
+    "id": 411
    },
    {
     "japanese": "からい",
     "english": "hot, spicy",
-    "pos": "a"
+    "pos": "a",
+    "id": 444
    },
    {
     "japanese": "かるい",
     "english": "light (not heavy)",
-    "pos": "a"
+    "pos": "a",
+    "id": 445
    },
    {
     "japanese": "かわいい",
     "english": "cute, pretty",
-    "pos": "a"
+    "pos": "a",
+    "id": 446
    },
    {
     "japanese": "きいろい",
     "english": "yellow",
-    "pos": "a"
+    "pos": "a",
+    "id": 500
    },
    {
     "japanese": "きた",
     "english": "north",
-    "pos": "a"
+    "pos": "a",
+    "id": 501
    },
    {
     "japanese": "きたない",
     "english": "dirty",
-    "pos": "a"
+    "pos": "a",
+    "id": 502
    },
    {
     "japanese": "きのう",
     "english": "yesterday",
-    "pos": "a"
+    "pos": "a",
+    "id": 503
    },
    {
     "japanese": "きょねん",
     "english": "last year",
-    "pos": "a"
+    "pos": "a",
+    "id": 504
    },
    {
     "japanese": "きらい",
     "english": "unpleasant, not likable",
-    "pos": "a"
+    "pos": "a",
+    "id": 505
    },
    {
     "japanese": "きれい",
     "english": "beautiful, clean",
-    "pos": "a"
+    "pos": "a",
+    "id": 506
    },
    {
     "japanese": "キロ",
     "english": "kg",
-    "pos": "a"
+    "pos": "a",
+    "id": 507
    },
    {
     "japanese": "キロ",
     "english": "km",
-    "pos": "a"
+    "pos": "a",
+    "id": 508
    },
    {
     "japanese": "きんようび",
     "english": "Friday",
-    "pos": "a"
+    "pos": "a",
+    "id": 509
    },
    {
     "japanese": "ください",
     "english": "give me…",
-    "pos": "a"
+    "pos": "a",
+    "id": 527
    },
    {
     "japanese": "くらい",
     "english": "dark",
-    "pos": "a"
+    "pos": "a",
+    "id": 528
    },
    {
     "japanese": "ぐらい",
     "english": "about",
-    "pos": "a"
+    "pos": "a",
+    "id": 529
    },
    {
     "japanese": "グラム",
     "english": "gram",
-    "pos": "a"
+    "pos": "a",
+    "id": 530
    },
    {
     "japanese": "くろい",
     "english": "black",
-    "pos": "a"
+    "pos": "a",
+    "id": 531
    },
    {
     "japanese": "けっこう",
     "english": "fine, all right",
-    "pos": "a"
+    "pos": "a",
+    "id": 542
    },
    {
     "japanese": "げんき",
     "english": "vigor, health, vitality",
-    "pos": "a"
+    "pos": "a",
+    "id": 543
    },
    {
     "japanese": "さあ",
     "english": "well…",
-    "pos": "a"
+    "pos": "a",
+    "id": 577
    },
    {
     "japanese": "さき",
     "english": "earlier, former",
-    "pos": "a"
+    "pos": "a",
+    "id": 578
    },
    {
     "japanese": "さらいねん",
     "english": "the year after next year",
-    "pos": "a"
+    "pos": "a",
+    "id": 579
    },
    {
     "japanese": "さん",
     "english": "three",
-    "pos": "a"
+    "pos": "a",
+    "id": 580
    },
    {
     "japanese": "し",
     "english": "four",
-    "pos": "a"
+    "pos": "a",
+    "id": 592
    },
    {
     "japanese": "しかし",
     "english": "however, but",
-    "pos": "a"
+    "pos": "a",
+    "id": 594
    },
    {
     "japanese": "しずか",
     "english": "quiet",
-    "pos": "a"
+    "pos": "a",
+    "id": 596
    },
    {
     "japanese": "した",
     "english": "under, below",
-    "pos": "a"
+    "pos": "a",
+    "id": 597
    },
    {
     "japanese": "しろい",
     "english": "white",
-    "pos": "a"
+    "pos": "a",
+    "id": 604
    },
    {
     "japanese": "じゃ",
     "english": "well, then",
-    "pos": "a"
+    "pos": "a",
+    "id": 606
    },
    {
     "japanese": "じかん",
     "english": "time",
-    "pos": "a"
+    "pos": "a",
+    "id": 607
    },
    {
     "japanese": "じゅう",
     "english": "ten",
-    "pos": "a"
+    "pos": "a",
+    "id": 613
    },
    {
     "japanese": "すいようび",
     "english": "Wednesday",
-    "pos": "a"
+    "pos": "a",
+    "id": 626
    },
    {
     "japanese": "すぐに",
     "english": "at once",
-    "pos": "a"
+    "pos": "a",
+    "id": 627
    },
    {
     "japanese": "すこし",
     "english": "a little",
-    "pos": "a"
+    "pos": "a",
+    "id": 628
    },
    {
     "japanese": "すずしい",
     "english": "cool",
-    "pos": "a"
+    "pos": "a",
+    "id": 629
+   },
+   {
+    "japanese": "セーター",
+    "english": "sweater",
+    "pos": "a",
+    "id": 643
+   },
+   {
+    "japanese": "せい",
+    "english": "height",
+    "pos": "a",
+    "id": 644
+   },
+   {
+    "japanese": "せいと",
+    "english": "student",
+    "pos": "a",
+    "id": 645
+   },
+   {
+    "japanese": "せっけん",
+    "english": "soap",
+    "pos": "a",
+    "id": 646
+   },
+   {
+    "japanese": "せびろ",
+    "english": "jacket, suit",
+    "pos": "a",
+    "id": 647
+   },
+   {
+    "japanese": "せまい",
+    "english": "narrow",
+    "pos": "a",
+    "id": 648
+   },
+   {
+    "japanese": "ゼロ",
+    "english": "zero",
+    "pos": "a",
+    "id": 649
+   },
+   {
+    "japanese": "せん",
+    "english": "1,000, thousand",
+    "pos": "a",
+    "id": 650
+   },
+   {
+    "japanese": "せんげつ",
+    "english": "last month",
+    "pos": "a",
+    "id": 651
+   },
+   {
+    "japanese": "せんしゅう",
+    "english": "last week",
+    "pos": "a",
+    "id": 652
+   },
+   {
+    "japanese": "せんせい",
+    "english": "teacher",
+    "pos": "a",
+    "id": 653
+   },
+   {
+    "japanese": "ぜんぶ",
+    "english": "all",
+    "pos": "a",
+    "id": 654
+   },
+   {
+    "japanese": "そう",
+    "english": "so",
+    "pos": "a",
+    "id": 656
+   },
+   {
+    "japanese": "そうして",
+    "english": "and then",
+    "pos": "a",
+    "id": 657
+   },
+   {
+    "japanese": "そこ",
+    "english": "there",
+    "pos": "a",
+    "id": 658
+   },
+   {
+    "japanese": "そちら",
+    "english": "there (polite)",
+    "pos": "a",
+    "id": 659
+   },
+   {
+    "japanese": "そと",
+    "english": "outside",
+    "pos": "a",
+    "id": 660
+   },
+   {
+    "japanese": "その",
+    "english": "that…",
+    "pos": "a",
+    "id": 661
+   },
+   {
+    "japanese": "そば",
+    "english": "next to",
+    "pos": "a",
+    "id": 662
+   },
+   {
+    "japanese": "そら",
+    "english": "sky",
+    "pos": "a",
+    "id": 663
+   },
+   {
+    "japanese": "それ",
+    "english": "that",
+    "pos": "a",
+    "id": 664
+   },
+   {
+    "japanese": "それから",
+    "english": "after that",
+    "pos": "a",
+    "id": 665
+   },
+   {
+    "japanese": "それでは",
+    "english": "then, well",
+    "pos": "a",
+    "id": 666
+   },
+   {
+    "japanese": "〜たち",
+    "english": "more than one, and others",
+    "pos": "a",
+    "id": 668
+   },
+   {
+    "japanese": "だいがく",
+    "english": "university",
+    "pos": "a",
+    "id": 669
+   },
+   {
+    "japanese": "たいしかん",
+    "english": "embassy",
+    "pos": "a",
+    "id": 670
+   },
+   {
+    "japanese": "だいじょうぶ",
+    "english": "OK",
+    "pos": "a",
+    "id": 671
+   },
+   {
+    "japanese": "たいせつ",
+    "english": "very important",
+    "pos": "a",
+    "id": 672
+   },
+   {
+    "japanese": "たいてい",
+    "english": "mostly, usually",
+    "pos": "a",
+    "id": 673
+   },
+   {
+    "japanese": "だいどころ",
+    "english": "kitchen",
+    "pos": "a",
+    "id": 674
+   },
+   {
+    "japanese": "たいへん",
+    "english": "very, serious",
+    "pos": "a",
+    "id": 675
+   },
+   {
+    "japanese": "たかい",
+    "english": "high, expensive",
+    "pos": "a",
+    "id": 676
+   },
+   {
+    "japanese": "たくさん",
+    "english": "many, much",
+    "pos": "a",
+    "id": 677
+   },
+   {
+    "japanese": "タクシー",
+    "english": "taxi",
+    "pos": "a",
+    "id": 678
+   },
+   {
+    "japanese": "たてもの",
+    "english": "building",
+    "pos": "a",
+    "id": 679
+   },
+   {
+    "japanese": "たのしい",
+    "english": "pleasant, enjoyable",
+    "pos": "a",
+    "id": 680
+   },
+   {
+    "japanese": "たばこ",
+    "english": "cigarette",
+    "pos": "a",
+    "id": 681
+   },
+   {
+    "japanese": "たぶん",
+    "english": "perhaps, probably",
+    "pos": "a",
+    "id": 682
+   },
+   {
+    "japanese": "たべもの",
+    "english": "food",
+    "pos": "a",
+    "id": 683
+   },
+   {
+    "japanese": "たまご",
+    "english": "egg",
+    "pos": "a",
+    "id": 684
+   },
+   {
+    "japanese": "だれ",
+    "english": "who?",
+    "pos": "a",
+    "id": 685
+   },
+   {
+    "japanese": "たんじょうび",
+    "english": "birthday",
+    "pos": "a",
+    "id": 686
+   },
+   {
+    "japanese": "だんだん",
+    "english": "gradually",
+    "pos": "a",
+    "id": 687
+   },
+   {
+    "japanese": "ついたち",
+    "english": "the 1st day of a month",
+    "pos": "a",
+    "id": 705
+   },
+   {
+    "japanese": "つぎ",
+    "english": "next",
+    "pos": "a",
+    "id": 706
+   },
+   {
+    "japanese": "つくえ",
+    "english": "table",
+    "pos": "a",
+    "id": 707
+   },
+   {
+    "japanese": "つまらない",
+    "english": "uninteresting",
+    "pos": "a",
+    "id": 708
+   },
+   {
+    "japanese": "つめたい",
+    "english": "cold",
+    "pos": "a",
+    "id": 709
+   },
+   {
+    "japanese": "つよい",
+    "english": "strong",
+    "pos": "a",
+    "id": 710
+   },
+   {
+    "japanese": "て",
+    "english": "hand",
+    "pos": "a",
+    "id": 717
+   },
+   {
+    "japanese": "テープ",
+    "english": "tape",
+    "pos": "a",
+    "id": 718
+   },
+   {
+    "japanese": "テーブル",
+    "english": "table",
+    "pos": "a",
+    "id": 719
+   },
+   {
+    "japanese": "テープレコーダー",
+    "english": "tape recorder",
+    "pos": "a",
+    "id": 720
+   },
+   {
+    "japanese": "てがみ",
+    "english": "letter",
+    "pos": "a",
+    "id": 721
+   },
+   {
+    "japanese": "できる",
+    "english": "can",
+    "pos": "a",
+    "id": 722
+   },
+   {
+    "japanese": "でぐち",
+    "english": "exit",
+    "pos": "a",
+    "id": 723
+   },
+   {
+    "japanese": "テスト",
+    "english": "test",
+    "pos": "a",
+    "id": 724
+   },
+   {
+    "japanese": "では",
+    "english": "then, well",
+    "pos": "a",
+    "id": 725
+   },
+   {
+    "japanese": "デパート",
+    "english": "department store",
+    "pos": "a",
+    "id": 726
+   },
+   {
+    "japanese": "でも",
+    "english": "but",
+    "pos": "a",
+    "id": 727
+   },
+   {
+    "japanese": "テレビ",
+    "english": "TV",
+    "pos": "a",
+    "id": 728
+   },
+   {
+    "japanese": "てんき",
+    "english": "weather",
+    "pos": "a",
+    "id": 729
+   },
+   {
+    "japanese": "でんき",
+    "english": "electricity",
+    "pos": "a",
+    "id": 730
+   },
+   {
+    "japanese": "でんしゃ",
+    "english": "train",
+    "pos": "a",
+    "id": 731
+   },
+   {
+    "japanese": "でんわ",
+    "english": "phone",
+    "pos": "a",
+    "id": 732
    }
   ],
   "n": [
    {
     "japanese": "あき",
     "english": "autumn, fall",
-    "pos": "n"
+    "pos": "n",
+    "id": 319
    },
    {
     "japanese": "あさごはん",
     "english": "breakfast",
-    "pos": "n"
+    "pos": "n",
+    "id": 324
    },
    {
     "japanese": "あし",
     "english": "leg, foot",
-    "pos": "n"
+    "pos": "n",
+    "id": 326
    },
    {
     "japanese": "あたま",
     "english": "head",
-    "pos": "n"
+    "pos": "n",
+    "id": 331
    },
    {
     "japanese": "あなた",
     "english": "you",
-    "pos": "n"
+    "pos": "n",
+    "id": 337
    },
    {
     "japanese": "あに",
     "english": "older brother",
-    "pos": "n"
+    "pos": "n",
+    "id": 338
    },
    {
     "japanese": "あね",
     "english": "older sister",
-    "pos": "n"
+    "pos": "n",
+    "id": 339
    },
    {
     "japanese": "アパート",
     "english": "apartment",
-    "pos": "n"
+    "pos": "n",
+    "id": 342
    },
    {
     "japanese": "あめ",
     "english": "rain",
-    "pos": "n"
+    "pos": "n",
+    "id": 347
    },
    {
     "japanese": "いえ",
     "english": "house, home",
-    "pos": "n"
+    "pos": "n",
+    "id": 356
    },
    {
     "japanese": "いけ",
     "english": "pond",
-    "pos": "n"
+    "pos": "n",
+    "id": 360
    },
    {
     "japanese": "いしゃ",
     "english": "doctor",
-    "pos": "n"
+    "pos": "n",
+    "id": 361
    },
    {
     "japanese": "いす",
     "english": "chair",
-    "pos": "n"
+    "pos": "n",
+    "id": 362
    },
    {
     "japanese": "いみ",
     "english": "meaning",
-    "pos": "n"
+    "pos": "n",
+    "id": 374
    },
    {
     "japanese": "いもうと",
     "english": "someone’s younger sister",
-    "pos": "n"
+    "pos": "n",
+    "id": 375
    },
    {
     "japanese": "いりぐち",
     "english": "entrance",
-    "pos": "n"
+    "pos": "n",
+    "id": 377
    },
    {
     "japanese": "いる",
     "english": "need, must have, be required",
-    "pos": "n"
+    "pos": "n",
+    "id": 378
    },
    {
     "japanese": "いる",
     "english": "to exist",
-    "pos": "n"
+    "pos": "n",
+    "id": 379
    },
    {
     "japanese": "いれる",
     "english": "to insert, to put in",
-    "pos": "n"
+    "pos": "n",
+    "id": 380
    },
    {
     "japanese": "いろ",
     "english": "color",
-    "pos": "n"
+    "pos": "n",
+    "id": 381
    },
    {
     "japanese": "うた",
     "english": "song",
-    "pos": "n"
+    "pos": "n",
+    "id": 386
    },
    {
     "japanese": "うち",
     "english": "home",
-    "pos": "n"
+    "pos": "n",
+    "id": 388
    },
    {
     "japanese": "うみ",
     "english": "sea",
-    "pos": "n"
+    "pos": "n",
+    "id": 390
    },
    {
     "japanese": "うわぎ",
     "english": "coat, jacket",
-    "pos": "n"
+    "pos": "n",
+    "id": 392
    },
    {
     "japanese": "え",
     "english": "picture",
-    "pos": "n"
+    "pos": "n",
+    "id": 393
    },
    {
     "japanese": "えいが",
     "english": "movie",
-    "pos": "n"
+    "pos": "n",
+    "id": 394
    },
    {
     "japanese": "えいがかん",
     "english": "cinema",
-    "pos": "n"
+    "pos": "n",
+    "id": 395
    },
    {
     "japanese": "えいご",
     "english": "English language",
-    "pos": "n"
+    "pos": "n",
+    "id": 396
    },
    {
     "japanese": "えき",
     "english": "station",
-    "pos": "n"
+    "pos": "n",
+    "id": 398
    },
    {
     "japanese": "エレベータ",
     "english": "elevator",
-    "pos": "n"
+    "pos": "n",
+    "id": 399
    },
    {
     "japanese": "えん",
     "english": "Yen",
-    "pos": "n"
+    "pos": "n",
+    "id": 400
    },
    {
     "japanese": "えんぴつ",
     "english": "pencil",
-    "pos": "n"
+    "pos": "n",
+    "id": 401
    },
    {
     "japanese": "おかあさん",
     "english": "my own mother",
-    "pos": "n"
+    "pos": "n",
+    "id": 412
    },
    {
     "japanese": "おかし",
     "english": "confectionary, cake",
-    "pos": "n"
+    "pos": "n",
+    "id": 413
    },
    {
     "japanese": "おかね",
     "english": "money",
-    "pos": "n"
+    "pos": "n",
+    "id": 414
    },
    {
     "japanese": "おくさん",
     "english": "someone’s wife",
-    "pos": "n"
+    "pos": "n",
+    "id": 415
    },
    {
     "japanese": "おさけ",
     "english": "alcohol, sake",
-    "pos": "n"
+    "pos": "n",
+    "id": 416
    },
    {
     "japanese": "おさら",
     "english": "plate",
-    "pos": "n"
+    "pos": "n",
+    "id": 417
    },
    {
     "japanese": "おじいさん",
     "english": "grand father",
-    "pos": "n"
+    "pos": "n",
+    "id": 418
    },
    {
     "japanese": "おじさん",
     "english": "uncle",
-    "pos": "n"
+    "pos": "n",
+    "id": 419
    },
    {
     "japanese": "おちゃ",
     "english": "tea",
-    "pos": "n"
+    "pos": "n",
+    "id": 420
    },
    {
     "japanese": "おてあらい",
     "english": "toilet, lavatory",
-    "pos": "n"
+    "pos": "n",
+    "id": 421
    },
    {
     "japanese": "おとうさん",
     "english": "father",
-    "pos": "n"
+    "pos": "n",
+    "id": 422
    },
    {
     "japanese": "おとうと",
     "english": "someone’s younger brother",
-    "pos": "n"
+    "pos": "n",
+    "id": 423
    },
    {
     "japanese": "おとこ",
     "english": "man",
-    "pos": "n"
+    "pos": "n",
+    "id": 424
    },
    {
     "japanese": "おとこのこ",
     "english": "boy",
-    "pos": "n"
+    "pos": "n",
+    "id": 425
    },
    {
     "japanese": "おとな",
     "english": "adult",
-    "pos": "n"
+    "pos": "n",
+    "id": 426
    },
    {
     "japanese": "おなか",
     "english": "stomach",
-    "pos": "n"
+    "pos": "n",
+    "id": 427
    },
    {
     "japanese": "おにいさん",
     "english": "someone’s elder brother",
-    "pos": "n"
+    "pos": "n",
+    "id": 428
    },
    {
     "japanese": "おねえさん",
     "english": "someone’s elder sister",
-    "pos": "n"
+    "pos": "n",
+    "id": 429
    },
    {
     "japanese": "おばあさん",
     "english": "grandmother",
-    "pos": "n"
+    "pos": "n",
+    "id": 430
    },
    {
     "japanese": "おばさん",
     "english": "aunt",
-    "pos": "n"
+    "pos": "n",
+    "id": 431
    },
    {
     "japanese": "おべんとう",
     "english": "lunchbox",
-    "pos": "n"
+    "pos": "n",
+    "id": 432
    },
    {
     "japanese": "おんがく",
     "english": "music",
-    "pos": "n"
+    "pos": "n",
+    "id": 433
    },
    {
     "japanese": "おんな",
     "english": "woman",
-    "pos": "n"
+    "pos": "n",
+    "id": 434
    },
    {
     "japanese": "おんなのこ",
     "english": "girl",
-    "pos": "n"
+    "pos": "n",
+    "id": 435
    },
    {
     "japanese": "~がわ",
     "english": "~side",
-    "pos": "n"
+    "pos": "n",
+    "id": 447
    },
    {
     "japanese": "がいこく",
     "english": "foreign country",
-    "pos": "n"
+    "pos": "n",
+    "id": 448
    },
    {
     "japanese": "がいこくじん",
     "english": "foreigner",
-    "pos": "n"
+    "pos": "n",
+    "id": 449
    },
    {
     "japanese": "かいしゃ",
     "english": "company, enterprise",
-    "pos": "n"
+    "pos": "n",
+    "id": 450
    },
    {
     "japanese": "かいだん",
     "english": "stairs",
-    "pos": "n"
+    "pos": "n",
+    "id": 451
    },
    {
     "japanese": "かいもの",
     "english": "shopping",
-    "pos": "n"
+    "pos": "n",
+    "id": 452
    },
    {
     "japanese": "かお",
     "english": "face",
-    "pos": "n"
+    "pos": "n",
+    "id": 453
    },
    {
     "japanese": "かぎ",
     "english": "key",
-    "pos": "n"
+    "pos": "n",
+    "id": 454
    },
    {
     "japanese": "がくせい",
     "english": "student",
-    "pos": "n"
+    "pos": "n",
+    "id": 455
    },
    {
     "japanese": "かさ",
     "english": "umbrella",
-    "pos": "n"
+    "pos": "n",
+    "id": 456
    },
    {
     "japanese": "かぜ",
     "english": "wind",
-    "pos": "n"
+    "pos": "n",
+    "id": 457
    },
    {
     "japanese": "かぜ",
     "english": "a cold",
-    "pos": "n"
+    "pos": "n",
+    "id": 458
    },
    {
     "japanese": "かぞく",
     "english": "family",
-    "pos": "n"
+    "pos": "n",
+    "id": 459
    },
    {
     "japanese": "かた",
     "english": "person (polite)",
-    "pos": "n"
+    "pos": "n",
+    "id": 460
    },
    {
     "japanese": "かたかな",
     "english": "Katakana",
-    "pos": "n"
+    "pos": "n",
+    "id": 461
    },
    {
     "japanese": "がっこう",
     "english": "school",
-    "pos": "n"
+    "pos": "n",
+    "id": 462
    },
    {
     "japanese": "かど",
     "english": "corner",
-    "pos": "n"
+    "pos": "n",
+    "id": 463
    },
    {
     "japanese": "かない",
     "english": "my wife",
-    "pos": "n"
+    "pos": "n",
+    "id": 464
    },
    {
     "japanese": "かばん",
     "english": "bag",
-    "pos": "n"
+    "pos": "n",
+    "id": 465
    },
    {
     "japanese": "かびん",
     "english": "vase",
-    "pos": "n"
+    "pos": "n",
+    "id": 466
    },
    {
     "japanese": "かみ",
     "english": "paper",
-    "pos": "n"
+    "pos": "n",
+    "id": 467
    },
    {
     "japanese": "かめら",
     "english": "camera",
-    "pos": "n"
+    "pos": "n",
+    "id": 468
    },
    {
     "japanese": "からだ",
     "english": "body",
-    "pos": "n"
+    "pos": "n",
+    "id": 469
    },
    {
     "japanese": "カレンダー",
     "english": "calendar",
-    "pos": "n"
+    "pos": "n",
+    "id": 470
    },
    {
     "japanese": "かわ",
     "english": "river",
-    "pos": "n"
+    "pos": "n",
+    "id": 471
    },
    {
     "japanese": "かんじ",
     "english": "Kanji character",
-    "pos": "n"
+    "pos": "n",
+    "id": 472
    },
    {
     "japanese": "き",
     "english": "tree",
-    "pos": "n"
+    "pos": "n",
+    "id": 510
    },
    {
     "japanese": "ギター",
     "english": "guitar",
-    "pos": "n"
+    "pos": "n",
+    "id": 511
    },
    {
     "japanese": "きっさてん",
     "english": "coffee shop",
-    "pos": "n"
+    "pos": "n",
+    "id": 512
    },
    {
     "japanese": "きって",
     "english": "stamp",
-    "pos": "n"
+    "pos": "n",
+    "id": 513
    },
    {
     "japanese": "きっぷ",
     "english": "ticket",
-    "pos": "n"
+    "pos": "n",
+    "id": 514
    },
    {
     "japanese": "きゅう",
     "english": "nine",
-    "pos": "n"
+    "pos": "n",
+    "id": 515
    },
    {
     "japanese": "ぎゅうにく",
     "english": "beef",
-    "pos": "n"
+    "pos": "n",
+    "id": 516
    },
    {
     "japanese": "ぎゅうにゅう",
     "english": "milk",
-    "pos": "n"
+    "pos": "n",
+    "id": 517
    },
    {
     "japanese": "きょう",
     "english": "today",
-    "pos": "n"
+    "pos": "n",
+    "id": 518
    },
    {
     "japanese": "きょうしつ",
     "english": "class room",
-    "pos": "n"
+    "pos": "n",
+    "id": 519
    },
    {
     "japanese": "きょうだい",
     "english": "siblings",
-    "pos": "n"
+    "pos": "n",
+    "id": 520
    },
    {
     "japanese": "ぎんこう",
     "english": "bank",
-    "pos": "n"
+    "pos": "n",
+    "id": 521
    },
    {
     "japanese": "く",
     "english": "nine",
-    "pos": "n"
+    "pos": "n",
+    "id": 532
    },
    {
     "japanese": "くすり",
     "english": "medicine",
-    "pos": "n"
+    "pos": "n",
+    "id": 533
    },
    {
     "japanese": "くだもの",
     "english": "fruit",
-    "pos": "n"
+    "pos": "n",
+    "id": 534
    },
    {
     "japanese": "くち",
     "english": "mouth",
-    "pos": "n"
+    "pos": "n",
+    "id": 535
    },
    {
     "japanese": "くつ",
     "english": "shoe",
-    "pos": "n"
+    "pos": "n",
+    "id": 536
    },
    {
     "japanese": "くつした",
     "english": "socks",
-    "pos": "n"
+    "pos": "n",
+    "id": 537
    },
    {
     "japanese": "くに",
     "english": "country",
-    "pos": "n"
+    "pos": "n",
+    "id": 538
    },
    {
     "japanese": "くもり",
     "english": "cloudy weather",
-    "pos": "n"
+    "pos": "n",
+    "id": 539
    },
    {
     "japanese": "クラス",
     "english": "class",
-    "pos": "n"
+    "pos": "n",
+    "id": 540
    },
    {
     "japanese": "くるま",
     "english": "car",
-    "pos": "n"
+    "pos": "n",
+    "id": 541
    },
    {
     "japanese": "けさ",
     "english": "this morning",
-    "pos": "n"
+    "pos": "n",
+    "id": 544
    },
    {
     "japanese": "けっこん",
     "english": "marriage",
-    "pos": "n"
+    "pos": "n",
+    "id": 545
    },
    {
     "japanese": "げんかん",
     "english": "entrance of a house",
-    "pos": "n"
+    "pos": "n",
+    "id": 546
    },
    {
     "japanese": "ご",
     "english": "five",
-    "pos": "n"
+    "pos": "n",
+    "id": 549
    },
    {
     "japanese": "コート",
     "english": "coat",
-    "pos": "n"
+    "pos": "n",
+    "id": 550
    },
    {
     "japanese": "こうえん",
     "english": "park, large garden",
-    "pos": "n"
+    "pos": "n",
+    "id": 551
    },
    {
     "japanese": "こうばん",
     "english": "police box",
-    "pos": "n"
+    "pos": "n",
+    "id": 552
    },
    {
     "japanese": "こえ",
     "english": "voice",
-    "pos": "n"
+    "pos": "n",
+    "id": 553
    },
    {
     "japanese": "ここ",
     "english": "here",
-    "pos": "n"
+    "pos": "n",
+    "id": 554
    },
    {
     "japanese": "ごご",
     "english": "afternoon",
-    "pos": "n"
+    "pos": "n",
+    "id": 555
    },
    {
     "japanese": "ここのか",
     "english": "9th day of a month, 9 days",
-    "pos": "n"
+    "pos": "n",
+    "id": 556
    },
    {
     "japanese": "ここのつ",
     "english": "nine",
-    "pos": "n"
+    "pos": "n",
+    "id": 557
    },
    {
     "japanese": "ごしゅじん",
     "english": "someone else’s husband",
-    "pos": "n"
+    "pos": "n",
+    "id": 558
    },
    {
     "japanese": "ごぜん",
     "english": "morning, a.m.",
-    "pos": "n"
+    "pos": "n",
+    "id": 559
    },
    {
     "japanese": "こちら",
     "english": "this side, this place",
-    "pos": "n"
+    "pos": "n",
+    "id": 560
    },
    {
     "japanese": "コップ",
     "english": "cup, glass",
-    "pos": "n"
+    "pos": "n",
+    "id": 561
    },
    {
     "japanese": "ことし",
     "english": "this year",
-    "pos": "n"
+    "pos": "n",
+    "id": 562
    },
    {
     "japanese": "ことば",
     "english": "phrase, language",
-    "pos": "n"
+    "pos": "n",
+    "id": 563
    },
    {
     "japanese": "こども",
     "english": "child",
-    "pos": "n"
+    "pos": "n",
+    "id": 564
    },
    {
     "japanese": "この",
     "english": "this…",
-    "pos": "n"
+    "pos": "n",
+    "id": 565
    },
    {
     "japanese": "ごはん",
     "english": "meal, cooked rice",
-    "pos": "n"
+    "pos": "n",
+    "id": 566
    },
    {
     "japanese": "これ",
     "english": "this",
-    "pos": "n"
+    "pos": "n",
+    "id": 567
    },
    {
     "japanese": "ごろ",
     "english": "around…",
-    "pos": "n"
+    "pos": "n",
+    "id": 568
    },
    {
     "japanese": "こんげつ",
     "english": "this month",
-    "pos": "n"
+    "pos": "n",
+    "id": 569
    },
    {
     "japanese": "こんしゅう",
     "english": "this week",
-    "pos": "n"
+    "pos": "n",
+    "id": 570
    },
    {
     "japanese": "こんな",
     "english": "this sort of, this kind of",
-    "pos": "n"
+    "pos": "n",
+    "id": 571
    },
    {
     "japanese": "こんばん",
     "english": "this evening",
-    "pos": "n"
+    "pos": "n",
+    "id": 572
    },
    {
     "japanese": "さかな",
     "english": "fish",
-    "pos": "n"
+    "pos": "n",
+    "id": 581
    },
    {
     "japanese": "さくぶん",
     "english": "composition",
-    "pos": "n"
+    "pos": "n",
+    "id": 582
    },
    {
     "japanese": "ざっし",
     "english": "magazine",
-    "pos": "n"
+    "pos": "n",
+    "id": 583
    },
    {
     "japanese": "さとう",
     "english": "sugar",
-    "pos": "n"
+    "pos": "n",
+    "id": 584
    },
    {
     "japanese": "さむい",
     "english": "cold",
-    "pos": "n"
+    "pos": "n",
+    "id": 585
    },
    {
     "japanese": "しお",
     "english": "salt",
-    "pos": "n"
+    "pos": "n",
+    "id": 593
    },
    {
     "japanese": "しごと",
     "english": "work",
-    "pos": "n"
+    "pos": "n",
+    "id": 595
    },
    {
     "japanese": "しつもん",
     "english": "question",
-    "pos": "n"
+    "pos": "n",
+    "id": 598
    },
    {
     "japanese": "しんぶん",
     "english": "newspaper",
-    "pos": "n"
+    "pos": "n",
+    "id": 605
    },
    {
     "japanese": "じしょ",
     "english": "dictionary",
-    "pos": "n"
+    "pos": "n",
+    "id": 608
    },
    {
     "japanese": "じてんしゃ",
     "english": "bicycle",
-    "pos": "n"
+    "pos": "n",
+    "id": 609
    },
    {
     "japanese": "じどうしゃ",
     "english": "car, vehicle",
-    "pos": "n"
+    "pos": "n",
+    "id": 610
    },
    {
     "japanese": "じびき",
     "english": "dictionary",
-    "pos": "n"
+    "pos": "n",
+    "id": 611
    },
    {
     "japanese": "じぶん",
     "english": "oneself",
-    "pos": "n"
+    "pos": "n",
+    "id": 612
    },
    {
     "japanese": "じゅぎょう",
     "english": "lesson, class",
-    "pos": "n"
+    "pos": "n",
+    "id": 614
    },
    {
     "japanese": "しゃしん",
     "english": "photo",
-    "pos": "n"
+    "pos": "n",
+    "id": 617
    },
    {
     "japanese": "シャツ",
     "english": "shirt",
-    "pos": "n"
+    "pos": "n",
+    "id": 618
    },
    {
     "japanese": "しょくどう",
     "english": "dining room, canteen",
-    "pos": "n"
+    "pos": "n",
+    "id": 619
    },
    {
     "japanese": "しょうゆ",
     "english": "soy sauce",
-    "pos": "n"
+    "pos": "n",
+    "id": 620
    },
    {
     "japanese": "しゅくだい",
     "english": "homework",
-    "pos": "n"
+    "pos": "n",
+    "id": 621
    },
    {
     "japanese": "スカート",
     "english": "skirt",
-    "pos": "n"
+    "pos": "n",
+    "id": 630
    },
    {
     "japanese": "ストーブ",
     "english": "stove, heater",
-    "pos": "n"
+    "pos": "n",
+    "id": 631
    },
    {
     "japanese": "スプーン",
     "english": "spoon",
-    "pos": "n"
+    "pos": "n",
+    "id": 632
    },
    {
     "japanese": "スポーツ",
     "english": "sports",
-    "pos": "n"
+    "pos": "n",
+    "id": 633
    },
    {
     "japanese": "ズボン",
     "english": "trousers",
-    "pos": "n"
+    "pos": "n",
+    "id": 634
    },
    {
     "japanese": "スリッパ",
     "english": "slipper",
-    "pos": "n"
+    "pos": "n",
+    "id": 635
    }
   ],
   "t": [
    {
     "japanese": "あさ",
     "english": "morning",
-    "pos": "t"
+    "pos": "t",
+    "id": 323
    },
    {
     "japanese": "あさって",
     "english": "the day after tomorrow",
-    "pos": "t"
+    "pos": "t",
+    "id": 325
    },
    {
     "japanese": "あした",
     "english": "tomorrow",
-    "pos": "t"
+    "pos": "t",
+    "id": 327
    },
    {
     "japanese": "あと",
     "english": "later, after",
-    "pos": "t"
+    "pos": "t",
+    "id": 336
    },
    {
     "japanese": "いつか",
     "english": "the 5th day of the month, 5 days",
-    "pos": "t"
+    "pos": "t",
+    "id": 369
    },
    {
     "japanese": "いま",
     "english": "now",
-    "pos": "t"
+    "pos": "t",
+    "id": 373
    }
   ],
   "d": [
    {
     "japanese": "あそこ",
     "english": "over there",
-    "pos": "d"
+    "pos": "d",
+    "id": 328
    },
    {
     "japanese": "あちら",
     "english": "over there (polite)",
-    "pos": "d"
+    "pos": "d",
+    "id": 333
    },
    {
     "japanese": "あの",
     "english": "that (over there)",
-    "pos": "d"
+    "pos": "d",
+    "id": 340
    },
    {
     "japanese": "あれ",
     "english": "that one",
-    "pos": "d"
+    "pos": "d",
+    "id": 352
    },
    {
     "japanese": "うしろ",
     "english": "back, rear, behind",
-    "pos": "d"
+    "pos": "d",
+    "id": 384
    }
   ],
   "w": [
    {
     "japanese": "いくつ",
     "english": "how many, how old",
-    "pos": "w"
+    "pos": "w",
+    "id": 358
    },
    {
     "japanese": "いくら",
     "english": "how much",
-    "pos": "w"
+    "pos": "w",
+    "id": 359
    },
    {
     "japanese": "いつ",
     "english": "when",
-    "pos": "w"
+    "pos": "w",
+    "id": 368
    }
   ],
   "c": [
    {
     "japanese": "いち",
     "english": "one",
-    "pos": "c"
+    "pos": "c",
+    "id": 365
    },
    {
     "japanese": "いちにち",
     "english": "one day",
-    "pos": "c"
+    "pos": "c",
+    "id": 366
    },
    {
     "japanese": "いちばん",
     "english": "No. 1, the best, the first",
-    "pos": "c"
+    "pos": "c",
+    "id": 367
    },
    {
     "japanese": "いつつ",
     "english": "five",
-    "pos": "c"
+    "pos": "c",
+    "id": 371
+   }
+  ],
+  "u": [
+   {
+    "japanese": "お",
+    "english": "honorific prefix",
+    "pos": "u",
+    "id": 402
+   },
+   {
+    "japanese": "ちいさい",
+    "english": "small",
+    "pos": "u",
+    "id": 694
+   },
+   {
+    "japanese": "ちかい",
+    "english": "near, close",
+    "pos": "u",
+    "id": 695
+   },
+   {
+    "japanese": "ちがう",
+    "english": "different",
+    "pos": "u",
+    "id": 696
+   },
+   {
+    "japanese": "ちかてつ",
+    "english": "subway",
+    "pos": "u",
+    "id": 697
+   },
+   {
+    "japanese": "ちず",
+    "english": "map",
+    "pos": "u",
+    "id": 698
+   },
+   {
+    "japanese": "ちち",
+    "english": "my father",
+    "pos": "u",
+    "id": 699
+   },
+   {
+    "japanese": "ちゃいろ",
+    "english": "brown",
+    "pos": "u",
+    "id": 700
+   },
+   {
+    "japanese": "ちゃわん",
+    "english": "rice bowl",
+    "pos": "u",
+    "id": 701
+   },
+   {
+    "japanese": "〜ちゅう",
+    "english": "in the middle of",
+    "pos": "u",
+    "id": 702
+   },
+   {
+    "japanese": "ちょうど",
+    "english": "just",
+    "pos": "u",
+    "id": 703
+   },
+   {
+    "japanese": "ちょっと",
+    "english": "a little",
+    "pos": "u",
+    "id": 704
+   },
+   {
+    "japanese": "と",
+    "english": "door",
+    "pos": "u",
+    "id": 735
+   },
+   {
+    "japanese": "〜ど",
+    "english": "~times, ~degree",
+    "pos": "u",
+    "id": 736
+   },
+   {
+    "japanese": "ドア",
+    "english": "door",
+    "pos": "u",
+    "id": 737
+   },
+   {
+    "japanese": "トイレ",
+    "english": "toilet, lavatory",
+    "pos": "u",
+    "id": 738
+   },
+   {
+    "japanese": "どう",
+    "english": "how?",
+    "pos": "u",
+    "id": 739
+   },
+   {
+    "japanese": "どうして",
+    "english": "why?",
+    "pos": "u",
+    "id": 740
+   },
+   {
+    "japanese": "どうぞ",
+    "english": "please, here you are",
+    "pos": "u",
+    "id": 741
+   },
+   {
+    "japanese": "どうぶつ",
+    "english": "animal",
+    "pos": "u",
+    "id": 742
+   },
+   {
+    "japanese": "どうも",
+    "english": "thanks",
+    "pos": "u",
+    "id": 743
+   },
+   {
+    "japanese": "とお",
+    "english": "ten",
+    "pos": "u",
+    "id": 744
+   },
+   {
+    "japanese": "とおい",
+    "english": "far",
+    "pos": "u",
+    "id": 745
+   },
+   {
+    "japanese": "とおか",
+    "english": "the 10th day of a month, 10 days",
+    "pos": "u",
+    "id": 746
+   },
+   {
+    "japanese": "ときどき",
+    "english": "sometimes",
+    "pos": "u",
+    "id": 747
+   },
+   {
+    "japanese": "とけい",
+    "english": "watch, clock",
+    "pos": "u",
+    "id": 748
+   },
+   {
+    "japanese": "どこ",
+    "english": "where?",
+    "pos": "u",
+    "id": 749
+   },
+   {
+    "japanese": "ところ",
+    "english": "place",
+    "pos": "u",
+    "id": 750
+   },
+   {
+    "japanese": "としょかん",
+    "english": "library",
+    "pos": "u",
+    "id": 751
+   },
+   {
+    "japanese": "どちら",
+    "english": "which, where (polite)",
+    "pos": "u",
+    "id": 752
+   },
+   {
+    "japanese": "とても",
+    "english": "very much, quiet",
+    "pos": "u",
+    "id": 753
+   },
+   {
+    "japanese": "どなた",
+    "english": "who (polite)",
+    "pos": "u",
+    "id": 754
+   },
+   {
+    "japanese": "となり",
+    "english": "next to",
+    "pos": "u",
+    "id": 755
+   },
+   {
+    "japanese": "どの",
+    "english": "which?",
+    "pos": "u",
+    "id": 756
+   },
+   {
+    "japanese": "とぶ",
+    "english": "to fly",
+    "pos": "u",
+    "id": 757
+   },
+   {
+    "japanese": "とまる",
+    "english": "to stop",
+    "pos": "u",
+    "id": 758
+   },
+   {
+    "japanese": "ともだち",
+    "english": "friend",
+    "pos": "u",
+    "id": 759
+   },
+   {
+    "japanese": "どようび",
+    "english": "Saturday",
+    "pos": "u",
+    "id": 760
+   },
+   {
+    "japanese": "とり",
+    "english": "bird",
+    "pos": "u",
+    "id": 761
+   },
+   {
+    "japanese": "とりにく",
+    "english": "chicken meat",
+    "pos": "u",
+    "id": 762
+   },
+   {
+    "japanese": "とる",
+    "english": "to take",
+    "pos": "u",
+    "id": 763
+   },
+   {
+    "japanese": "とる",
+    "english": "to take a photo",
+    "pos": "u",
+    "id": 764
+   },
+   {
+    "japanese": "どれ",
+    "english": "which?",
+    "pos": "u",
+    "id": 765
+   },
+   {
+    "japanese": "どんな",
+    "english": "what kind of?",
+    "pos": "u",
+    "id": 766
+   },
+   {
+    "japanese": "ナイフ",
+    "english": "knife",
+    "pos": "u",
+    "id": 767
+   },
+   {
+    "japanese": "なか",
+    "english": "inside",
+    "pos": "u",
+    "id": 768
+   },
+   {
+    "japanese": "ながい",
+    "english": "long",
+    "pos": "u",
+    "id": 769
+   },
+   {
+    "japanese": "なく",
+    "english": "to sing, mew, moo",
+    "pos": "u",
+    "id": 770
+   },
+   {
+    "japanese": "なつ",
+    "english": "summer",
+    "pos": "u",
+    "id": 771
+   },
+   {
+    "japanese": "なつやすみ",
+    "english": "summer vacation",
+    "pos": "u",
+    "id": 772
+   },
+   {
+    "japanese": "〜など",
+    "english": "and so on",
+    "pos": "u",
+    "id": 773
+   },
+   {
+    "japanese": "ななつ",
+    "english": "seven",
+    "pos": "u",
+    "id": 774
+   },
+   {
+    "japanese": "なに",
+    "english": "what?",
+    "pos": "u",
+    "id": 775
+   },
+   {
+    "japanese": "なのか",
+    "english": "the 7th of a month, 7 days",
+    "pos": "u",
+    "id": 776
+   },
+   {
+    "japanese": "なまえ",
+    "english": "name",
+    "pos": "u",
+    "id": 777
+   },
+   {
+    "japanese": "ならう",
+    "english": "to learn",
+    "pos": "u",
+    "id": 778
+   },
+   {
+    "japanese": "ならぶ",
+    "english": "to form a line",
+    "pos": "u",
+    "id": 779
+   },
+   {
+    "japanese": "ならべる",
+    "english": "to line up",
+    "pos": "u",
+    "id": 780
+   },
+   {
+    "japanese": "なる",
+    "english": "to become",
+    "pos": "u",
+    "id": 781
+   },
+   {
+    "japanese": "に",
+    "english": "two",
+    "pos": "u",
+    "id": 782
+   },
+   {
+    "japanese": "にぎやか",
+    "english": "lively",
+    "pos": "u",
+    "id": 783
+   },
+   {
+    "japanese": "おにく",
+    "english": "meat",
+    "pos": "u",
+    "id": 784
+   },
+   {
+    "japanese": "にし",
+    "english": "west",
+    "pos": "u",
+    "id": 785
+   },
+   {
+    "japanese": "〜にち",
+    "english": "…st, ..nd, ..th",
+    "pos": "u",
+    "id": 786
+   },
+   {
+    "japanese": "にちようび",
+    "english": "Sunday",
+    "pos": "u",
+    "id": 787
+   },
+   {
+    "japanese": "にもつ",
+    "english": "luggage",
+    "pos": "u",
+    "id": 788
+   },
+   {
+    "japanese": "ニュース",
+    "english": "news",
+    "pos": "u",
+    "id": 789
+   },
+   {
+    "japanese": "にわ",
+    "english": "garden",
+    "pos": "u",
+    "id": 790
+   },
+   {
+    "japanese": "~にん",
+    "english": "… people",
+    "pos": "u",
+    "id": 791
+   },
+   {
+    "japanese": "ぬぐ",
+    "english": "to take off clothes",
+    "pos": "u",
+    "id": 792
+   },
+   {
+    "japanese": "ネクタイ",
+    "english": "necktie",
+    "pos": "u",
+    "id": 793
+   },
+   {
+    "japanese": "ねる",
+    "english": "to go to bed",
+    "pos": "u",
+    "id": 794
+   },
+   {
+    "japanese": "〜ねん",
+    "english": "~years",
+    "pos": "u",
+    "id": 795
+   },
+   {
+    "japanese": "ノート",
+    "english": "notebook",
+    "pos": "u",
+    "id": 796
+   },
+   {
+    "japanese": "のぼる",
+    "english": "to climb up",
+    "pos": "u",
+    "id": 797
+   },
+   {
+    "japanese": "のみもの",
+    "english": "drinks",
+    "pos": "u",
+    "id": 798
+   },
+   {
+    "japanese": "のむ",
+    "english": "to drink",
+    "pos": "u",
+    "id": 799
+   },
+   {
+    "japanese": "のる",
+    "english": "to take, to ride",
+    "pos": "u",
+    "id": 800
+   },
+   {
+    "japanese": "は",
+    "english": "teeth",
+    "pos": "u",
+    "id": 801
+   },
+   {
+    "japanese": "パーテイー",
+    "english": "party",
+    "pos": "u",
+    "id": 802
+   },
+   {
+    "japanese": "はい",
+    "english": "yes",
+    "pos": "u",
+    "id": 803
+   },
+   {
+    "japanese": "〜はい",
+    "english": "cups of ~",
+    "pos": "u",
+    "id": 804
+   },
+   {
+    "japanese": "はいざら",
+    "english": "ashtray",
+    "pos": "u",
+    "id": 805
+   },
+   {
+    "japanese": "はいる",
+    "english": "to enter",
+    "pos": "u",
+    "id": 806
+   },
+   {
+    "japanese": "はがき",
+    "english": "postcard",
+    "pos": "u",
+    "id": 807
+   },
+   {
+    "japanese": "はく",
+    "english": "to put on shoes",
+    "pos": "u",
+    "id": 808
+   },
+   {
+    "japanese": "はこ",
+    "english": "box",
+    "pos": "u",
+    "id": 809
+   },
+   {
+    "japanese": "はし",
+    "english": "bridge",
+    "pos": "u",
+    "id": 810
+   },
+   {
+    "japanese": "はし",
+    "english": "chopsticks",
+    "pos": "u",
+    "id": 811
+   },
+   {
+    "japanese": "はじまる",
+    "english": "to begin, to start",
+    "pos": "u",
+    "id": 812
+   },
+   {
+    "japanese": "はじめ",
+    "english": "start, the beginning",
+    "pos": "u",
+    "id": 813
+   },
+   {
+    "japanese": "はじめて",
+    "english": "for the first time",
+    "pos": "u",
+    "id": 814
+   },
+   {
+    "japanese": "はしる",
+    "english": "to run",
+    "pos": "u",
+    "id": 815
+   },
+   {
+    "japanese": "バス",
+    "english": "bus",
+    "pos": "u",
+    "id": 816
+   },
+   {
+    "japanese": "バター",
+    "english": "butter",
+    "pos": "u",
+    "id": 817
+   },
+   {
+    "japanese": "はたち",
+    "english": "20 years old",
+    "pos": "u",
+    "id": 818
+   },
+   {
+    "japanese": "はたらく",
+    "english": "to work",
+    "pos": "u",
+    "id": 819
+   },
+   {
+    "japanese": "はち",
+    "english": "eight",
+    "pos": "u",
+    "id": 820
+   },
+   {
+    "japanese": "はつか",
+    "english": "the 20th of the month, 20 days",
+    "pos": "u",
+    "id": 821
+   },
+   {
+    "japanese": "はな",
+    "english": "flower",
+    "pos": "u",
+    "id": 822
+   },
+   {
+    "japanese": "はな",
+    "english": "nose",
+    "pos": "u",
+    "id": 823
+   },
+   {
+    "japanese": "はなし",
+    "english": "conversation, tale",
+    "pos": "u",
+    "id": 824
+   },
+   {
+    "japanese": "はなす",
+    "english": "to talk, to speak, to tell",
+    "pos": "u",
+    "id": 825
+   },
+   {
+    "japanese": "はは",
+    "english": "my mother",
+    "pos": "u",
+    "id": 826
+   },
+   {
+    "japanese": "はやい",
+    "english": "early",
+    "pos": "u",
+    "id": 827
+   },
+   {
+    "japanese": "はやい",
+    "english": "fast, quick",
+    "pos": "u",
+    "id": 828
+   },
+   {
+    "japanese": "はる",
+    "english": "spring",
+    "pos": "u",
+    "id": 829
+   },
+   {
+    "japanese": "はる",
+    "english": "to put something on, to stick",
+    "pos": "u",
+    "id": 830
+   },
+   {
+    "japanese": "はれる",
+    "english": "to clear up",
+    "pos": "u",
+    "id": 831
+   },
+   {
+    "japanese": "〜はん",
+    "english": "Half~",
+    "pos": "u",
+    "id": 832
+   },
+   {
+    "japanese": "ばん",
+    "english": "evening",
+    "pos": "u",
+    "id": 833
+   },
+   {
+    "japanese": "〜ばん",
+    "english": "No.~, ranking",
+    "pos": "u",
+    "id": 834
+   },
+   {
+    "japanese": "パン",
+    "english": "bread",
+    "pos": "u",
+    "id": 835
+   },
+   {
+    "japanese": "ハンカチ",
+    "english": "handkerchief",
+    "pos": "u",
+    "id": 836
+   },
+   {
+    "japanese": "ばんごう",
+    "english": "number",
+    "pos": "u",
+    "id": 837
+   },
+   {
+    "japanese": "ばんごはん",
+    "english": "dinner",
+    "pos": "u",
+    "id": 838
+   },
+   {
+    "japanese": "はんぶん",
+    "english": "half",
+    "pos": "u",
+    "id": 839
+   },
+   {
+    "japanese": "ひがし",
+    "english": "east",
+    "pos": "u",
+    "id": 840
+   },
+   {
+    "japanese": "〜ひき",
+    "english": "counter for animals",
+    "pos": "u",
+    "id": 841
+   },
+   {
+    "japanese": "ひく",
+    "english": "to pull",
+    "pos": "u",
+    "id": 842
+   },
+   {
+    "japanese": "ひく",
+    "english": "to play (an instrument)",
+    "pos": "u",
+    "id": 843
+   },
+   {
+    "japanese": "ひくい",
+    "english": "low",
+    "pos": "u",
+    "id": 844
+   },
+   {
+    "japanese": "ひこうき",
+    "english": "plane",
+    "pos": "u",
+    "id": 845
+   },
+   {
+    "japanese": "ひだり",
+    "english": "left",
+    "pos": "u",
+    "id": 846
+   },
+   {
+    "japanese": "ひと",
+    "english": "person",
+    "pos": "u",
+    "id": 847
+   },
+   {
+    "japanese": "ひとつ",
+    "english": "one",
+    "pos": "u",
+    "id": 848
+   },
+   {
+    "japanese": "ひとつき",
+    "english": "one month",
+    "pos": "u",
+    "id": 849
+   },
+   {
+    "japanese": "ひとり",
+    "english": "one person",
+    "pos": "u",
+    "id": 850
+   },
+   {
+    "japanese": "ひま",
+    "english": "free time, leisure",
+    "pos": "u",
+    "id": 851
+   },
+   {
+    "japanese": "ひゃく",
+    "english": "hundred",
+    "pos": "u",
+    "id": 852
+   },
+   {
+    "japanese": "びょういん",
+    "english": "hospital",
+    "pos": "u",
+    "id": 853
+   },
+   {
+    "japanese": "びょうき",
+    "english": "ill, sick",
+    "pos": "u",
+    "id": 854
+   },
+   {
+    "japanese": "ひらがな",
+    "english": "hiragana characters",
+    "pos": "u",
+    "id": 855
+   },
+   {
+    "japanese": "ひる",
+    "english": "noon",
+    "pos": "u",
+    "id": 856
+   },
+   {
+    "japanese": "ひるごはん",
+    "english": "lunch",
+    "pos": "u",
+    "id": 857
+   },
+   {
+    "japanese": "ひろい",
+    "english": "wide, spacious",
+    "pos": "u",
+    "id": 858
+   },
+   {
+    "japanese": "フィルム",
+    "english": "film",
+    "pos": "u",
+    "id": 859
+   },
+   {
+    "japanese": "ふうとう",
+    "english": "envelope",
+    "pos": "u",
+    "id": 860
+   },
+   {
+    "japanese": "プール",
+    "english": "pool",
+    "pos": "u",
+    "id": 861
+   },
+   {
+    "japanese": "フォーク",
+    "english": "fork",
+    "pos": "u",
+    "id": 862
+   },
+   {
+    "japanese": "ふく",
+    "english": "to blow (wind)",
+    "pos": "u",
+    "id": 863
+   },
+   {
+    "japanese": "ふく",
+    "english": "clothes",
+    "pos": "u",
+    "id": 864
+   },
+   {
+    "japanese": "ふたつ",
+    "english": "two",
+    "pos": "u",
+    "id": 865
+   },
+   {
+    "japanese": "ぶたにく",
+    "english": "pork",
+    "pos": "u",
+    "id": 866
+   },
+   {
+    "japanese": "ふたり",
+    "english": "two people",
+    "pos": "u",
+    "id": 867
+   },
+   {
+    "japanese": "ふつか",
+    "english": "2nd day of the month, 2 days",
+    "pos": "u",
+    "id": 868
+   },
+   {
+    "japanese": "ふとい",
+    "english": "thick, fat",
+    "pos": "u",
+    "id": 869
+   },
+   {
+    "japanese": "ふる",
+    "english": "to fall (rain, snow)",
+    "pos": "u",
+    "id": 870
+   },
+   {
+    "japanese": "ふるい",
+    "english": "old",
+    "pos": "u",
+    "id": 871
+   },
+   {
+    "japanese": "おふろ",
+    "english": "bath",
+    "pos": "u",
+    "id": 872
+   },
+   {
+    "japanese": "〜ふん",
+    "english": "~minutes",
+    "pos": "u",
+    "id": 873
+   },
+   {
+    "japanese": "ページ",
+    "english": "page",
+    "pos": "u",
+    "id": 874
+   },
+   {
+    "japanese": "へた",
+    "english": "not good at something",
+    "pos": "u",
+    "id": 875
+   },
+   {
+    "japanese": "ベッド",
+    "english": "bed",
+    "pos": "u",
+    "id": 876
+   },
+   {
+    "japanese": "へや",
+    "english": "room",
+    "pos": "u",
+    "id": 877
+   },
+   {
+    "japanese": "へん",
+    "english": "side, part, area",
+    "pos": "u",
+    "id": 878
+   },
+   {
+    "japanese": "ぺん",
+    "english": "pen",
+    "pos": "u",
+    "id": 879
+   },
+   {
+    "japanese": "べんきょう",
+    "english": "to study",
+    "pos": "u",
+    "id": 880
+   },
+   {
+    "japanese": "べんり",
+    "english": "convenient",
+    "pos": "u",
+    "id": 881
+   },
+   {
+    "japanese": "ほう",
+    "english": "~より〜のほうが〜",
+    "pos": "u",
+    "id": 882
+   },
+   {
+    "japanese": "ぼうし",
+    "english": "hat",
+    "pos": "u",
+    "id": 883
+   },
+   {
+    "japanese": "ボールペン",
+    "english": "ballpen",
+    "pos": "u",
+    "id": 884
+   },
+   {
+    "japanese": "ほか",
+    "english": "another, other",
+    "pos": "u",
+    "id": 885
+   },
+   {
+    "japanese": "ポケット",
+    "english": "pocket",
+    "pos": "u",
+    "id": 886
+   },
+   {
+    "japanese": "ほしい",
+    "english": "to want something",
+    "pos": "u",
+    "id": 887
+   },
+   {
+    "japanese": "ほそい",
+    "english": "thin, fine",
+    "pos": "u",
+    "id": 888
+   },
+   {
+    "japanese": "ボタン",
+    "english": "button",
+    "pos": "u",
+    "id": 889
+   },
+   {
+    "japanese": "ホテル",
+    "english": "hotel",
+    "pos": "u",
+    "id": 890
+   },
+   {
+    "japanese": "ほん",
+    "english": "book",
+    "pos": "u",
+    "id": 891
+   },
+   {
+    "japanese": "~ほん",
+    "english": "counter for long objects",
+    "pos": "u",
+    "id": 892
+   },
+   {
+    "japanese": "ほんだな",
+    "english": "bookshelf",
+    "pos": "u",
+    "id": 893
+   },
+   {
+    "japanese": "ほんとうに",
+    "english": "really",
+    "pos": "u",
+    "id": 894
+   },
+   {
+    "japanese": "〜まい",
+    "english": "counter for thin objects",
+    "pos": "u",
+    "id": 895
+   },
+   {
+    "japanese": "まいあさ",
+    "english": "every morning",
+    "pos": "u",
+    "id": 896
+   },
+   {
+    "japanese": "まいつき/まいげつ",
+    "english": "every month",
+    "pos": "u",
+    "id": 897
+   },
+   {
+    "japanese": "まいしゅう",
+    "english": "every week",
+    "pos": "u",
+    "id": 898
+   },
+   {
+    "japanese": "まいにち",
+    "english": "every day",
+    "pos": "u",
+    "id": 899
+   },
+   {
+    "japanese": "まいとし/まいねん",
+    "english": "every year",
+    "pos": "u",
+    "id": 900
+   },
+   {
+    "japanese": "まいばん",
+    "english": "every evening",
+    "pos": "u",
+    "id": 901
+   },
+   {
+    "japanese": "まえ",
+    "english": "front",
+    "pos": "u",
+    "id": 902
+   },
+   {
+    "japanese": "〜まえ",
+    "english": "before, in front of",
+    "pos": "u",
+    "id": 903
+   },
+   {
+    "japanese": "まがる",
+    "english": "to turn",
+    "pos": "u",
+    "id": 904
+   },
+   {
+    "japanese": "まずい",
+    "english": "bad tasting",
+    "pos": "u",
+    "id": 905
+   },
+   {
+    "japanese": "また",
+    "english": "also, again",
+    "pos": "u",
+    "id": 906
+   },
+   {
+    "japanese": "まだ",
+    "english": "not yet",
+    "pos": "u",
+    "id": 907
+   },
+   {
+    "japanese": "まち",
+    "english": "city, town",
+    "pos": "u",
+    "id": 908
+   },
+   {
+    "japanese": "まつ",
+    "english": "to wait",
+    "pos": "u",
+    "id": 909
+   },
+   {
+    "japanese": "まっすぐに",
+    "english": "straight ahead",
+    "pos": "u",
+    "id": 910
+   },
+   {
+    "japanese": "マッチ",
+    "english": "matches",
+    "pos": "u",
+    "id": 911
+   },
+   {
+    "japanese": "まど",
+    "english": "window",
+    "pos": "u",
+    "id": 912
+   },
+   {
+    "japanese": "まるい",
+    "english": "round",
+    "pos": "u",
+    "id": 913
+   },
+   {
+    "japanese": "まん",
+    "english": "ten thousand",
+    "pos": "u",
+    "id": 914
+   },
+   {
+    "japanese": "まんねんひつ",
+    "english": "fountain pen",
+    "pos": "u",
+    "id": 915
+   },
+   {
+    "japanese": "みがく",
+    "english": "to polish, to brush",
+    "pos": "u",
+    "id": 916
+   },
+   {
+    "japanese": "みぎ",
+    "english": "right",
+    "pos": "u",
+    "id": 917
+   },
+   {
+    "japanese": "みじかい",
+    "english": "short",
+    "pos": "u",
+    "id": 918
+   },
+   {
+    "japanese": "おみず",
+    "english": "water",
+    "pos": "u",
+    "id": 919
+   },
+   {
+    "japanese": "みせ",
+    "english": "shop",
+    "pos": "u",
+    "id": 920
+   },
+   {
+    "japanese": "みせる",
+    "english": "to look, to watch",
+    "pos": "u",
+    "id": 921
+   },
+   {
+    "japanese": "みち",
+    "english": "road",
+    "pos": "u",
+    "id": 922
+   },
+   {
+    "japanese": "みっか",
+    "english": "3rd day of a month, 3 days",
+    "pos": "u",
+    "id": 923
+   },
+   {
+    "japanese": "みっつ",
+    "english": "three",
+    "pos": "u",
+    "id": 924
+   },
+   {
+    "japanese": "みなさん",
+    "english": "everyone",
+    "pos": "u",
+    "id": 925
+   },
+   {
+    "japanese": "みなみ",
+    "english": "south",
+    "pos": "u",
+    "id": 926
+   },
+   {
+    "japanese": "みみ",
+    "english": "ear",
+    "pos": "u",
+    "id": 927
+   },
+   {
+    "japanese": "みる",
+    "english": "to see, to watch",
+    "pos": "u",
+    "id": 928
+   },
+   {
+    "japanese": "みんな",
+    "english": "all, everyone",
+    "pos": "u",
+    "id": 929
+   },
+   {
+    "japanese": "むいか",
+    "english": "the 6th day of a month, 6 days",
+    "pos": "u",
+    "id": 930
+   },
+   {
+    "japanese": "むこう",
+    "english": "over there",
+    "pos": "u",
+    "id": 931
+   },
+   {
+    "japanese": "むずかしい",
+    "english": "difficult",
+    "pos": "u",
+    "id": 932
+   },
+   {
+    "japanese": "むっつ",
+    "english": "six",
+    "pos": "u",
+    "id": 933
+   },
+   {
+    "japanese": "め",
+    "english": "eye",
+    "pos": "u",
+    "id": 934
+   },
+   {
+    "japanese": "メートル",
+    "english": "meter",
+    "pos": "u",
+    "id": 935
+   },
+   {
+    "japanese": "めがね",
+    "english": "a pair of glasses",
+    "pos": "u",
+    "id": 936
+   },
+   {
+    "japanese": "もう",
+    "english": "already, yet",
+    "pos": "u",
+    "id": 937
+   },
+   {
+    "japanese": "もう",
+    "english": "(one) more",
+    "pos": "u",
+    "id": 938
+   },
+   {
+    "japanese": "もくようび",
+    "english": "Thursday",
+    "pos": "u",
+    "id": 939
+   },
+   {
+    "japanese": "もしもし",
+    "english": "hello on the phone",
+    "pos": "u",
+    "id": 940
+   },
+   {
+    "japanese": "もちろん",
+    "english": "of course",
+    "pos": "u",
+    "id": 941
+   },
+   {
+    "japanese": "もつ",
+    "english": "to have, to own",
+    "pos": "u",
+    "id": 942
+   },
+   {
+    "japanese": "もっと",
+    "english": "more",
+    "pos": "u",
+    "id": 943
+   },
+   {
+    "japanese": "もの",
+    "english": "thing",
+    "pos": "u",
+    "id": 944
+   },
+   {
+    "japanese": "もん",
+    "english": "gate",
+    "pos": "u",
+    "id": 945
+   },
+   {
+    "japanese": "もんだい",
+    "english": "problem, question",
+    "pos": "u",
+    "id": 946
+   },
+   {
+    "japanese": "〜や",
+    "english": "shop. store",
+    "pos": "u",
+    "id": 947
+   },
+   {
+    "japanese": "やおや",
+    "english": "vegetable shop",
+    "pos": "u",
+    "id": 948
+   },
+   {
+    "japanese": "やさい",
+    "english": "vegetable",
+    "pos": "u",
+    "id": 949
+   },
+   {
+    "japanese": "やさしい",
+    "english": "gentle",
+    "pos": "u",
+    "id": 950
+   },
+   {
+    "japanese": "やすい",
+    "english": "cheap, inexpensive",
+    "pos": "u",
+    "id": 951
+   },
+   {
+    "japanese": "やすみ",
+    "english": "holiday, vacation",
+    "pos": "u",
+    "id": 952
+   },
+   {
+    "japanese": "やすむ",
+    "english": "to rest",
+    "pos": "u",
+    "id": 953
+   },
+   {
+    "japanese": "やっつ",
+    "english": "eight",
+    "pos": "u",
+    "id": 954
+   },
+   {
+    "japanese": "やま",
+    "english": "mountain",
+    "pos": "u",
+    "id": 955
+   },
+   {
+    "japanese": "やる",
+    "english": "to do",
+    "pos": "u",
+    "id": 956
+   },
+   {
+    "japanese": "ようか",
+    "english": "8th day of the month, 8 days",
+    "pos": "u",
+    "id": 957
+   },
+   {
+    "japanese": "ようふく",
+    "english": "western style clothing",
+    "pos": "u",
+    "id": 958
+   },
+   {
+    "japanese": "よく",
+    "english": "often",
+    "pos": "u",
+    "id": 959
+   },
+   {
+    "japanese": "よこ",
+    "english": "horizontal",
+    "pos": "u",
+    "id": 960
+   },
+   {
+    "japanese": "よっか",
+    "english": "4th day of the month, 4 days",
+    "pos": "u",
+    "id": 961
+   },
+   {
+    "japanese": "よっつ",
+    "english": "four",
+    "pos": "u",
+    "id": 962
+   },
+   {
+    "japanese": "よぶ",
+    "english": "to call",
+    "pos": "u",
+    "id": 963
+   },
+   {
+    "japanese": "よむ",
+    "english": "to read",
+    "pos": "u",
+    "id": 964
+   },
+   {
+    "japanese": "よる",
+    "english": "night",
+    "pos": "u",
+    "id": 965
+   },
+   {
+    "japanese": "らいげつ",
+    "english": "next month",
+    "pos": "u",
+    "id": 966
+   },
+   {
+    "japanese": "らいしゅう",
+    "english": "next week",
+    "pos": "u",
+    "id": 967
+   },
+   {
+    "japanese": "らいねん",
+    "english": "next year",
+    "pos": "u",
+    "id": 968
+   },
+   {
+    "japanese": "ラジオ",
+    "english": "radio",
+    "pos": "u",
+    "id": 969
+   },
+   {
+    "japanese": "りっぱ",
+    "english": "splendid",
+    "pos": "u",
+    "id": 970
+   },
+   {
+    "japanese": "りゅうがくせい",
+    "english": "foreign student",
+    "pos": "u",
+    "id": 971
+   },
+   {
+    "japanese": "りょうしん",
+    "english": "parents",
+    "pos": "u",
+    "id": 972
+   },
+   {
+    "japanese": "りょうり",
+    "english": "cooking",
+    "pos": "u",
+    "id": 973
+   },
+   {
+    "japanese": "りょこう",
+    "english": "travel",
+    "pos": "u",
+    "id": 974
+   },
+   {
+    "japanese": "れい",
+    "english": "zero",
+    "pos": "u",
+    "id": 975
+   },
+   {
+    "japanese": "れいぞうこ",
+    "english": "refrigerator",
+    "pos": "u",
+    "id": 976
+   },
+   {
+    "japanese": "レコード",
+    "english": "record",
+    "pos": "u",
+    "id": 977
+   },
+   {
+    "japanese": "レストラン",
+    "english": "restaurant",
+    "pos": "u",
+    "id": 978
+   },
+   {
+    "japanese": "れんしゅう",
+    "english": "practice",
+    "pos": "u",
+    "id": 979
+   },
+   {
+    "japanese": "ろく",
+    "english": "six",
+    "pos": "u",
+    "id": 980
+   },
+   {
+    "japanese": "ワイシャツ",
+    "english": "white shirt",
+    "pos": "u",
+    "id": 981
+   },
+   {
+    "japanese": "わかい",
+    "english": "young",
+    "pos": "u",
+    "id": 982
+   },
+   {
+    "japanese": "わかる",
+    "english": "to know, to understand",
+    "pos": "u",
+    "id": 983
+   },
+   {
+    "japanese": "わすれる",
+    "english": "to forget",
+    "pos": "u",
+    "id": 984
+   },
+   {
+    "japanese": "わたし",
+    "english": "me, I",
+    "pos": "u",
+    "id": 985
+   },
+   {
+    "japanese": "わたす",
+    "english": "to hand over",
+    "pos": "u",
+    "id": 986
+   },
+   {
+    "japanese": "わたる",
+    "english": "to cross",
+    "pos": "u",
+    "id": 987
+   },
+   {
+    "japanese": "わるい",
+    "english": "bad",
+    "pos": "u",
+    "id": 988
    }
   ]
  }

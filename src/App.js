@@ -13,8 +13,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      start_word: 'さあ',
-      end_word: '〜ずつ'
+      start_word: 'ああ',
+      end_word: 'せんたく'
     }
   }
 
@@ -49,7 +49,7 @@ class App extends Component {
           stop = true;
         }
         values.forEach((value) => {
-          console.log(value);
+          //console.log(value);
           if (start === false && value[2] === firstword) {
             start = true;
           }
@@ -89,14 +89,15 @@ class App extends Component {
     this.setState({data: null})
 
     this.loadUntil(this.state.start_word, this.state.end_word).then((values) => {
-
+      console.log("got " + values.length + " values from spreadsheet");
       //    this.loadRange(2,283).then((values) => {
       // parse this out
       var partsofspeech = {}
-      var id=314;
-      var words = values.map((value) => {
+      var id = 314;
+      var words = values.map((value, i) => {
         if (!value[2] || value[2] === '') {
           // If there is no japanaese character
+        //  console.log("SKipping index " + i + " " + JSON.stringify(value))
           return null;
         }
         var pos = value[1]; // parse this futher when needed
@@ -117,6 +118,7 @@ class App extends Component {
         partsofspeech[pos].push(out);
         return out;
       }).filter((d) => d !== null)
+      console.log("After filtering, using " + words.length)
       var data = {
         words: words,
         partsofspeech: partsofspeech
