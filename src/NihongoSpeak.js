@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import sha256 from 'js-sha256'
 
-class WordPair extends React.PureComponent {
+class WordPair extends React.Component {
   audiofile(word) {
     return 'cache/' + this.hash(word) + ".mp3"
   }
@@ -19,6 +19,11 @@ class WordPair extends React.PureComponent {
   }
   componentWillReceiveProps(nextProps) {
     if(nextProps.autoPlay && this.props.autoPlay !== nextProps.autoPlay && this.audio) {
+      this.audio.audioEl.play();
+    }
+  }
+  componentDidUpdate() {
+    if(this.props.autoPlay) {
       this.audio.audioEl.play();
     }
   }
@@ -215,8 +220,9 @@ class NihongoSpeak extends React.PureComponent {
     this.setState({wordlist: newlist})
   }
   buttonPressed = (button) => {
-    this.setState({button: button})
-    console.log("Pressed " + button);
+    //this.setState({button: button})
+    //console.log("Pressed " + button);
+    setTimeout(() => {
     if (button === 7 || button === 0) {
       this.playJapanese();
     } else if (button === 6 || button === 3) {
@@ -226,6 +232,7 @@ class NihongoSpeak extends React.PureComponent {
     } else if (button === 2 || button === 4 || button === 5) {
       this.reinsert();
     }
+    },1);
   }
   playEnglish = () => {
     this.firstword.playEnglish();
@@ -275,7 +282,7 @@ class NihongoSpeak extends React.PureComponent {
       if (index === 0) {
         return (<WordPair ref={(element) => {
           this.firstword = element
-        }} key={word.id} word={word} autoPlay={true} preload={true}/>)
+        }} key={"FIRST"} word={word} autoPlay={true} preload={true}/>)
       } else {
         return (<WordPair key={word.id} word={word} preload={index < 4}/>)
       }
