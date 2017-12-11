@@ -2,47 +2,89 @@ import React, {Component} from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import sha256 from 'js-sha256'
 
-class WordPair extends React.Component {
+class AudioList extends React.Component {
+  constructor() {
+    super()
+    this.wordEls = []
+  }
   audiofile(word) {
     return 'cache/' + this.hash(word) + ".mp3"
   }
-  playJapanese = () => {
-    this.audio.audioEl.play();
-  }
-  playEnglish = () => {
-    this.eaudio.audioEl.play();
+  play() {
+    for(var i=0;i<this.props.words.length;++i) {
+      //this.wordEls[i].audioEl.stop();
+      //this.wordEls[i].audioEl.rewind();
+    }
+    this.wordEls[0].audioEl.play();
+    this.playing = 0
   }
   hash(data) {
     var h = sha256.create();
     h.update(data.toString());
     return h.hex();
   }
+  ended(index) {
+    console.log("Audio ended " + index);
+    if(index < this.props.words.length-1) {
+      this.wordEls[index+1].audioEl.play();
+    }
+  }
+  render() {
+    var words = this.props.words
+    var players = words.map((word,i) => {
+      return (
+            <ReactAudioPlayer
+	    key={i} preload="auto" ref={(element) => {
+              this.wordEls[i] = element
+            }} onEnded={() => { this.ended(i) }} src={this.audiofile(word)} controls/>
+      )
+    });
+    return (
+        <div>
+	{players}
+	</div>
+      )
+  }
+}
+
+class WordPair extends React.Component {
+  playJapanese = () => {
+    this.audio.play();
+  }
+  playEnglish = () => {
+    this.eaudio.play();
+  }
   componentWillReceiveProps(nextProps) {
     if(nextProps.autoPlay && this.props.autoPlay !== nextProps.autoPlay && this.audio) {
-      this.audio.audioEl.play();
+      this.audio.play();
     }
   }
   componentDidUpdate() {
     if(this.props.autoPlay) {
-      this.audio.audioEl.play();
+      this.audio.play();
     }
+  }
+  mapword(word,key) {
+    return word.map((w) => w[key]);
   }
   render() {
     var audioplayers = null;
     var word = this.props.word;
+    var english_words = this.mapword(word,'english')
+    var japanese_words = this.mapword(word,'japanese')
     //console.log(JSON.stringify(this.props));
     if (this.props.preload) {
       audioplayers = (
         <div className="players">
           <div className="english">
-            <ReactAudioPlayer preload="auto" ref={(element) => {
+            <AudioList ref={(element) => {
               this.eaudio = element
-            }} src={this.audiofile(word.english)} controls/>
+            }} words={english_words}/>
           </div>
           <div className="japanese">
-            <ReactAudioPlayer preload="auto" ref={(element) => {
+            <AudioList autoPlay={this.props.autoPlay} ref={(element) => {
               this.audio = element
-            }} autoPlay={this.props.autoPlay} src={this.audiofile(word.japanese)} controls/>
+            }} words={japanese_words}/>
           </div>
         </div>
       )
@@ -51,10 +93,10 @@ class WordPair extends React.Component {
       <div className="wordpair">
         <div>
 	<div>
-            English: {word.english}
+            English: {english_words.join(' ')}
 	    </div>
 	<div>
-            Japanese: {word.japanese}
+            Japanese: {japanese_words.join(' ')}
 	    </div>
           <button onClick={this.playJapanese}>Japanese</button>
           <button onClick={this.playEnglish}>English</button>
@@ -127,8 +169,17 @@ class NihongoSpeak extends React.PureComponent {
     if (!this.props.data || !this.props.data.words) {
       return;
     }
-    var wordlist = this.props.data.words.slice();
-    shuffleArray(wordlist);
+    var wordlistflat = this.props.data.words.slice();
+    shuffleArray(wordlistflat);
+    var wordlist = [];
+    for(var i=0;i<wordlistflat.length;i+=2) {
+      if(!wordlistflat[i+1]) {
+        wordlist.push([wordlistflat[i],wordlistflat[i]])
+      } else {
+        wordlist.push([wordlistflat[i],wordlistflat[i+1]])
+      }
+    }
+
     this.setState({wordlist});
   }
 
@@ -279,12 +330,14 @@ class NihongoSpeak extends React.PureComponent {
 
     // Generate the wordlist
     var wordpairs = wordlist.map((word, index) => {
+    console.log(word);
+      var key = word.map((w) => w.id).join("-")
       if (index === 0) {
         return (<WordPair ref={(element) => {
           this.firstword = element
         }} key={"FIRST"} word={word} autoPlay={true} preload={true}/>)
       } else {
-        return (<WordPair key={word.id} word={word} preload={index < 4}/>)
+        return (<WordPair key={key} word={word} preload={index < 4}/>)
       }
     })
 

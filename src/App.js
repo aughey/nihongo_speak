@@ -14,7 +14,8 @@ class App extends Component {
     super(props);
     this.state = {
       start_word: 'ああ',
-      end_word: 'せんたく'
+      //end_word: 'せんたく'
+      end_word: 'つとめる'
     }
   }
 
@@ -217,7 +218,7 @@ class App extends Component {
         <div>
           Start:
           <input value={this.state.start_word} onChange={changeState('start_word')}/>
-          End
+          End:
           <input value={this.state.end_word} onChange={changeState('end_word')}/>
           <button onClick={this.loadSpreadsheet}>Reload</button>
           <button onClick={this.showJson}>Show JSON</button>
